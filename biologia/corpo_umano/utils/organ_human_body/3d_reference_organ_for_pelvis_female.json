@@ -1,0 +1,2445 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/pelvis-female",
+  "metadata": {
+    "title": "pelvis-female (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Pelvis, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/pelvis-female/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/pelvis-female/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "x_dimension": 316.837892,
+      "y_dimension": 211.4928699,
+      "z_dimension": 182.744477765,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pelvis",
+      "pref_label": "pelvis",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001270",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 166.996166,
+          "y_translation": 46.8344279,
+          "z_translation": 182.454556,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pelvis",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pelvis",
+        "file_subpath": "VH_F_pelvis",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -166.996166,
+          "y_translation": -46.8344279,
+          "z_translation": -182.454556,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pelvis",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001270",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum",
+      "x_dimension": 127.4184339,
+      "y_dimension": 99.04055310000001,
+      "z_dimension": 104.89430999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sacrum",
+      "pref_label": "fused sacrum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0003690",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 71.8221739,
+          "y_translation": -43.8412279,
+          "z_translation": 182.454556,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sacrum",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sacrum",
+        "file_subpath": "VH_F_sacrum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -71.8221739,
+          "y_translation": 43.8412279,
+          "z_translation": -182.454556,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sacrum",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_sacrum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0003690",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx",
+      "x_dimension": 31.907328,
+      "y_dimension": 26.948483699999997,
+      "z_dimension": 37.986591000000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female coccyx",
+      "pref_label": "coccyx",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001350",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 23.621263,
+          "y_translation": -18.220571800000002,
+          "z_translation": 178.314477,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female coccyx",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female coccyx",
+        "file_subpath": "VH_F_coccyx",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -23.621263,
+          "y_translation": 18.220571800000002,
+          "z_translation": -178.314477,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female coccyx",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_coccyx",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001350",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis",
+      "x_dimension": 185.17842000000002,
+      "y_dimension": 92.9692537,
+      "z_dimension": 70.563684,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis",
+      "pref_label": "pubis",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001275",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 101.63990000000001,
+          "y_translation": 40.0948562,
+          "z_translation": 78.94393,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis",
+        "file_subpath": "VH_F_pubis",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -101.63990000000001,
+          "y_translation": -40.0948562,
+          "z_translation": -78.94393,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0001275",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone",
+      "x_dimension": 183.801269,
+      "y_dimension": 90.9974955,
+      "z_dimension": 69.098738,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 100.811459,
+          "y_translation": 38.8361,
+          "z_translation": 78.69211,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis spongy bone",
+        "file_subpath": "VH_F_pubis_spongy_bone",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -100.811459,
+          "y_translation": -38.8361,
+          "z_translation": -78.69211,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L",
+      "x_dimension": 91.98324750999998,
+      "y_dimension": 89.12515640000001,
+      "z_dimension": 66.93497669999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.99343751,
+          "y_translation": 37.0649621,
+          "z_translation": 76.7849162,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis spongy bone",
+        "file_subpath": "VH_F_pubis_spongy_bone_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.99343751,
+          "y_translation": -37.0649621,
+          "z_translation": -76.7849162,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R",
+      "x_dimension": 91.503913,
+      "y_dimension": 90.9974955,
+      "z_dimension": 69.098738,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 100.811459,
+          "y_translation": 38.8361,
+          "z_translation": 78.69211,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis spongy bone",
+        "file_subpath": "VH_F_pubis_spongy_bone_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -100.811459,
+          "y_translation": -38.8361,
+          "z_translation": -78.69211,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_spongy_bone_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone",
+      "x_dimension": 185.17842000000002,
+      "y_dimension": 92.9692537,
+      "z_dimension": 70.563684,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 101.63990000000001,
+          "y_translation": 40.0948562,
+          "z_translation": 78.94393,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis compact bone",
+        "file_subpath": "VH_F_pubis_compact_bone",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -101.63990000000001,
+          "y_translation": -40.0948562,
+          "z_translation": -78.94393,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R",
+      "x_dimension": 93.54488900000001,
+      "y_dimension": 92.9692537,
+      "z_dimension": 70.563684,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 101.63990000000001,
+          "y_translation": 40.0948562,
+          "z_translation": 78.94393,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis compact bone",
+        "file_subpath": "VH_F_pubis_compact_bone_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -101.63990000000001,
+          "y_translation": -40.0948562,
+          "z_translation": -78.94393,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L",
+      "x_dimension": 93.7320346,
+      "y_dimension": 91.13761439999999,
+      "z_dimension": 68.38865,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pubis compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.1935146,
+          "y_translation": 38.30082,
+          "z_translation": 77.02131,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pubis compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pubis compact bone",
+        "file_subpath": "VH_F_pubis_compact_bone_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.1935146,
+          "y_translation": -38.30082,
+          "z_translation": -77.02131,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pubis compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_pubis_compact_bone_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium",
+      "x_dimension": 316.837892,
+      "y_dimension": 139.90937719999997,
+      "z_dimension": 165.840183765,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium",
+      "pref_label": "ilium",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001273",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 166.996166,
+          "y_translation": -24.749064800000003,
+          "z_translation": 165.550262,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium",
+        "file_subpath": "VH_F_ilium",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -166.996166,
+          "y_translation": 24.749064800000003,
+          "z_translation": -165.550262,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0001273",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone",
+      "x_dimension": 316.837892,
+      "y_dimension": 139.90937719999997,
+      "z_dimension": 165.840183765,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 166.996166,
+          "y_translation": -24.749064800000003,
+          "z_translation": 165.550262,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium compact bone",
+        "file_subpath": "VH_F_ilium_compact_bone",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -166.996166,
+          "y_translation": 24.749064800000003,
+          "z_translation": -165.550262,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R",
+      "x_dimension": 114.98505239999999,
+      "y_dimension": 139.90937719999997,
+      "z_dimension": 161.60966063,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 166.996166,
+          "y_translation": -24.749064800000003,
+          "z_translation": 165.550262,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium compact bone",
+        "file_subpath": "VH_F_ilium_compact_bone_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -166.996166,
+          "y_translation": 24.749064800000003,
+          "z_translation": -165.550262,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L",
+      "x_dimension": 118.74263189999999,
+      "y_dimension": 138.36109059999998,
+      "z_dimension": 165.75119376499998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -31.0990941,
+          "y_translation": -25.6427284,
+          "z_translation": 165.46127199999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium compact bone",
+        "file_subpath": "VH_F_ilium_compact_bone_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 31.0990941,
+          "y_translation": 25.6427284,
+          "z_translation": -165.46127199999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_compact_bone_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone",
+      "x_dimension": 314.432994,
+      "y_dimension": 137.8294026,
+      "z_dimension": 163.4008315,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 165.80973600000002,
+          "y_translation": -25.4762974,
+          "z_translation": 164.335623,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium spongy bone",
+        "file_subpath": "VH_F_ilium_spongy_bone",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -165.80973600000002,
+          "y_translation": 25.4762974,
+          "z_translation": -164.335623,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L",
+      "x_dimension": 116.31785800000003,
+      "y_dimension": 135.7141042,
+      "z_dimension": 163.29939950000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.3054,
+          "y_translation": -26.9521568,
+          "z_translation": 164.234191,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium spongy bone",
+        "file_subpath": "VH_F_ilium_spongy_bone_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.3054,
+          "y_translation": 26.9521568,
+          "z_translation": -164.234191,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R",
+      "x_dimension": 112.59231600000001,
+      "y_dimension": 137.8294026,
+      "z_dimension": 159.17891552,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ilium spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 165.80973600000002,
+          "y_translation": -25.4762974,
+          "z_translation": 164.335623,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ilium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ilium spongy bone",
+        "file_subpath": "VH_F_ilium_spongy_bone_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -165.80973600000002,
+          "y_translation": 25.4762974,
+          "z_translation": -164.335623,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ilium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ilium_spongy_bone_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium",
+      "x_dimension": 236.780368,
+      "y_dimension": 96.2131479,
+      "z_dimension": 67.724256,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium",
+      "pref_label": "ischium",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001274",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 126.990825,
+          "y_translation": 46.8344279,
+          "z_translation": 126.262426,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium",
+        "file_subpath": "VH_F_ischium",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -126.990825,
+          "y_translation": -46.8344279,
+          "z_translation": -126.262426,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0001274",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone",
+      "x_dimension": 236.780368,
+      "y_dimension": 96.2131479,
+      "z_dimension": 67.724256,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 126.990825,
+          "y_translation": 46.8344279,
+          "z_translation": 126.262426,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium compact bone",
+        "file_subpath": "VH_F_ischium_compact_bone",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -126.990825,
+          "y_translation": -46.8344279,
+          "z_translation": -126.262426,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R",
+      "x_dimension": 80.818735,
+      "y_dimension": 94.9983746,
+      "z_dimension": 67.724256,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 126.990825,
+          "y_translation": 46.8344279,
+          "z_translation": 126.262426,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium compact bone",
+        "file_subpath": "VH_F_ischium_compact_bone_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -126.990825,
+          "y_translation": -46.8344279,
+          "z_translation": -126.262426,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L",
+      "x_dimension": 82.80944840000001,
+      "y_dimension": 94.74724,
+      "z_dimension": 64.73979019999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium compact bone",
+      "pref_label": "compact bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001439",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -26.9800946,
+          "y_translation": 45.368520000000004,
+          "z_translation": 123.958968,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium compact bone",
+        "file_subpath": "VH_F_ischium_compact_bone_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 26.9800946,
+          "y_translation": -45.368520000000004,
+          "z_translation": -123.958968,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium compact bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_compact_bone_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0001439",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone",
+      "x_dimension": 234.45483299999998,
+      "y_dimension": 94.4775008,
+      "z_dimension": 65.6574812,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 125.85468599999999,
+          "y_translation": 45.4946049,
+          "z_translation": 125.060856,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium spongy bone",
+        "file_subpath": "VH_F_ischium_spongy_bone",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -125.85468599999999,
+          "y_translation": -45.4946049,
+          "z_translation": -125.060856,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R",
+      "x_dimension": 78.75599349999999,
+      "y_dimension": 93.1420811,
+      "z_dimension": 65.6574812,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 125.85468599999999,
+          "y_translation": 45.4946049,
+          "z_translation": 125.060856,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium spongy bone",
+        "file_subpath": "VH_F_ischium_spongy_bone_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -125.85468599999999,
+          "y_translation": -45.4946049,
+          "z_translation": -125.060856,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L",
+      "x_dimension": 80.823658,
+      "y_dimension": 93.0068559,
+      "z_dimension": 62.6448352,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ischium spongy bone",
+      "pref_label": "trabecular bone tissue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002483",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L_obj",
+        "file_name": "3d-vh-f-pelvis.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -27.776489,
+          "y_translation": 44.02396,
+          "z_translation": 122.732788,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ischium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ischium spongy bone",
+        "file_subpath": "VH_F_ischium_spongy_bone_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 27.776489,
+          "y_translation": -44.02396,
+          "z_translation": -122.732788,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ischium spongy bone",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#VH_F_ischium_spongy_bone_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "UBERON:0002483",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

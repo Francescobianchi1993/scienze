@@ -1,0 +1,1132 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/large-intestine-male",
+  "metadata": {
+    "title": "large-intestine-male (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Large Intestine, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/large-intestine-male/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/large-intestine-male/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "x_dimension": 259.126001,
+      "y_dimension": 450.3008552,
+      "z_dimension": 224.84414699999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male colon",
+      "pref_label": "large intestine",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000059",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 116.07682,
+          "y_translation": 38.8962552,
+          "z_translation": 85.86497999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male colon",
+        "file_subpath": "VH_M_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -116.07682,
+          "y_translation": -38.8962552,
+          "z_translation": -85.86497999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000059",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon",
+      "x_dimension": 76.07132,
+      "y_dimension": 202.55370000000002,
+      "z_dimension": 93.06158284099999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ascending colon",
+      "pref_label": "ascending colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001156",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 116.07682,
+          "y_translation": -161.9931,
+          "z_translation": 0.646762841,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ascending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ascending colon",
+        "file_subpath": "VH_M_ascending_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -116.07682,
+          "y_translation": 161.9931,
+          "z_translation": -0.646762841,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ascending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0001156",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon",
+      "x_dimension": 90.1967478,
+      "y_dimension": 343.34826300000003,
+      "z_dimension": 103.22227889999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male descending colon",
+      "pref_label": "descending colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001158",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -52.8524332,
+          "y_translation": -63.44551,
+          "z_translation": 16.2340589,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male descending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male descending colon",
+        "file_subpath": "VH_M_descending_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 52.8524332,
+          "y_translation": 63.44551,
+          "z_translation": -16.2340589,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male descending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001158",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon",
+      "x_dimension": 93.26542300000001,
+      "y_dimension": 82.63560000000007,
+      "z_dimension": 119.270153841,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male hepatic flexure of colon",
+      "pref_label": "hepatic flexure of colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0022277",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 109.50945300000001,
+          "y_translation": -281.91119999999995,
+          "z_translation": 0.646762841,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male hepatic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male hepatic flexure of colon",
+        "file_subpath": "VH_M_hepatic_flexure_of_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -109.50945300000001,
+          "y_translation": 281.91119999999995,
+          "z_translation": -0.646762841,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male hepatic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0022277",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum",
+      "x_dimension": 53.7372716,
+      "y_dimension": 152.2871782,
+      "z_dimension": 73.58189599999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male rectum",
+      "pref_label": "rectum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001052",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.698558,
+          "y_translation": 38.8962552,
+          "z_translation": 85.86497999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male rectum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male rectum",
+        "file_subpath": "VH_M_rectum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.698558,
+          "y_translation": -38.8962552,
+          "z_translation": -85.86497999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male rectum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001052",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon",
+      "x_dimension": 104.3393389,
+      "y_dimension": 78.4547809,
+      "z_dimension": 106.8641365,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male sigmoid colon",
+      "pref_label": "sigmoid colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001159",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 44.6961634,
+          "y_translation": -43.3231331,
+          "z_translation": 19.4283165,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male sigmoid colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male sigmoid colon",
+        "file_subpath": "VH_M_sigmoid_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -44.6961634,
+          "y_translation": 43.3231331,
+          "z_translation": -19.4283165,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male sigmoid colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001159",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon",
+      "x_dimension": 67.23156900000001,
+      "y_dimension": 78.53343100000001,
+      "z_dimension": 104.18465659999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male splenic flexure of colon",
+      "pref_label": "splenic flexure of colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0022276",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -65.75447,
+          "y_translation": -332.871169,
+          "z_translation": 16.2341166,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male splenic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male splenic flexure of colon",
+        "file_subpath": "VH_M_splenic_flexure_of_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 65.75447,
+          "y_translation": 332.871169,
+          "z_translation": -16.2341166,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male splenic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0022276",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon",
+      "x_dimension": 220.189024,
+      "y_dimension": 194.15198800000002,
+      "z_dimension": 140.89651489,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male transverse colon",
+      "pref_label": "transverse colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001157",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 88.38575,
+          "y_translation": -217.252612,
+          "z_translation": 1.9173478899999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male transverse colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male transverse colon",
+        "file_subpath": "VH_M_transverse_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -88.38575,
+          "y_translation": 217.252612,
+          "z_translation": -1.9173478899999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male transverse colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001157",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve",
+      "x_dimension": 12.092006299999994,
+      "y_dimension": 10.155007999999981,
+      "z_dimension": 11.175540000000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ileocecal valve",
+      "pref_label": "ileocecal valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000569",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 50.463516299999995,
+          "y_translation": -169.344842,
+          "z_translation": -55.46219,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ileocecal valve",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ileocecal valve",
+        "file_subpath": "VH_M_ileocecal_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -50.463516299999995,
+          "y_translation": 169.344842,
+          "z_translation": 55.46219,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ileocecal valve",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0000569",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum",
+      "x_dimension": 86.35059000000001,
+      "y_dimension": 110.57170510000002,
+      "z_dimension": 77.1520024,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male caecum",
+      "pref_label": "caecum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001153",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 108.81412,
+          "y_translation": -90.4217139,
+          "z_translation": -31.792763600000004,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male caecum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male caecum",
+        "file_subpath": "VH_M_caecum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -108.81412,
+          "y_translation": 90.4217139,
+          "z_translation": 31.792763600000004,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male caecum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0001153",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix",
+      "x_dimension": 60.52613304,
+      "y_dimension": 21.862418000000005,
+      "z_dimension": 19.737368500000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male vermiform appendix",
+      "pref_label": "vermiform appendix",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001154",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix_obj",
+        "file_name": "3d-sbu-m-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 65.0031343,
+          "y_translation": -115.086436,
+          "z_translation": -16.231348699999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male vermiform appendix",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male vermiform appendix",
+        "file_subpath": "VH_M_vermiform_appendix",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -65.0031343,
+          "y_translation": 115.086436,
+          "z_translation": 16.231348699999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male vermiform appendix",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0001154",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

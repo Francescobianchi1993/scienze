@@ -1,0 +1,22 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/basic/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/basic/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/asct-b-3d-models-crosswalk",
+  "data": [
+    "asct-b-3d-models-crosswalk.csv"
+  ],
+  "metadata": {
+    "title": "asct-b-3d-models-crosswalk (v1.9) graph data",
+    "description": "The graph representation of the Anatomical Structures, Cell Types and Biomarkers (ASCT+B) Tables to 3D Reference Object Library Crosswalk dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.9",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/asct-b-3d-models-crosswalk/v1.9",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/asct-b-3d-models-crosswalk/v1.9#raw-data"
+  }
+}

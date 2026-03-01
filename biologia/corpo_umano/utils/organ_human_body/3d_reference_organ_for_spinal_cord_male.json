@@ -1,0 +1,3152 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/spinal-cord-male",
+  "metadata": {
+    "title": "spinal-cord-male (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Spinal Cord, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/spinal-cord-male/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/spinal-cord-male/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "x_dimension": 20.70903681,
+      "y_dimension": 465.18326399999995,
+      "z_dimension": 79.63502443,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male spinal cord",
+      "pref_label": "spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002240",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.5615151,
+          "y_translation": -284.494936,
+          "z_translation": 81.5236047,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male spinal cord",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male spinal cord",
+        "file_subpath": "VH_M_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.5615151,
+          "y_translation": 284.494936,
+          "z_translation": -81.5236047,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male spinal cord",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002240",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord",
+      "x_dimension": 13.77857115,
+      "y_dimension": 5.536399999999958,
+      "z_dimension": 11.16526548,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C1 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006469",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.900549999999999,
+          "y_translation": -744.1418,
+          "z_translation": 13.4641547,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C1_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.900549999999999,
+          "y_translation": 744.1418,
+          "z_translation": -13.4641547,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C1_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0006469",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord",
+      "x_dimension": 12.584762629999998,
+      "y_dimension": 8.53848400000004,
+      "z_dimension": 11.0830688,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C2 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006489",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.464493,
+          "y_translation": -737.739146,
+          "z_translation": 13.3837508,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C2_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.464493,
+          "y_translation": 737.739146,
+          "z_translation": -13.3837508,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C2_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0006489",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord",
+      "x_dimension": 13.05908157,
+      "y_dimension": 18.203233999999952,
+      "z_dimension": 10.980481629999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C3 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006488",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.64949,
+          "y_translation": -722.011566,
+          "z_translation": 12.869061899999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C3_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.64949,
+          "y_translation": 722.011566,
+          "z_translation": -12.869061899999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C3_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0006488",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord",
+      "x_dimension": 11.99440021,
+      "y_dimension": 18.342100000000073,
+      "z_dimension": 10.184706859999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C4 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006490",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.8482363,
+          "y_translation": -706.1174,
+          "z_translation": 13.936948,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C4_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.8482363,
+          "y_translation": 706.1174,
+          "z_translation": -13.936948,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C4_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0006490",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord",
+      "x_dimension": 13.301429399999998,
+      "y_dimension": 21.595235000000116,
+      "z_dimension": 10.3403279,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C5 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006491",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.789489399999999,
+          "y_translation": -688.816965,
+          "z_translation": 15.5124376,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C5_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.789489399999999,
+          "y_translation": 688.816965,
+          "z_translation": -15.5124376,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C5_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0006491",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord",
+      "x_dimension": 13.473548500000001,
+      "y_dimension": 17.26890000000003,
+      "z_dimension": 11.240581699999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C6 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006492",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.878066500000001,
+          "y_translation": -673.8331,
+          "z_translation": 16.400655699999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C6_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.878066500000001,
+          "y_translation": 673.8331,
+          "z_translation": -16.400655699999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C6_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0006492",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord",
+      "x_dimension": 12.921371479999998,
+      "y_dimension": 14.458001000000081,
+      "z_dimension": 11.850256500000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C7 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006493",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.677413999999999,
+          "y_translation": -661.0604519999999,
+          "z_translation": 19.074935500000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C7_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.677413999999999,
+          "y_translation": 661.0604519999999,
+          "z_translation": -19.074935500000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C7_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0006493",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord",
+      "x_dimension": 12.96077679,
+      "y_dimension": 17.97219999999993,
+      "z_dimension": 13.2887633,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male",
+      "pref_label": "C8 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006470",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.4016719,
+          "y_translation": -645.4408000000001,
+          "z_translation": 23.7020049,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male",
+        "file_subpath": "VH_M_C8_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.4016719,
+          "y_translation": 645.4408000000001,
+          "z_translation": -23.7020049,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_C8_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0006470",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment",
+      "x_dimension": 11.4217755157,
+      "y_dimension": 19.113751999999977,
+      "z_dimension": 14.012735300000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male first thoracic spinal cord segment",
+      "pref_label": "first thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006457",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.48056,
+          "y_translation": -629.7169,
+          "z_translation": 29.6981353,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male first thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male first thoracic spinal cord segment",
+        "file_subpath": "VH_M_first_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.48056,
+          "y_translation": 629.7169,
+          "z_translation": -29.6981353,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male first thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0006457",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment",
+      "x_dimension": 11.05670876,
+      "y_dimension": 26.26189999999997,
+      "z_dimension": 18.5374803,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male second thoracic spinal cord segment",
+      "pref_label": "second thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006458",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.1806711,
+          "y_translation": -607.9547,
+          "z_translation": 41.1508828,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male second thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male second thoracic spinal cord segment",
+        "file_subpath": "VH_M_second_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.1806711,
+          "y_translation": 607.9547,
+          "z_translation": -41.1508828,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male second thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0006458",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment",
+      "x_dimension": 9.38854226,
+      "y_dimension": 20.285100000000057,
+      "z_dimension": 15.153387299999991,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male third thoracic spinal cord segment",
+      "pref_label": "third thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006459",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.9833985,
+          "y_translation": -590.9778,
+          "z_translation": 49.660959999999996,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male third thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male third thoracic spinal cord segment",
+        "file_subpath": "VH_M_third_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.9833985,
+          "y_translation": 590.9778,
+          "z_translation": -49.660959999999996,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male third thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0006459",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment",
+      "x_dimension": 9.191054829999999,
+      "y_dimension": 29.002486999999974,
+      "z_dimension": 17.741817400000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fourth thoracic spinal cord segment",
+      "pref_label": "fourth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006452",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.324088399999999,
+          "y_translation": -564.926267,
+          "z_translation": 61.1563474,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fourth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fourth thoracic spinal cord segment",
+        "file_subpath": "VH_M_fourth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.324088399999999,
+          "y_translation": 564.926267,
+          "z_translation": -61.1563474,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fourth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0006452",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment",
+      "x_dimension": 8.31722185,
+      "y_dimension": 24.428164000000038,
+      "z_dimension": 13.391606499999988,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fifth thoracic spinal cord segment",
+      "pref_label": "fifth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006453",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.5615151,
+          "y_translation": -544.0233,
+          "z_translation": 68.60150399999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fifth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fifth thoracic spinal cord segment",
+        "file_subpath": "VH_M_fifth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.5615151,
+          "y_translation": 544.0233,
+          "z_translation": -68.60150399999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fifth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0006453",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment",
+      "x_dimension": 8.397902820000002,
+      "y_dimension": 29.222600000000057,
+      "z_dimension": 14.061965099999988,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male sixth thoracic spinal cord segment",
+      "pref_label": "sixth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006454",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.5434335,
+          "y_translation": -516.6142,
+          "z_translation": 75.76123999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male sixth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male sixth thoracic spinal cord segment",
+        "file_subpath": "VH_M_sixth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.5434335,
+          "y_translation": 516.6142,
+          "z_translation": -75.76123999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male sixth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_sixth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0006454",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment",
+      "x_dimension": 9.33574655,
+      "y_dimension": 29.12407300000001,
+      "z_dimension": 11.137979999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male seventh thoracic spinal cord segment",
+      "pref_label": "seventh thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006455",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.3179473,
+          "y_translation": -490.354627,
+          "z_translation": 80.14716,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male seventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male seventh thoracic spinal cord segment",
+        "file_subpath": "VH_M_seventh_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.3179473,
+          "y_translation": 490.354627,
+          "z_translation": -80.14716,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male seventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_seventh_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0006455",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment",
+      "x_dimension": 9.852179999999999,
+      "y_dimension": 26.410252000000014,
+      "z_dimension": 8.044754700000013,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male eighth thoracic spinal cord segment",
+      "pref_label": "eighth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006456",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.11338,
+          "y_translation": -465.61956399999997,
+          "z_translation": 81.5236047,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male eighth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male eighth thoracic spinal cord segment",
+        "file_subpath": "VH_M_eighth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.11338,
+          "y_translation": 465.61956399999997,
+          "z_translation": -81.5236047,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male eighth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eighth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0006456",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment",
+      "x_dimension": 10.186538033,
+      "y_dimension": 21.466046000000006,
+      "z_dimension": 7.064939999999993,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ninth thoracic spinal cord segment",
+      "pref_label": "ninth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006465",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.3305047,
+          "y_translation": -446.395338,
+          "z_translation": 81.50421,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ninth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ninth thoracic spinal cord segment",
+        "file_subpath": "VH_M_ninth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.3305047,
+          "y_translation": 446.395338,
+          "z_translation": -81.50421,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ninth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_ninth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0006465",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment",
+      "x_dimension": 10.28724562,
+      "y_dimension": 27.676999000000023,
+      "z_dimension": 9.812831900000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male tenth thoracic spinal cord segment",
+      "pref_label": "tenth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006466",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.799857,
+          "y_translation": -420.952976,
+          "z_translation": 81.0470358,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male tenth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male tenth thoracic spinal cord segment",
+        "file_subpath": "VH_M_tenth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.799857,
+          "y_translation": 420.952976,
+          "z_translation": -81.0470358,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male tenth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_tenth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0006466",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment",
+      "x_dimension": 9.3152236,
+      "y_dimension": 17.532498000000032,
+      "z_dimension": 8.42071,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male eleventh thoracic spinal cord segment",
+      "pref_label": "eleventh thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006467",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.806373600000001,
+          "y_translation": -405.111223,
+          "z_translation": 77.83297999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male eleventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male eleventh thoracic spinal cord segment",
+        "file_subpath": "VH_M_eleventh_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.806373600000001,
+          "y_translation": 405.111223,
+          "z_translation": -77.83297999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male eleventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_eleventh_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0006467",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment",
+      "x_dimension": 9.23873857,
+      "y_dimension": 16.901377000000025,
+      "z_dimension": 8.940910000000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male twelfth thoracic spinal cord segment",
+      "pref_label": "twelfth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006468",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 5.707626,
+          "y_translation": -389.162123,
+          "z_translation": 76.25332,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male twelfth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male twelfth thoracic spinal cord segment",
+        "file_subpath": "VH_M_twelfth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -5.707626,
+          "y_translation": 389.162123,
+          "z_translation": -76.25332,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male twelfth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_twelfth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0006468",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment",
+      "x_dimension": 9.33135931,
+      "y_dimension": 17.540902000000017,
+      "z_dimension": 9.448700000000017,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male first lumbar spinal cord segment",
+      "pref_label": "first lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006448",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.7729870000000005,
+          "y_translation": -372.69026,
+          "z_translation": 74.17724000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male first lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male first lumbar spinal cord segment",
+        "file_subpath": "VH_M_first_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.7729870000000005,
+          "y_translation": 372.69026,
+          "z_translation": -74.17724000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male first lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0006448",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment",
+      "x_dimension": 10.04505161,
+      "y_dimension": 17.00562199999996,
+      "z_dimension": 9.934140000000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male second lumbar spinal cord segment",
+      "pref_label": "second lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006450",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.32350161,
+          "y_translation": -357.48145,
+          "z_translation": 71.59918,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male second lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male second lumbar spinal cord segment",
+        "file_subpath": "VH_M_second_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.32350161,
+          "y_translation": 357.48145,
+          "z_translation": -71.59918,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male second lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0006450",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment",
+      "x_dimension": 9.562835360000001,
+      "y_dimension": 12.364122000000009,
+      "z_dimension": 9.670789999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male third lumbar spinal cord segment",
+      "pref_label": "third lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006449",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 3.66394036,
+          "y_translation": -347.992778,
+          "z_translation": 69.16412,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male third lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male third lumbar spinal cord segment",
+        "file_subpath": "VH_M_third_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -3.66394036,
+          "y_translation": 347.992778,
+          "z_translation": -69.16412,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male third lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "UBERON:0006449",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment",
+      "x_dimension": 9.295921069999999,
+      "y_dimension": 12.248299999999972,
+      "z_dimension": 9.6777375,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fourth lumbar spinal cord segment",
+      "pref_label": "fourth lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006451",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 3.2736205,
+          "y_translation": -338.5344,
+          "z_translation": 66.75953,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fourth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fourth lumbar spinal cord segment",
+        "file_subpath": "VH_M_fourth_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -3.2736205,
+          "y_translation": 338.5344,
+          "z_translation": -66.75953,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fourth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 24,
+      "type_of": [
+        "UBERON:0006451",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment",
+      "x_dimension": 9.59167486,
+      "y_dimension": 12.990282000000036,
+      "z_dimension": 9.586866900000011,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fifth lumbar spinal cord segment",
+      "pref_label": "fifth lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006447",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 2.6188278599999997,
+          "y_translation": -327.555418,
+          "z_translation": 64.55734000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fifth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fifth lumbar spinal cord segment",
+        "file_subpath": "VH_M_fifth_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -2.6188278599999997,
+          "y_translation": 327.555418,
+          "z_translation": -64.55734000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fifth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 25,
+      "type_of": [
+        "UBERON:0006447",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment",
+      "x_dimension": 9.12483171,
+      "y_dimension": 8.196916999999985,
+      "z_dimension": 8.668900000000008,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male first sacral spinal cord segment",
+      "pref_label": "first sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006460",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 1.97731,
+          "y_translation": -322.896183,
+          "z_translation": 62.51278000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male first sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male first sacral spinal cord segment",
+        "file_subpath": "VH_M_first_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -1.97731,
+          "y_translation": 322.896183,
+          "z_translation": -62.51278000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male first sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_first_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 26,
+      "type_of": [
+        "UBERON:0006460",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment",
+      "x_dimension": 8.416023110000001,
+      "y_dimension": 10.805399999999963,
+      "z_dimension": 8.1750118,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male second sacral spinal cord segment",
+      "pref_label": "second sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006461",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 1.34227751,
+          "y_translation": -313.8947,
+          "z_translation": 60.8838648,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male second sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male second sacral spinal cord segment",
+        "file_subpath": "VH_M_second_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -1.34227751,
+          "y_translation": 313.8947,
+          "z_translation": -60.8838648,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male second sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_second_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 27,
+      "type_of": [
+        "UBERON:0006461",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment",
+      "x_dimension": 6.451301394,
+      "y_dimension": 11.593491000000029,
+      "z_dimension": 6.722830000000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male third sacral spinal cord segment",
+      "pref_label": "third sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006462",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.107612606,
+          "y_translation": -304.73783599999996,
+          "z_translation": 57.63828,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male third sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male third sacral spinal cord segment",
+        "file_subpath": "VH_M_third_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.107612606,
+          "y_translation": 304.73783599999996,
+          "z_translation": -57.63828,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male third sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_third_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 28,
+      "type_of": [
+        "UBERON:0006462",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment",
+      "x_dimension": 4.516868270000001,
+      "y_dimension": 10.183618999999965,
+      "z_dimension": 5.913850000000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fourth sacral spinal cord segment",
+      "pref_label": "fourth sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006463",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -1.6425704799999998,
+          "y_translation": -295.564681,
+          "z_translation": 54.63432,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fourth sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fourth sacral spinal cord segment",
+        "file_subpath": "VH_M_fourth_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 1.6425704799999998,
+          "y_translation": 295.564681,
+          "z_translation": -54.63432,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fourth sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fourth_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 29,
+      "type_of": [
+        "UBERON:0006463",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment",
+      "x_dimension": 2.9323957299999996,
+      "y_dimension": 11.961401000000023,
+      "z_dimension": 5.757294300000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fifth sacral spinal cord segment",
+      "pref_label": "fifth sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006464",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-m-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-male/v1.1/assets/3d-vh-m-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -3.1280900000000003,
+          "y_translation": -284.494936,
+          "z_translation": 51.19957,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fifth sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fifth sacral spinal cord segment",
+        "file_subpath": "VH_M_fifth_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 3.1280900000000003,
+          "y_translation": 284.494936,
+          "z_translation": -51.19957,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fifth sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#VH_M_fifth_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary",
+      "rui_rank": 30,
+      "type_of": [
+        "UBERON:0006464",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

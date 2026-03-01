@@ -1,0 +1,1653 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/knee-male-right",
+  "metadata": {
+    "title": "knee-male-right (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Knee, Male, Right dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/knee-male-right/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/knee-male-right/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "x_dimension": 173.41607,
+      "y_dimension": 887.46343,
+      "z_dimension": 164.5554939,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right knee",
+      "pref_label": "Right knee",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:24977",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 238.16447,
+          "y_translation": 832.3199,
+          "z_translation": 109.867491,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right knee",
+        "file_subpath": "VH_M_knee_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -238.16447,
+          "y_translation": -832.3199,
+          "z_translation": -109.867491,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "FMA:24977",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R",
+      "x_dimension": 173.41607,
+      "y_dimension": 887.46343,
+      "z_dimension": 164.5554939,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right knee joint",
+      "pref_label": "Right knee joint",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:35176",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 238.16447,
+          "y_translation": 832.3199,
+          "z_translation": 109.867491,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right knee joint",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right knee joint",
+        "file_subpath": "VH_M_knee_joint_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -238.16447,
+          "y_translation": -832.3199,
+          "z_translation": -109.867491,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right knee joint",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_knee_joint_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:35176",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R",
+      "x_dimension": 115.15858000000001,
+      "y_dimension": 410.302639,
+      "z_dimension": 120.8840501,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right tibia",
+      "pref_label": "Right tibia",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:24477",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 217.449158,
+          "y_translation": 827.774465,
+          "z_translation": 103.913017,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right tibia",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right tibia",
+        "file_subpath": "VH_M_tibia_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -217.449158,
+          "y_translation": -827.774465,
+          "z_translation": -103.913017,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right tibia",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_tibia_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:24477",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R",
+      "x_dimension": 65.540731,
+      "y_dimension": 399.372622,
+      "z_dimension": 86.83994799999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right fibula",
+      "pref_label": "Right fibula",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:24480",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 238.16447,
+          "y_translation": 832.3199,
+          "z_translation": 109.867491,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right fibula",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right fibula",
+        "file_subpath": "VH_M_fibula_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -238.16447,
+          "y_translation": -832.3199,
+          "z_translation": -109.867491,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right fibula",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_fibula_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:24480",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R",
+      "x_dimension": 50.566188999999994,
+      "y_dimension": 46.09462100000002,
+      "z_dimension": 25.545096,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right patella",
+      "pref_label": "Right patella",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:24486",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 171.684846,
+          "y_translation": 406.2266,
+          "z_translation": -29.1429069,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right patella",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right patella",
+        "file_subpath": "VH_M_patella_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -171.684846,
+          "y_translation": -406.2266,
+          "z_translation": 29.1429069,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right patella",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patella_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:24486",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R",
+      "x_dimension": 111.36173399999998,
+      "y_dimension": 480.49663,
+      "z_dimension": 72.2710285,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right femur",
+      "pref_label": "Right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:24474",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 176.110134,
+          "y_translation": 425.3531,
+          "z_translation": 48.7174168,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right femur",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right femur",
+        "file_subpath": "VH_M_femur_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -176.110134,
+          "y_translation": -425.3531,
+          "z_translation": -48.7174168,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right femur",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_femur_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:24474",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R",
+      "x_dimension": 79.34698420000001,
+      "y_dimension": 52.20368400000001,
+      "z_dimension": 71.66065090000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right articular cartilage of knee",
+      "pref_label": "Articular cartilage of distal epiphysis of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:33189",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 176.669329,
+          "y_translation": 429.609984,
+          "z_translation": 50.732974,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right articular cartilage of knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right articular cartilage of knee",
+        "file_subpath": "VH_M_articular_cartilage_of_knee_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -176.669329,
+          "y_translation": -429.609984,
+          "z_translation": -50.732974,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right articular cartilage of knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_articular_cartilage_of_knee_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:33189",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R",
+      "x_dimension": 7.925801000000021,
+      "y_dimension": 29.408037999999976,
+      "z_dimension": 21.5170811,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right intercondylar fossa",
+      "pref_label": "Intercondylar fossa of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:43749",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 128.829718,
+          "y_translation": 420.14578,
+          "z_translation": 46.3911667,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right intercondylar fossa",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right intercondylar fossa",
+        "file_subpath": "VH_M_intercondylar_fossa_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -128.829718,
+          "y_translation": -420.14578,
+          "z_translation": -46.3911667,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right intercondylar fossa",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_intercondylar_fossa_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:43749",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R",
+      "x_dimension": 33.97475699999998,
+      "y_dimension": 6.575839999999971,
+      "z_dimension": 28.4605284,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right lateral condyle of femur frontal",
+      "pref_label": "Lateral condyle of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:32860",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 175.4337,
+          "y_translation": 418.8986,
+          "z_translation": 35.3853554,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right lateral condyle of femur frontal",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right lateral condyle of femur frontal",
+        "file_subpath": "VH_M_lateral_condyle_of_femur_frontal_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -175.4337,
+          "y_translation": -418.8986,
+          "z_translation": -35.3853554,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right lateral condyle of femur frontal",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_frontal_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:32860",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R",
+      "x_dimension": 36.21466400000003,
+      "y_dimension": 33.870041000000015,
+      "z_dimension": 14.001277099999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right lateral condyle of femur inf",
+      "pref_label": "Lateral condyle of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:32860",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 176.27221300000002,
+          "y_translation": 411.540359,
+          "z_translation": 51.313739999999996,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right lateral condyle of femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right lateral condyle of femur inf",
+        "file_subpath": "VH_M_lateral_condyle_of_femur_inf_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -176.27221300000002,
+          "y_translation": -411.540359,
+          "z_translation": -51.313739999999996,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right lateral condyle of femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_inf_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:32860",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R",
+      "x_dimension": 26.787503999999984,
+      "y_dimension": 27.688163999999972,
+      "z_dimension": 22.50465428,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right lateral condyle of femur sup",
+      "pref_label": "Lateral condyle of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:32860",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 164.07464399999998,
+          "y_translation": 416.584164,
+          "z_translation": 1.30241038,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right lateral condyle of femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right lateral condyle of femur sup",
+        "file_subpath": "VH_M_lateral_condyle_of_femur_sup_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -164.07464399999998,
+          "y_translation": -416.584164,
+          "z_translation": -1.30241038,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right lateral condyle of femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_lateral_condyle_of_femur_sup_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:32860",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R",
+      "x_dimension": 27.434579999999983,
+      "y_dimension": 12.99026600000002,
+      "z_dimension": 27.98767761,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right distal most point of medial condyle of femur",
+      "pref_label": "distal-most point of medial condyle of femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:7500033",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 130.90446599999999,
+          "y_translation": 430.268615,
+          "z_translation": 35.7712023,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right distal most point of medial condyle of femur",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right distal most point of medial condyle of femur",
+        "file_subpath": "VH_M_distal_most_point_of_medial_condyle_of_femur_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -130.90446599999999,
+          "y_translation": -430.268615,
+          "z_translation": -35.7712023,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right distal most point of medial condyle of femur",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_distal_most_point_of_medial_condyle_of_femur_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:7500033",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf",
+      "x_dimension": 28.84743320000001,
+      "y_dimension": 37.294700000000034,
+      "z_dimension": 14.254290699999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male medial condyle of right femur inf",
+      "pref_label": "Medial condyle of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:32862",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 126.29316700000001,
+          "y_translation": 423.4966,
+          "z_translation": 56.7805842,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male medial condyle of right femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male medial condyle of right femur inf",
+        "file_subpath": "VH_M_medial_condyle_of_right_femur_inf",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -126.29316700000001,
+          "y_translation": -423.4966,
+          "z_translation": -56.7805842,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male medial condyle of right femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_inf",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "FMA:32862",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup",
+      "x_dimension": 22.645346999999973,
+      "y_dimension": 25.83537799999999,
+      "z_dimension": 17.88992928,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male medial condyle of right femur sup",
+      "pref_label": "Medial condyle of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:32862",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 134.93032799999997,
+          "y_translation": 421.0297,
+          "z_translation": 2.3734925799999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male medial condyle of right femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male medial condyle of right femur sup",
+        "file_subpath": "VH_M_medial_condyle_of_right_femur_sup",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -134.93032799999997,
+          "y_translation": -421.0297,
+          "z_translation": -2.3734925799999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male medial condyle of right femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_medial_condyle_of_right_femur_sup",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "FMA:32862",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R",
+      "x_dimension": 9.687013000000007,
+      "y_dimension": 19.560000000000002,
+      "z_dimension": 17.49161748,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right patellar surface",
+      "pref_label": "Patellar surface of right femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:43746",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 143.394,
+          "y_translation": 415.2538,
+          "z_translation": 2.3734925799999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right patellar surface",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right patellar surface",
+        "file_subpath": "VH_M_patellar_surface_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -143.394,
+          "y_translation": -415.2538,
+          "z_translation": -2.3734925799999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right patellar surface",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_patellar_surface_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "FMA:43746",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R",
+      "x_dimension": 78.188345,
+      "y_dimension": 19.670033999999987,
+      "z_dimension": 47.706148,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right meniscus",
+      "pref_label": "Articular disk of knee joint",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:64019",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R_obj",
+        "file_name": "3d-vh-m-knee-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-male-right/v1.2/assets/3d-vh-m-knee-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 179.523945,
+          "y_translation": 433.44393399999996,
+          "z_translation": 41.294709999999995,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right meniscus",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right meniscus",
+        "file_subpath": "VH_M_meniscus_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -179.523945,
+          "y_translation": -433.44393399999996,
+          "z_translation": -41.294709999999995,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right meniscus",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#VH_M_meniscus_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "FMA:64019",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

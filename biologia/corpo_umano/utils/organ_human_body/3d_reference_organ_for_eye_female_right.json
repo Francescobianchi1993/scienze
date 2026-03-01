@@ -1,0 +1,2469 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/eye-female-right",
+  "metadata": {
+    "title": "eye-female-right (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Eye, Female, Right dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/eye-female-right/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/eye-female-right/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "x_dimension": 24.456054099999996,
+      "y_dimension": 24.41209600000002,
+      "z_dimension": 25.748358319999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right eye",
+      "pref_label": "Right eye",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004549",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 53.628154099999996,
+          "y_translation": -753.147244,
+          "z_translation": -7.47793168,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right eye",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right eye",
+        "file_subpath": "VH_F_eye_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -53.628154099999996,
+          "y_translation": 753.147244,
+          "z_translation": 7.47793168,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right eye",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0004549",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R",
+      "x_dimension": 21.887912699999998,
+      "y_dimension": 21.994146999999998,
+      "z_dimension": 18.4145825,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right retina",
+      "pref_label": "Right retina",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58302",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 52.2700027,
+          "y_translation": -754.3309,
+          "z_translation": -8.764586,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right retina",
+        "file_subpath": "VH_F_retina_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -52.2700027,
+          "y_translation": 754.3309,
+          "z_translation": 8.764586,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_retina_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:58302",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R",
+      "x_dimension": 1.0815344999999965,
+      "y_dimension": 1.0407999999998765,
+      "z_dimension": 0.47549300000000017,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right fovea",
+      "pref_label": "Right fovea centralis",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58661",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 41.9743545,
+          "y_translation": -764.4807000000001,
+          "z_translation": -9.055018,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right fovea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right fovea",
+        "file_subpath": "VH_F_fovea_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -41.9743545,
+          "y_translation": 764.4807000000001,
+          "z_translation": 9.055018,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right fovea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_fovea_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:58661",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R",
+      "x_dimension": 3.885883700000001,
+      "y_dimension": 3.795639000000051,
+      "z_dimension": 0.681023999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right macula lutea",
+      "pref_label": "Right macula lutea",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58638",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 43.38691,
+          "y_translation": -763.110161,
+          "z_translation": -9.070925,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right macula lutea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right macula lutea",
+        "file_subpath": "VH_F_macula_lutea_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -43.38691,
+          "y_translation": 763.110161,
+          "z_translation": 9.070925,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right macula lutea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_macula_lutea_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:58638",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R",
+      "x_dimension": 2.407414000000003,
+      "y_dimension": 2.666599999999903,
+      "z_dimension": 1.2509011999999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right optic disc",
+      "pref_label": "Right optic disc",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58635",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 38.987644,
+          "y_translation": -764.0242000000001,
+          "z_translation": -9.048366,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right optic disc",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right optic disc",
+        "file_subpath": "VH_F_optic_disc_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -38.987644,
+          "y_translation": 764.0242000000001,
+          "z_translation": 9.048366,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right optic disc",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_disc_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:58635",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid",
+      "x_dimension": 17.4084941,
+      "y_dimension": 8.25120000000004,
+      "z_dimension": 4.959607500000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female palpebral conjunctiva of right upper eyelid",
+      "pref_label": "Palpebral conjunctiva of right upper eyelid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:223076",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 50.6858341,
+          "y_translation": -765.5935000000001,
+          "z_translation": -28.1020682,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female palpebral conjunctiva of right upper eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female palpebral conjunctiva of right upper eyelid",
+        "file_subpath": "VH_F_palpebral_conjunctiva_of_right_upper_eyelid",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -50.6858341,
+          "y_translation": 765.5935000000001,
+          "z_translation": 28.1020682,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female palpebral conjunctiva of right upper eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_upper_eyelid",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:223076",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid",
+      "x_dimension": 17.817579199999997,
+      "y_dimension": 9.393245999999976,
+      "z_dimension": 5.056657999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female palpebral conjunctiva of right lower eyelid",
+      "pref_label": "Palpebral conjunctiva of right lower eyelid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:223074",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 50.8836247,
+          "y_translation": -756.5082,
+          "z_translation": -28.169632,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female palpebral conjunctiva of right lower eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female palpebral conjunctiva of right lower eyelid",
+        "file_subpath": "VH_F_palpebral_conjunctiva_of_right_lower_eyelid",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -50.8836247,
+          "y_translation": 756.5082,
+          "z_translation": 28.169632,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female palpebral conjunctiva of right lower eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_palpebral_conjunctiva_of_right_lower_eyelid",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:223074",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R",
+      "x_dimension": 24.456054099999996,
+      "y_dimension": 24.41209600000002,
+      "z_dimension": 22.519717019999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right sclera",
+      "pref_label": "Right sclera",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58271",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 53.628154099999996,
+          "y_translation": -753.147244,
+          "z_translation": -7.47793168,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right sclera",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right sclera",
+        "file_subpath": "VH_F_sclera_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -53.628154099999996,
+          "y_translation": 753.147244,
+          "z_translation": 7.47793168,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right sclera",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_sclera_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:58271",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R",
+      "x_dimension": 22.363690700000003,
+      "y_dimension": 22.32389999999998,
+      "z_dimension": 19.1413004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right optic choroid",
+      "pref_label": "Right choroid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58299",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 52.5675565,
+          "y_translation": -754.1597,
+          "z_translation": -8.563352,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right optic choroid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right optic choroid",
+        "file_subpath": "VH_F_optic_choroid_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -52.5675565,
+          "y_translation": 754.1597,
+          "z_translation": 8.563352,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right optic choroid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_optic_choroid_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:58299",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R",
+      "x_dimension": 3.2004043999999965,
+      "y_dimension": 3.2000320000000784,
+      "z_dimension": 0.14416690000000187,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right pupil",
+      "pref_label": "right pupil",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0010224",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 43.492734399999996,
+          "y_translation": -763.8462999999999,
+          "z_translation": -29.3962713,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right pupil",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right pupil",
+        "file_subpath": "VH_F_pupil_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -43.492734399999996,
+          "y_translation": 763.8462999999999,
+          "z_translation": 29.3962713,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right pupil",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_pupil_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0010224",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R",
+      "x_dimension": 12.928547199999997,
+      "y_dimension": 12.871800000000007,
+      "z_dimension": 1.3856515000000016,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right ciliary processes",
+      "pref_label": "ciliary processes",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0010427",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 48.3700372,
+          "y_translation": -759.3024,
+          "z_translation": -26.809305,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right ciliary processes",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right ciliary processes",
+        "file_subpath": "VH_F_ciliary_processes_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -48.3700372,
+          "y_translation": 759.3024,
+          "z_translation": 26.809305,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right ciliary processes",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_processes_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0010427",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R",
+      "x_dimension": 14.783137000000004,
+      "y_dimension": 14.791700000000105,
+      "z_dimension": 1.7077643999999985,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right suspensory ligament of lens",
+      "pref_label": "Suspensory ligament of right lens",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58839",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.31403,
+          "y_translation": -758.3099,
+          "z_translation": -26.4960378,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right suspensory ligament of lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right suspensory ligament of lens",
+        "file_subpath": "VH_F_suspensory_ligament_of_lens_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.31403,
+          "y_translation": 758.3099,
+          "z_translation": 26.4960378,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right suspensory ligament of lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_suspensory_ligament_of_lens_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "FMA:58839",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R",
+      "x_dimension": 15.2238154,
+      "y_dimension": 15.233943999999951,
+      "z_dimension": 0.8882470999999974,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right ora serrata of retina",
+      "pref_label": "Right ora serrata",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58601",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.526475399999995,
+          "y_translation": -758.0673,
+          "z_translation": -26.4767259,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right ora serrata of retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right ora serrata of retina",
+        "file_subpath": "VH_F_ora_serrata_of_retina_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.526475399999995,
+          "y_translation": 758.0673,
+          "z_translation": 26.4767259,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right ora serrata of retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ora_serrata_of_retina_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "FMA:58601",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R",
+      "x_dimension": 12.198730000000005,
+      "y_dimension": 12.2694469999999,
+      "z_dimension": 1.356590599999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right corneo scleral junction",
+      "pref_label": "Right corneoscleral junction",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58343",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 48.162580000000005,
+          "y_translation": -759.575,
+          "z_translation": -28.693156300000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right corneo scleral junction",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right corneo scleral junction",
+        "file_subpath": "VH_F_corneo_scleral_junction_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -48.162580000000005,
+          "y_translation": 759.575,
+          "z_translation": 28.693156300000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right corneo scleral junction",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_corneo_scleral_junction_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "FMA:58343",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R",
+      "x_dimension": 7.721491200000003,
+      "y_dimension": 7.913400000000138,
+      "z_dimension": 3.791261500000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right lens",
+      "pref_label": "Right lens",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58242",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 45.7294546,
+          "y_translation": -761.5056999999999,
+          "z_translation": -25.7182829,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right lens",
+        "file_subpath": "VH_F_lens_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -45.7294546,
+          "y_translation": 761.5056999999999,
+          "z_translation": 25.7182829,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_lens_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "FMA:58242",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R",
+      "x_dimension": 10.574702200000004,
+      "y_dimension": 10.56740000000002,
+      "z_dimension": 0.4928960000000018,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right schlemms canal",
+      "pref_label": "Right scleral venous sinus",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:51874",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.2568944,
+          "y_translation": -760.1836,
+          "z_translation": -28.420534,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right schlemms canal",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right schlemms canal",
+        "file_subpath": "VH_F_schlemms_canal_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.2568944,
+          "y_translation": 760.1836,
+          "z_translation": 28.420534,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right schlemms canal",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_schlemms_canal_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "FMA:51874",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R",
+      "x_dimension": 10.018788299999997,
+      "y_dimension": 10.69139999999993,
+      "z_dimension": 3.2116881,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right aqueous humor",
+      "pref_label": "Aqueous humor of right eyeball",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58820",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 46.8963534,
+          "y_translation": -760.2382,
+          "z_translation": -28.15393,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right aqueous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right aqueous humor",
+        "file_subpath": "VH_F_aqueous_humor_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -46.8963534,
+          "y_translation": 760.2382,
+          "z_translation": 28.15393,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right aqueous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_aqueous_humor_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "FMA:58820",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R",
+      "x_dimension": 15.025998100000002,
+      "y_dimension": 15.012699999999995,
+      "z_dimension": 2.1159927999999972,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right ciliary body",
+      "pref_label": "Right ciliary body",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58296",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.39781,
+          "y_translation": -758.1576,
+          "z_translation": -26.4162533,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right ciliary body",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right ciliary body",
+        "file_subpath": "VH_F_ciliary_body_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.39781,
+          "y_translation": 758.1576,
+          "z_translation": 26.4162533,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right ciliary body",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_body_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "FMA:58296",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R",
+      "x_dimension": 14.889319999999998,
+      "y_dimension": 14.905961000000048,
+      "z_dimension": 1.9660843999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right ciliary muscle",
+      "pref_label": "Right ciliary muscle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:49152",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.417429999999996,
+          "y_translation": -758.065939,
+          "z_translation": -26.68769,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right ciliary muscle",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right ciliary muscle",
+        "file_subpath": "VH_F_ciliary_muscle_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.417429999999996,
+          "y_translation": 758.065939,
+          "z_translation": 26.68769,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right ciliary muscle",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_ciliary_muscle_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "FMA:49152",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R",
+      "x_dimension": 10.9342246,
+      "y_dimension": 10.862762999999973,
+      "z_dimension": 0.6902068999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right trabecular meshwork",
+      "pref_label": "eye trabecular meshwork",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0005969",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.3999046,
+          "y_translation": -760.135,
+          "z_translation": -28.2143261,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right trabecular meshwork",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right trabecular meshwork",
+        "file_subpath": "VH_F_trabecular_meshwork_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.3999046,
+          "y_translation": 760.135,
+          "z_translation": 28.2143261,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right trabecular meshwork",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_trabecular_meshwork_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0005969",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R",
+      "x_dimension": 10.483692599999998,
+      "y_dimension": 10.48434700000007,
+      "z_dimension": 1.3050356000000036,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right iris",
+      "pref_label": "Right iris",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58236",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.1182726,
+          "y_translation": -760.216653,
+          "z_translation": -28.1003844,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right iris",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right iris",
+        "file_subpath": "VH_F_iris_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.1182726,
+          "y_translation": 760.216653,
+          "z_translation": 28.1003844,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right iris",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_iris_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "FMA:58236",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R",
+      "x_dimension": 17.524817999999996,
+      "y_dimension": 17.347098000000074,
+      "z_dimension": 2.4150703000000036,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right bulbar conjunctiva",
+      "pref_label": "Right bulbar conjunctiva",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:59028",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 50.818108,
+          "y_translation": -756.599247,
+          "z_translation": -27.6006218,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right bulbar conjunctiva",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right bulbar conjunctiva",
+        "file_subpath": "VH_F_bulbar_conjunctiva_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -50.818108,
+          "y_translation": 756.599247,
+          "z_translation": 27.6006218,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right bulbar conjunctiva",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_bulbar_conjunctiva_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "FMA:59028",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R",
+      "x_dimension": 12.1638588,
+      "y_dimension": 12.257399999999961,
+      "z_dimension": 3.7504379000000014,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right cornea",
+      "pref_label": "Right cornea",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58239",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 48.1464043,
+          "y_translation": -759.5666,
+          "z_translation": -28.765006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right cornea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right cornea",
+        "file_subpath": "VH_F_cornea_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -48.1464043,
+          "y_translation": 759.5666,
+          "z_translation": 28.765006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right cornea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_cornea_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "FMA:58239",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R",
+      "x_dimension": 21.038856600000003,
+      "y_dimension": 21.07179999999994,
+      "z_dimension": 18.331231510000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right vitreous humor",
+      "pref_label": "Humor of right vitreous body",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:261236",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R_obj",
+        "file_name": "3d-vh-f-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 52.26158,
+          "y_translation": -754.8614,
+          "z_translation": -9.04788449,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right vitreous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right vitreous humor",
+        "file_subpath": "VH_F_vitreous_humor_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -52.26158,
+          "y_translation": 754.8614,
+          "z_translation": 9.04788449,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right vitreous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#VH_F_vitreous_humor_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "FMA:261236",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

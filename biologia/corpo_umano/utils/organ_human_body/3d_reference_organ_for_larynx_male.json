@@ -1,0 +1,1132 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/larynx-male",
+  "metadata": {
+    "title": "larynx-male (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Larynx, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/larynx-male/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/larynx-male/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "x_dimension": 53.753081699999996,
+      "y_dimension": 72.62340000000006,
+      "z_dimension": 38.628311999999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male larynx",
+      "pref_label": "larynx",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001737",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.4472071,
+          "y_translation": -627.5649,
+          "z_translation": -21.70757,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male larynx",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male larynx",
+        "file_subpath": "VH_M_larynx",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.4472071,
+          "y_translation": 627.5649,
+          "z_translation": 21.70757,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male larynx",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001737",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage",
+      "x_dimension": 53.753081699999996,
+      "y_dimension": 72.62340000000006,
+      "z_dimension": 38.628311999999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male laryngeal cartilage",
+      "pref_label": "laryngeal cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001739",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.4472071,
+          "y_translation": -627.5649,
+          "z_translation": -21.70757,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male laryngeal cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male laryngeal cartilage",
+        "file_subpath": "VH_M_laryngeal_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.4472071,
+          "y_translation": 627.5649,
+          "z_translation": 21.70757,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male laryngeal cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_laryngeal_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0001739",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage",
+      "x_dimension": 24.196204700000003,
+      "y_dimension": 14.982139000000075,
+      "z_dimension": 16.111908499999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male arytenoid cartilage",
+      "pref_label": "arytenoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001740",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.158283200000001,
+          "y_translation": -650.1206999999999,
+          "z_translation": -27.468556500000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male arytenoid cartilage",
+        "file_subpath": "VH_M_arytenoid_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.158283200000001,
+          "y_translation": 650.1206999999999,
+          "z_translation": 27.468556500000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001740",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R",
+      "x_dimension": 10.551834020000001,
+      "y_dimension": 14.683538999999996,
+      "z_dimension": 14.907579899999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male arytenoid cartilage",
+      "pref_label": "Right arytenoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55113",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.158283200000001,
+          "y_translation": -650.4193,
+          "z_translation": -28.6728851,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male arytenoid cartilage",
+        "file_subpath": "VH_M_arytenoid_cartilage_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.158283200000001,
+          "y_translation": 650.4193,
+          "z_translation": 28.6728851,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:55113",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L",
+      "x_dimension": 8.953628100000001,
+      "y_dimension": 14.828300000000127,
+      "z_dimension": 15.912638999999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male arytenoid cartilage",
+      "pref_label": "Left arytenoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55114",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -2.0842934,
+          "y_translation": -650.1206999999999,
+          "z_translation": -27.468556500000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male arytenoid cartilage",
+        "file_subpath": "VH_M_arytenoid_cartilage_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 2.0842934,
+          "y_translation": 650.1206999999999,
+          "z_translation": 27.468556500000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_arytenoid_cartilage_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:55114",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage",
+      "x_dimension": 26.281553199999998,
+      "y_dimension": 35.24369999999999,
+      "z_dimension": 19.457335399999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male epiglottic cartilage",
+      "pref_label": "epiglottic cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001742",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.6525282,
+          "y_translation": -664.9446,
+          "z_translation": -27.56554,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male epiglottic cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male epiglottic cartilage",
+        "file_subpath": "VH_M_epiglottic_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.6525282,
+          "y_translation": 664.9446,
+          "z_translation": 27.56554,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male epiglottic cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_epiglottic_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001742",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage",
+      "x_dimension": 29.379057699999997,
+      "y_dimension": 27.35010000000011,
+      "z_dimension": 27.088563899999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male cricoid cartilage",
+      "pref_label": "cricoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002375",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.3393877,
+          "y_translation": -627.5649,
+          "z_translation": -23.8878839,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male cricoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male cricoid cartilage",
+        "file_subpath": "VH_M_cricoid_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.3393877,
+          "y_translation": 627.5649,
+          "z_translation": 23.8878839,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male cricoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_cricoid_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0002375",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage",
+      "x_dimension": 53.753081699999996,
+      "y_dimension": 44.400465000000054,
+      "z_dimension": 38.628311999999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male thyroid cartilage",
+      "pref_label": "thyroid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001738",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.4472071,
+          "y_translation": -637.3909,
+          "z_translation": -21.70757,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male thyroid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male thyroid cartilage",
+        "file_subpath": "VH_M_thyroid_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.4472071,
+          "y_translation": 637.3909,
+          "z_translation": 21.70757,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male thyroid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_thyroid_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001738",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage",
+      "x_dimension": 14.543457,
+      "y_dimension": 3.3244330000001128,
+      "z_dimension": 5.702573799999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male corniculate cartilage",
+      "pref_label": "corniculate cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001741",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.695393,
+          "y_translation": -664.833367,
+          "z_translation": -27.3929313,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male corniculate cartilage",
+        "file_subpath": "VH_M_corniculate_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.695393,
+          "y_translation": 664.833367,
+          "z_translation": 27.3929313,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001741",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L",
+      "x_dimension": 5.10211903,
+      "y_dimension": 3.3244330000001128,
+      "z_dimension": 4.371885200000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male corniculate cartilage",
+      "pref_label": "Left corniculate cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55116",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.74594497,
+          "y_translation": -664.833367,
+          "z_translation": -27.3929313,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male corniculate cartilage",
+        "file_subpath": "VH_M_corniculate_cartilage_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.74594497,
+          "y_translation": 664.833367,
+          "z_translation": 27.3929313,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:55116",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R",
+      "x_dimension": 5.300369709999999,
+      "y_dimension": 3.090202999999974,
+      "z_dimension": 5.446545099999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male corniculate cartilage",
+      "pref_label": "Right corniculate cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55115",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R_obj",
+        "file_name": "3d-vh-m-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.695393,
+          "y_translation": -665.067434,
+          "z_translation": -27.64896,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male corniculate cartilage",
+        "file_subpath": "VH_M_corniculate_cartilage_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.695393,
+          "y_translation": 665.067434,
+          "z_translation": 27.64896,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#VH_M_corniculate_cartilage_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:55115",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

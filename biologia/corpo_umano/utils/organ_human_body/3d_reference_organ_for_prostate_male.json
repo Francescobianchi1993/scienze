@@ -1,0 +1,1839 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/prostate-male",
+  "metadata": {
+    "title": "prostate-male (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Prostate, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/prostate-male/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/prostate-male/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "x_dimension": 82.9711906,
+      "y_dimension": 70.60566223530297,
+      "z_dimension": 42.848676830443246,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male male reproductive system",
+      "pref_label": "prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000079",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 37.443896900000006,
+          "y_translation": 8.28042,
+          "z_translation": 42.603849558443244,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male male reproductive system",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male male reproductive system",
+        "file_subpath": "VH_M_male_reproductive_system",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -37.443896900000006,
+          "y_translation": -8.28042,
+          "z_translation": -42.603849558443244,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male male reproductive system",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000079",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct",
+      "x_dimension": 82.9711906,
+      "y_dimension": 61.43495153530297,
+      "z_dimension": 40.2857658559428,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male male genital duct",
+      "pref_label": "male genital duct",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0010140",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 37.443896900000006,
+          "y_translation": -0.8902907,
+          "z_translation": 42.603849558443244,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male male genital duct",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male male genital duct",
+        "file_subpath": "VH_M_male_genital_duct",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -37.443896900000006,
+          "y_translation": 0.8902907,
+          "z_translation": -42.603849558443244,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male male genital duct",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_male_genital_duct",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0010140",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle",
+      "x_dimension": 51.5172593,
+      "y_dimension": 26.698179599999992,
+      "z_dimension": 23.037393100000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male seminal vesicle",
+      "pref_label": "seminal vesicle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000998",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 26.6221855,
+          "y_translation": -20.237106800000003,
+          "z_translation": 40.17246,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male seminal vesicle",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male seminal vesicle",
+        "file_subpath": "VH_M_seminal_vesicle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -26.6221855,
+          "y_translation": 20.237106800000003,
+          "z_translation": -40.17246,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male seminal vesicle",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_vesicle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0000998",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct",
+      "x_dimension": 3.38139106,
+      "y_dimension": 20.3339957,
+      "z_dimension": 12.979089299999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ejaculatory duct",
+      "pref_label": "ejaculatory duct",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000999",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 1.12181483,
+          "y_translation": -0.8902907,
+          "z_translation": 24.291032899999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ejaculatory duct",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ejaculatory duct",
+        "file_subpath": "VH_M_ejaculatory_duct",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -1.12181483,
+          "y_translation": 0.8902907,
+          "z_translation": -24.291032899999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ejaculatory duct",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_ejaculatory_duct",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0000999",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland",
+      "x_dimension": 29.5987874,
+      "y_dimension": 35.8266973,
+      "z_dimension": 30.591392172,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male prostate gland",
+      "pref_label": "prostate gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002367",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 14.3820774,
+          "y_translation": 8.28042,
+          "z_translation": 30.3465649,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male prostate gland",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male prostate gland",
+        "file_subpath": "VH_M_prostate_gland",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -14.3820774,
+          "y_translation": -8.28042,
+          "z_translation": -30.3465649,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male prostate gland",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_gland",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0002367",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle",
+      "x_dimension": 0.8942135,
+      "y_dimension": 6.027247490000001,
+      "z_dimension": 5.609555199999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male prostatic utricle",
+      "pref_label": "prostatic utricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0011199",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.06556219999999999,
+          "y_translation": -2.34973151,
+          "z_translation": 15.911538199999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male prostatic utricle",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male prostatic utricle",
+        "file_subpath": "VH_M_prostatic_utricle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.06556219999999999,
+          "y_translation": 2.34973151,
+          "z_translation": -15.911538199999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male prostatic utricle",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostatic_utricle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0011199",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus",
+      "x_dimension": 4.32283664,
+      "y_dimension": 7.77707357,
+      "z_dimension": 3.236992299999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male seminal colliculus",
+      "pref_label": "Verumontanum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:19719",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 1.78567506,
+          "y_translation": 1.53298257,
+          "z_translation": 13.5619994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male seminal colliculus",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male seminal colliculus",
+        "file_subpath": "VH_M_seminal_colliculus",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -1.78567506,
+          "y_translation": -1.53298257,
+          "z_translation": -13.5619994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male seminal colliculus",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_seminal_colliculus",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:19719",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R",
+      "x_dimension": 4.96464409,
+      "y_dimension": 10.72938656,
+      "z_dimension": 1.9579288000000012,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male prostate duct",
+      "pref_label": "prostate duct",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002485",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.07189536,
+          "y_translation": 4.5256805600000005,
+          "z_translation": 14.1021535,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male prostate duct",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male prostate duct",
+        "file_subpath": "VH_M_prostate_duct_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.07189536,
+          "y_translation": -4.5256805600000005,
+          "z_translation": -14.1021535,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male prostate duct",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_prostate_duct_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0002485",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate",
+      "x_dimension": 14.1808181,
+      "y_dimension": 10.70634977,
+      "z_dimension": 16.667499,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male apex of prostate",
+      "pref_label": "apex of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0035441",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.19736749,
+          "y_translation": 8.183033,
+          "z_translation": 21.591913,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male apex of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male apex of prostate",
+        "file_subpath": "VH_M_apex_of_prostate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.19736749,
+          "y_translation": -8.183033,
+          "z_translation": -21.591913,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male apex of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_apex_of_prostate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0035441",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate",
+      "x_dimension": 20.6462873,
+      "y_dimension": 17.72377496,
+      "z_dimension": 15.552467574,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male base of prostate",
+      "pref_label": "base of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0035331",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.5894273,
+          "y_translation": -4.30733664,
+          "z_translation": 15.3826158,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male base of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male base of prostate",
+        "file_subpath": "VH_M_base_of_prostate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.5894273,
+          "y_translation": 4.30733664,
+          "z_translation": -15.3826158,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male base of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_base_of_prostate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0035331",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R",
+      "x_dimension": 15.62018718,
+      "y_dimension": 35.4952824,
+      "z_dimension": 27.837149750000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male peripheral zone of prostate",
+      "pref_label": "peripheral zone of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:8410026",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 14.3820774,
+          "y_translation": 8.28042,
+          "z_translation": 30.3465649,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male peripheral zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male peripheral zone of prostate",
+        "file_subpath": "VH_M_peripheral_zone_of_prostate_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -14.3820774,
+          "y_translation": -8.28042,
+          "z_translation": -30.3465649,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male peripheral zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:8410026",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L",
+      "x_dimension": 14.941039739999999,
+      "y_dimension": 35.385830490000004,
+      "z_dimension": 27.77096608,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male peripheral zone of prostate",
+      "pref_label": "peripheral zone of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:8410026",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.27567026,
+          "y_translation": 8.13680049,
+          "z_translation": 30.3448234,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male peripheral zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male peripheral zone of prostate",
+        "file_subpath": "VH_M_peripheral_zone_of_prostate_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.27567026,
+          "y_translation": -8.13680049,
+          "z_translation": -30.3448234,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male peripheral zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_peripheral_zone_of_prostate_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:8410026",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L",
+      "x_dimension": 10.014410654000002,
+      "y_dimension": 15.31191735,
+      "z_dimension": 11.827681100000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male transition zone  of prostate",
+      "pref_label": "transition zone of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:8410025",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.602751446,
+          "y_translation": -3.5836426500000003,
+          "z_translation": 18.515298100000003,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male transition zone  of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male transition zone  of prostate",
+        "file_subpath": "VH_M_transition_zone__of_prostate_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.602751446,
+          "y_translation": 3.5836426500000003,
+          "z_translation": -18.515298100000003,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male transition zone  of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone__of_prostate_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:8410025",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R",
+      "x_dimension": 10.857717610000002,
+      "y_dimension": 15.58068999,
+      "z_dimension": 11.876368900000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male transition zone of prostate",
+      "pref_label": "transition zone of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:8410025",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.827827000000001,
+          "y_translation": -3.4905984099999996,
+          "z_translation": 18.455104900000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male transition zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male transition zone of prostate",
+        "file_subpath": "VH_M_transition_zone_of_prostate_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.827827000000001,
+          "y_translation": 3.4905984099999996,
+          "z_translation": -18.455104900000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male transition zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_transition_zone_of_prostate_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:8410025",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R",
+      "x_dimension": 13.0225576,
+      "y_dimension": 19.8109982,
+      "z_dimension": 19.692645,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male central zone of prostate",
+      "pref_label": "central zone of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:8410027",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.064565,
+          "y_translation": -7.723955999999999,
+          "z_translation": 29.21072,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male central zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male central zone of prostate",
+        "file_subpath": "VH_M_central_zone_of_prostate_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.064565,
+          "y_translation": 7.723955999999999,
+          "z_translation": -29.21072,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male central zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:8410027",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L",
+      "x_dimension": 12.2160635,
+      "y_dimension": 19.821364,
+      "z_dimension": 19.7363273,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male central zone of prostate",
+      "pref_label": "central zone of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:8410027",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.6448074,
+          "y_translation": -7.7249133,
+          "z_translation": 29.321307299999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male central zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male central zone of prostate",
+        "file_subpath": "VH_M_central_zone_of_prostate_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.6448074,
+          "y_translation": 7.7249133,
+          "z_translation": -29.321307299999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male central zone of prostate",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_central_zone_of_prostate_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:8410027",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L",
+      "x_dimension": 10.021820949999999,
+      "y_dimension": 25.110363439999997,
+      "z_dimension": 11.2922649754,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male anterior fibromuscular stroma",
+      "pref_label": "Anterior fibromuscular stroma of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:74238",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.09339735,
+          "y_translation": 7.13807344,
+          "z_translation": 11.1991661,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male anterior fibromuscular stroma",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male anterior fibromuscular stroma",
+        "file_subpath": "VH_M_anterior_fibromuscular_stroma_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.09339735,
+          "y_translation": -7.13807344,
+          "z_translation": -11.1991661,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male anterior fibromuscular stroma",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "FMA:74238",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R",
+      "x_dimension": 10.477358429999999,
+      "y_dimension": 24.931226000000002,
+      "z_dimension": 11.660768872,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male anterior fibromuscular stroma",
+      "pref_label": "Anterior fibromuscular stroma of prostate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:74238",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R_obj",
+        "file_name": "3d-vh-m-prostate.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/prostate-male/v1.2/assets/3d-vh-m-prostate.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.307699,
+          "y_translation": 7.206486,
+          "z_translation": 11.4159416,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male anterior fibromuscular stroma",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male anterior fibromuscular stroma",
+        "file_subpath": "VH_M_anterior_fibromuscular_stroma_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.307699,
+          "y_translation": -7.206486,
+          "z_translation": -11.4159416,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male anterior fibromuscular stroma",
+          "source": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#VH_M_anterior_fibromuscular_stroma_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "FMA:74238",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

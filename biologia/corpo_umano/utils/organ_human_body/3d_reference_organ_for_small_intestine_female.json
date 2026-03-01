@@ -1,0 +1,1132 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/small-intestine-female",
+  "metadata": {
+    "title": "small-intestine-female (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Small Intestine, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/small-intestine-female/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/small-intestine-female/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "x_dimension": 161.57146999999998,
+      "y_dimension": 217.23270440000005,
+      "z_dimension": 99.9937542,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female small intestine",
+      "pref_label": "small intestine",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002108",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.13377999999999,
+          "y_translation": -78.8841546,
+          "z_translation": 78.1656653,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female small intestine",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female small intestine",
+        "file_subpath": "VH_F_small_intestine",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.13377999999999,
+          "y_translation": 78.8841546,
+          "z_translation": -78.1656653,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female small intestine",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002108",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+      "x_dimension": 88.0863063,
+      "y_dimension": 77.44811500000003,
+      "z_dimension": 84.62115287,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female duodenum",
+      "pref_label": "duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002114",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 66.5291,
+          "y_translation": -218.668744,
+          "z_translation": 78.1656653,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female duodenum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female duodenum",
+        "file_subpath": "VH_F_duodenum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -66.5291,
+          "y_translation": 218.668744,
+          "z_translation": -78.1656653,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female duodenum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0002114",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+      "x_dimension": 38.4528086,
+      "y_dimension": 51.04595900000004,
+      "z_dimension": 68.9684591,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female duodenum superior",
+      "pref_label": "superior part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7206",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.69744,
+          "y_translation": -245.0709,
+          "z_translation": 69.19522,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female duodenum superior",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female duodenum superior",
+        "file_subpath": "VH_F_duodenum_superior",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.69744,
+          "y_translation": 245.0709,
+          "z_translation": -69.19522,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female duodenum superior",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:7206",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+      "x_dimension": 28.7649157,
+      "y_dimension": 29.151737000000026,
+      "z_dimension": 29.93792207,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female duodenal ampulla",
+      "pref_label": "duodenal ampulla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0013644",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 39.7048481,
+          "y_translation": -233.372927,
+          "z_translation": 23.4824345,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female duodenal ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female duodenal ampulla",
+        "file_subpath": "VH_F_duodenal_ampulla",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -39.7048481,
+          "y_translation": 233.372927,
+          "z_translation": -23.4824345,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female duodenal ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0013644",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+      "x_dimension": 35.18876,
+      "y_dimension": 60.05047099999996,
+      "z_dimension": 26.699967700000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female duodenum descending",
+      "pref_label": "descending part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14928",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 66.5291,
+          "y_translation": -232.793629,
+          "z_translation": 78.1656653,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female duodenum descending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female duodenum descending",
+        "file_subpath": "VH_F_duodenum_descending",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -66.5291,
+          "y_translation": 232.793629,
+          "z_translation": -78.1656653,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female duodenum descending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:14928",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+      "x_dimension": 4.978768500000001,
+      "y_dimension": 5.171760999999975,
+      "z_dimension": 5.0351462,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sphincter of heptopancreatic ampulla",
+      "pref_label": "Sphincter of hepatopancreatic ampulla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15077",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.104675300000004,
+          "y_translation": -244.908914,
+          "z_translation": 64.69082,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sphincter of heptopancreatic ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sphincter of heptopancreatic ampulla",
+        "file_subpath": "VH_F_sphincter_of_heptopancreatic_ampulla",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.104675300000004,
+          "y_translation": 244.908914,
+          "z_translation": -64.69082,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sphincter of heptopancreatic ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:15077",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+      "x_dimension": 26.800095300000002,
+      "y_dimension": 25.559292000000028,
+      "z_dimension": 41.43195119999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female duodenum ascending",
+      "pref_label": "ascending part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14930",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 5.242889,
+          "y_translation": -230.57903299999998,
+          "z_translation": 66.19530999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female duodenum ascending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female duodenum ascending",
+        "file_subpath": "VH_F_duodenum_ascending",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -5.242889,
+          "y_translation": 230.57903299999998,
+          "z_translation": -66.19530999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female duodenum ascending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:14930",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+      "x_dimension": 64.8611865,
+      "y_dimension": 27.491286000000002,
+      "z_dimension": 27.71822999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female duodenum horizontal",
+      "pref_label": "horizontal part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14929",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 56.2852435,
+          "y_translation": -218.668744,
+          "z_translation": 72.72207999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female duodenum horizontal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female duodenum horizontal",
+        "file_subpath": "VH_F_duodenum_horizontal",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -56.2852435,
+          "y_translation": 218.668744,
+          "z_translation": -72.72207999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female duodenum horizontal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:14929",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+      "x_dimension": 136.56392,
+      "y_dimension": 137.413949,
+      "z_dimension": 64.405102,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female jejenum",
+      "pref_label": "jejunum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002115",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 62.12623,
+          "y_translation": -114.41478099999999,
+          "z_translation": 73.33413,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female jejenum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female jejenum",
+        "file_subpath": "VH_F_jejenum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -62.12623,
+          "y_translation": 114.41478099999999,
+          "z_translation": -73.33413,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female jejenum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0002115",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+      "x_dimension": 160.13506,
+      "y_dimension": 134.1742574,
+      "z_dimension": 98.7984352,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ileum",
+      "pref_label": "ileum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002116",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.13377999999999,
+          "y_translation": -78.8841546,
+          "z_translation": 76.9703463,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ileum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ileum",
+        "file_subpath": "VH_F_ileum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.13377999999999,
+          "y_translation": 78.8841546,
+          "z_translation": -76.9703463,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ileum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0002116",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+      "x_dimension": 71.985681,
+      "y_dimension": 67.59244,
+      "z_dimension": 15.247786399999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ileum terminal",
+      "pref_label": "distal part of ileum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14966",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal_obj",
+        "file_name": "3d-vh-f-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-female/v1.2/assets/3d-vh-f-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.48147,
+          "y_translation": -91.67813,
+          "z_translation": 42.2189943,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ileum terminal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ileum terminal",
+        "file_subpath": "VH_F_ileum_terminal",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.48147,
+          "y_translation": 91.67813,
+          "z_translation": -42.2189943,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ileum terminal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:14966",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

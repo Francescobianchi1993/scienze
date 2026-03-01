@@ -1,0 +1,651 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left",
+  "metadata": {
+    "title": "lymph-node-female-left (v1.0) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Lymph Node, Female, Left dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.0",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/lymph-node-female-left/v1.0",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "x_dimension": 19.631595000000004,
+      "y_dimension": 11.333346000000006,
+      "z_dimension": 12.512933500000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left lymph node a",
+      "pref_label": "Left lymph node",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0000029",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -113.902375,
+          "y_translation": 316.665381,
+          "z_translation": 44.3698168,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left lymph node a",
+        "file_subpath": "Yao_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 113.902375,
+          "y_translation": -316.665381,
+          "z_translation": -44.3698168,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000029",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a",
+      "x_dimension": 9.178639000000004,
+      "y_dimension": 4.024381000000005,
+      "z_dimension": 7.257200799999993,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left afferent lymphatic vessel a",
+      "pref_label": "afferent lymphatic vessel",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010396",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -116.69322799999999,
+          "y_translation": 316.665381,
+          "z_translation": 43.664745999999994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left afferent lymphatic vessel a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left afferent lymphatic vessel a",
+        "file_subpath": "Yao_afferent_lymphatic_vessel_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 116.69322799999999,
+          "y_translation": -316.665381,
+          "z_translation": -43.664745999999994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left afferent lymphatic vessel a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_afferent_lymphatic_vessel_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0010396",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a",
+      "x_dimension": 19.631595000000004,
+      "y_dimension": 9.337187000000029,
+      "z_dimension": 11.597473199999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left capsule of lymph node a",
+      "pref_label": "capsule of lymph node",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0002194",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -113.902375,
+          "y_translation": 315.215945,
+          "z_translation": 44.3698168,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left capsule of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left capsule of lymph node a",
+        "file_subpath": "Yao_capsule_of_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 113.902375,
+          "y_translation": -315.215945,
+          "z_translation": -44.3698168,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left capsule of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_capsule_of_lymph_node_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0002194",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a",
+      "x_dimension": 16.969398000000027,
+      "y_dimension": 7.8727009999999495,
+      "z_dimension": 10.03725,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left follicles a",
+      "pref_label": "lymph node follicle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010748",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -115.129679,
+          "y_translation": 314.60124299999995,
+          "z_translation": 43.71194,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left follicles a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left follicles a",
+        "file_subpath": "Yao_follicles_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 115.129679,
+          "y_translation": -314.60124299999995,
+          "z_translation": -43.71194,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left follicles a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_follicles_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0010748",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a",
+      "x_dimension": 8.967243000000025,
+      "y_dimension": 5.105464999999981,
+      "z_dimension": 8.918716200000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left efferent lymph node a",
+      "pref_label": "efferent lymphatic vessel",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010397",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -119.585477,
+          "y_translation": 310.4375,
+          "z_translation": 40.9794562,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left efferent lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left efferent lymph node a",
+        "file_subpath": "Yao_efferent_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 119.585477,
+          "y_translation": -310.4375,
+          "z_translation": -40.9794562,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left efferent lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_efferent_lymph_node_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0010397",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a",
+      "x_dimension": 18.530361000000013,
+      "y_dimension": 7.680520000000058,
+      "z_dimension": 10.813944,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left medulla of lymph node a",
+      "pref_label": "medulla of lymph node",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0002007",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -114.50143899999999,
+          "y_translation": 314.19012000000004,
+          "z_translation": 43.912936,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left medulla of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left medulla of lymph node a",
+        "file_subpath": "Yao_medulla_of_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 114.50143899999999,
+          "y_translation": -314.19012000000004,
+          "z_translation": -43.912936,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left medulla of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_medulla_of_lymph_node_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0002007",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a",
+      "x_dimension": 17.551481999999993,
+      "y_dimension": 6.497326000000044,
+      "z_dimension": 10.036667299999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left paracortex a",
+      "pref_label": "lymph node T cell domain",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010417",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a_obj",
+        "file_name": "NIH_F_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-female-left/v1.0/assets/NIH_F_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -114.64904200000001,
+          "y_translation": 314.214826,
+          "z_translation": 43.1282073,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left paracortex a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left paracortex a",
+        "file_subpath": "Yao_paracortex_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 114.64904200000001,
+          "y_translation": -314.214826,
+          "z_translation": -43.1282073,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left paracortex a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#Yao_paracortex_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-female-left/v1.0#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0010417",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

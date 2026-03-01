@@ -1,0 +1,3183 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/kidney-female-left",
+  "metadata": {
+    "title": "kidney-female-left (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Kidney, Female, Left dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/kidney-female-left/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/kidney-female-left/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_dimension": 73.11071700000001,
+      "y_dimension": 124.85636100000005,
+      "z_dimension": 77.579546,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left kidney",
+      "pref_label": "Left kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004538",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.05157,
+          "y_translation": -175.776139,
+          "z_translation": 139.386386,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left kidney",
+        "file_subpath": "VH_F_left_kidney",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.05157,
+          "y_translation": 175.776139,
+          "z_translation": -139.386386,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0004538",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+      "x_dimension": 73.11071700000001,
+      "y_dimension": 124.85636100000005,
+      "z_dimension": 77.579546,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left kidney capsule",
+      "pref_label": "kidney capsule",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002015",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.05157,
+          "y_translation": -175.776139,
+          "z_translation": 139.386386,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left kidney capsule",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left kidney capsule",
+        "file_subpath": "VH_F_kidney_capsule_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.05157,
+          "y_translation": 175.776139,
+          "z_translation": -139.386386,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left kidney capsule",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0002015",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+      "x_dimension": 38.53886679999999,
+      "y_dimension": 72.96627699999999,
+      "z_dimension": 40.279222000000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left hilum of kidney",
+      "pref_label": "hilum of kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0008716",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -44.3341732,
+          "y_translation": -206.506938,
+          "z_translation": 106.826052,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left hilum of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left hilum of kidney",
+        "file_subpath": "VH_F_hilum_of_kidney_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 44.3341732,
+          "y_translation": 206.506938,
+          "z_translation": -106.826052,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left hilum of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0008716",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+      "x_dimension": 58.0943781,
+      "y_dimension": 110.03010799999998,
+      "z_dimension": 64.41592430000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal medulla",
+      "pref_label": "renal medulla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000362",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.9534529,
+          "y_translation": -182.84799199999998,
+          "z_translation": 131.99915000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal medulla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal medulla",
+        "file_subpath": "VH_F_renal_medulla_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.9534529,
+          "y_translation": 182.84799199999998,
+          "z_translation": -131.99915000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal medulla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0000362",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+      "x_dimension": 24.171115400000005,
+      "y_dimension": 72.21891000000002,
+      "z_dimension": 38.19984199999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -66.1748946,
+          "y_translation": -199.43191099999999,
+          "z_translation": 118.38918199999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla",
+        "file_subpath": "VH_F_renal_papilla_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 66.1748946,
+          "y_translation": 199.43191099999999,
+          "z_translation": -118.38918199999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+      "x_dimension": 3.8890653999999927,
+      "y_dimension": 4.259169000000043,
+      "z_dimension": 4.888757999999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla a",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -66.1748946,
+          "y_translation": -267.39165199999997,
+          "z_translation": 113.510318,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla a",
+        "file_subpath": "VH_F_renal_papilla_L_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 66.1748946,
+          "y_translation": 267.39165199999997,
+          "z_translation": -113.510318,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+      "x_dimension": 3.4960841999999985,
+      "y_dimension": 3.682434999999998,
+      "z_dimension": 4.350096000000008,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla b",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -71.53392579999999,
+          "y_translation": -266.993433,
+          "z_translation": 112.08982,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla b",
+        "file_subpath": "VH_F_renal_papilla_L_b",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 71.53392579999999,
+          "y_translation": 266.993433,
+          "z_translation": -112.08982,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+      "x_dimension": 5.13767,
+      "y_dimension": 4.536800000000028,
+      "z_dimension": 2.9627089999999896,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla c",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -73.06274,
+          "y_translation": -256.5466,
+          "z_translation": 118.38918199999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla c",
+        "file_subpath": "VH_F_renal_papilla_L_c",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 73.06274,
+          "y_translation": 256.5466,
+          "z_translation": -118.38918199999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+      "x_dimension": 4.714709999999997,
+      "y_dimension": 3.3234060000000056,
+      "z_dimension": 4.150317999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla d",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -73.81826,
+          "y_translation": -254.616767,
+          "z_translation": 114.33840000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla d",
+        "file_subpath": "VH_F_renal_papilla_L_d",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 73.81826,
+          "y_translation": 254.616767,
+          "z_translation": -114.33840000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+      "x_dimension": 2.735039999999998,
+      "y_dimension": 4.967539999999985,
+      "z_dimension": 3.571861999999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla e",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -78.02521,
+          "y_translation": -256.718725,
+          "z_translation": 112.532862,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla e",
+        "file_subpath": "VH_F_renal_papilla_L_e",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 78.02521,
+          "y_translation": 256.718725,
+          "z_translation": -112.532862,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+      "x_dimension": 2.7258600000000115,
+      "y_dimension": 6.878270999999984,
+      "z_dimension": 5.915200000000013,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla f",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -83.78361,
+          "y_translation": -231.58125600000002,
+          "z_translation": 93.54568,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla f",
+        "file_subpath": "VH_F_renal_papilla_L_f",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 83.78361,
+          "y_translation": 231.58125600000002,
+          "z_translation": -93.54568,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+      "x_dimension": 6.5303499999999985,
+      "y_dimension": 7.699147000000011,
+      "z_dimension": 3.231511000000012,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla g",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -74.54095,
+          "y_translation": -220.85008,
+          "z_translation": 103.642464,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla g",
+        "file_subpath": "VH_F_renal_papilla_L_g",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 74.54095,
+          "y_translation": 220.85008,
+          "z_translation": -103.642464,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+      "x_dimension": 2.7550500000000113,
+      "y_dimension": 4.071983000000017,
+      "z_dimension": 4.348515999999989,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla h",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.59096,
+          "y_translation": -224.04521699999998,
+          "z_translation": 92.66255,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla h",
+        "file_subpath": "VH_F_renal_papilla_L_h",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.59096,
+          "y_translation": 224.04521699999998,
+          "z_translation": -92.66255,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+      "x_dimension": 4.310666100000006,
+      "y_dimension": 7.205486000000008,
+      "z_dimension": 3.7652199999999993,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla i",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -81.4328939,
+          "y_translation": -204.575956,
+          "z_translation": 85.78932,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla i",
+        "file_subpath": "VH_F_renal_papilla_L_i",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 81.4328939,
+          "y_translation": 204.575956,
+          "z_translation": -85.78932,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+      "x_dimension": 5.0745000000000005,
+      "y_dimension": 5.492855999999989,
+      "z_dimension": 4.995113900000007,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla j",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -75.27475,
+          "y_translation": -201.737344,
+          "z_translation": 93.6691239,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla j",
+        "file_subpath": "VH_F_renal_papilla_L_j",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 75.27475,
+          "y_translation": 201.737344,
+          "z_translation": -93.6691239,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+      "x_dimension": 5.799266199999991,
+      "y_dimension": 4.443389000000025,
+      "z_dimension": 4.83793,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal papilla k",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -80.31198380000001,
+          "y_translation": -199.43191099999999,
+          "z_translation": 85.02727,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal papilla k",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal papilla k",
+        "file_subpath": "VH_F_renal_papilla_L_k",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 80.31198380000001,
+          "y_translation": 199.43191099999999,
+          "z_translation": -85.02727,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal papilla k",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+      "x_dimension": 58.0943781,
+      "y_dimension": 110.03010799999998,
+      "z_dimension": 64.41592430000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.9534529,
+          "y_translation": -182.84799199999998,
+          "z_translation": 131.99915000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid",
+        "file_subpath": "VH_F_renal_pyramid_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.9534529,
+          "y_translation": 182.84799199999998,
+          "z_translation": -131.99915000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+      "x_dimension": 22.174242899999996,
+      "y_dimension": 48.955344999999966,
+      "z_dimension": 34.71542190000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid a",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.9534529,
+          "y_translation": -243.922755,
+          "z_translation": 128.928617,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid a",
+        "file_subpath": "VH_F_renal_pyramid_L_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.9534529,
+          "y_translation": 243.922755,
+          "z_translation": -128.928617,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+      "x_dimension": 14.623629999999991,
+      "y_dimension": 20.901719999999955,
+      "z_dimension": 26.830017000000012,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid b",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -68.40518,
+          "y_translation": -259.55080000000004,
+          "z_translation": 115.64532700000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid b",
+        "file_subpath": "VH_F_renal_pyramid_L_b",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 68.40518,
+          "y_translation": 259.55080000000004,
+          "z_translation": -115.64532700000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+      "x_dimension": 16.813910000000007,
+      "y_dimension": 17.00526400000001,
+      "z_dimension": 16.49525800000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid c",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -69.43705999999999,
+          "y_translation": -256.386817,
+          "z_translation": 131.99915000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid c",
+        "file_subpath": "VH_F_renal_pyramid_L_c",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 69.43705999999999,
+          "y_translation": 256.386817,
+          "z_translation": -131.99915000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+      "x_dimension": 37.99213090000001,
+      "y_dimension": 19.87919999999997,
+      "z_dimension": 18.250972000000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid d",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -60.2222048,
+          "y_translation": -237.0043,
+          "z_translation": 127.04423100000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid d",
+        "file_subpath": "VH_F_renal_pyramid_L_d",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 60.2222048,
+          "y_translation": 237.0043,
+          "z_translation": -127.04423100000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+      "x_dimension": 26.166332999999995,
+      "y_dimension": 20.479039,
+      "z_dimension": 24.602104999999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid e",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -78.48114000000001,
+          "y_translation": -245.549127,
+          "z_translation": 117.39179499999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid e",
+        "file_subpath": "VH_F_renal_pyramid_L_e",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 78.48114000000001,
+          "y_translation": 245.549127,
+          "z_translation": -117.39179499999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+      "x_dimension": 34.41805099999999,
+      "y_dimension": 26.67909899999998,
+      "z_dimension": 31.817188999999985,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid f",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -71.62978000000001,
+          "y_translation": -226.954341,
+          "z_translation": 106.399149,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid f",
+        "file_subpath": "VH_F_renal_pyramid_L_f",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 71.62978000000001,
+          "y_translation": 226.954341,
+          "z_translation": -106.399149,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+      "x_dimension": 38.373650000000005,
+      "y_dimension": 31.232013999999992,
+      "z_dimension": 24.125167000000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid g",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -59.220009999999995,
+          "y_translation": -205.029771,
+          "z_translation": 122.848257,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid g",
+        "file_subpath": "VH_F_renal_pyramid_L_g",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 59.220009999999995,
+          "y_translation": 205.029771,
+          "z_translation": -122.848257,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+      "x_dimension": 17.398167,
+      "y_dimension": 16.58560399999999,
+      "z_dimension": 22.861773999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid h",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.83098,
+          "y_translation": -211.414024,
+          "z_translation": 101.710014,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid h",
+        "file_subpath": "VH_F_renal_pyramid_L_h",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.83098,
+          "y_translation": 211.414024,
+          "z_translation": -101.710014,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 24,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+      "x_dimension": 23.234150000000014,
+      "y_dimension": 30.733809000000008,
+      "z_dimension": 26.940924300000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid i",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -78.26714999999999,
+          "y_translation": -198.020726,
+          "z_translation": 94.52415,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid i",
+        "file_subpath": "VH_F_renal_pyramid_L_i",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 78.26714999999999,
+          "y_translation": 198.020726,
+          "z_translation": -94.52415,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 25,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+      "x_dimension": 24.535999999999994,
+      "y_dimension": 26.50227000000004,
+      "z_dimension": 22.917360000000016,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid j",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -58.951389999999996,
+          "y_translation": -189.28582999999998,
+          "z_translation": 106.342025,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid j",
+        "file_subpath": "VH_F_renal_pyramid_L_j",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 58.951389999999996,
+          "y_translation": 189.28582999999998,
+          "z_translation": -106.342025,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 26,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+      "x_dimension": 27.86312000000001,
+      "y_dimension": 23.309633000000048,
+      "z_dimension": 18.740549700000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal pyramid k",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -68.24538,
+          "y_translation": -182.84799199999998,
+          "z_translation": 89.6512941,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal pyramid k",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal pyramid k",
+        "file_subpath": "VH_F_renal_pyramid_L_k",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 68.24538,
+          "y_translation": 182.84799199999998,
+          "z_translation": -89.6512941,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal pyramid k",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 27,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+      "x_dimension": 72.354376,
+      "y_dimension": 123.553008,
+      "z_dimension": 76.9629921,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left cortex of kidney",
+      "pref_label": "cortex of kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001225",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.66296,
+          "y_translation": -175.943434,
+          "z_translation": 139.0342,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left cortex of kidney",
+        "file_subpath": "VH_F_cortex_of_kidney_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.66296,
+          "y_translation": 175.943434,
+          "z_translation": -139.0342,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 28,
+      "type_of": [
+        "UBERON:0001225",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+      "x_dimension": 52.745312600000005,
+      "y_dimension": 102.11777700000002,
+      "z_dimension": 58.398255000000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left renal column",
+      "pref_label": "renal column",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001284",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -51.4379144,
+          "y_translation": -186.093539,
+          "z_translation": 130.056545,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left renal column",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left renal column",
+        "file_subpath": "VH_F_renal_column_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 51.4379144,
+          "y_translation": 186.093539,
+          "z_translation": -130.056545,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left renal column",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 29,
+      "type_of": [
+        "UBERON:0001284",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+      "x_dimension": 72.354376,
+      "y_dimension": 123.553008,
+      "z_dimension": 76.9629921,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left outer cortex of kidney",
+      "pref_label": "outer cortex of kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002189",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L_obj",
+        "file_name": "3d-vh-f-kidney-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.66296,
+          "y_translation": -175.943434,
+          "z_translation": 139.0342,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left outer cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left outer cortex of kidney",
+        "file_subpath": "VH_F_outer_cortex_of_kidney_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.66296,
+          "y_translation": 175.943434,
+          "z_translation": -139.0342,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left outer cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "rui_rank": 30,
+      "type_of": [
+        "UBERON:0002189",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

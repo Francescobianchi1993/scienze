@@ -1,0 +1,1233 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/small-intestine-male",
+  "metadata": {
+    "title": "small-intestine-male (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Small Intestine, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/small-intestine-male/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/small-intestine-male/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "x_dimension": 187.98230239999998,
+      "y_dimension": 265.37127000000004,
+      "z_dimension": 122.16299012,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male small intestine",
+      "pref_label": "small intestine",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002108",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 61.7484264,
+          "y_translation": -99.83013,
+          "z_translation": -1.9695758799999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male small intestine",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male small intestine",
+        "file_subpath": "VH_M_small_intestine",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -61.7484264,
+          "y_translation": 99.83013,
+          "z_translation": 1.9695758799999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male small intestine",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002108",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+      "x_dimension": 146.5912064,
+      "y_dimension": 135.93127,
+      "z_dimension": 106.5155788,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ileum",
+      "pref_label": "ileum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002116",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 61.7484264,
+          "y_translation": -99.83013,
+          "z_translation": -17.6169872,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ileum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ileum",
+        "file_subpath": "VH_M_ileum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -61.7484264,
+          "y_translation": 99.83013,
+          "z_translation": 17.6169872,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ileum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0002116",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+      "x_dimension": 65.5146582,
+      "y_dimension": 88.37199900000002,
+      "z_dimension": 45.19718699999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ileum terminal",
+      "pref_label": "distal part of ileum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14966",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 48.56409,
+          "y_translation": -106.936418,
+          "z_translation": -20.713167300000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ileum terminal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ileum terminal",
+        "file_subpath": "VH_M_ileum_terminal",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -48.56409,
+          "y_translation": 106.936418,
+          "z_translation": 20.713167300000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ileum terminal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:14966",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+      "x_dimension": 150.6727899,
+      "y_dimension": 169.83504700000003,
+      "z_dimension": 116.16019112000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male jejunum",
+      "pref_label": "jejunum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002115",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 24.438913900000003,
+          "y_translation": -194.2894,
+          "z_translation": -1.9695758799999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male jejunum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male jejunum",
+        "file_subpath": "VH_M_jejunum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -24.438913900000003,
+          "y_translation": 194.2894,
+          "z_translation": 1.9695758799999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male jejunum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0002115",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+      "x_dimension": 107.7009067,
+      "y_dimension": 91.97700000000003,
+      "z_dimension": 67.9245377,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenum",
+      "pref_label": "duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002114",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.348734300000004,
+          "y_translation": -273.2244,
+          "z_translation": -10.1331323,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenum",
+        "file_subpath": "VH_M_duodenum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.348734300000004,
+          "y_translation": 273.2244,
+          "z_translation": 10.1331323,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenum",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0002114",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+      "x_dimension": 49.440391399999996,
+      "y_dimension": 59.92402099999998,
+      "z_dimension": 24.9659732,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenum ascending",
+      "pref_label": "ascending part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14930",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.911781000000001,
+          "y_translation": -290.7684,
+          "z_translation": -24.473390000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenum ascending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenum ascending",
+        "file_subpath": "VH_M_duodenum_ascending",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.911781000000001,
+          "y_translation": 290.7684,
+          "z_translation": 24.473390000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenum ascending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:14930",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+      "x_dimension": 26.9987099,
+      "y_dimension": 66.86196900000004,
+      "z_dimension": 24.299537700000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenum descending",
+      "pref_label": "descending part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14928",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 49.348734300000004,
+          "y_translation": -289.57343099999997,
+          "z_translation": -10.1331323,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenum descending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenum descending",
+        "file_subpath": "VH_M_duodenum_descending",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -49.348734300000004,
+          "y_translation": 289.57343099999997,
+          "z_translation": 10.1331323,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenum descending",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:14928",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+      "x_dimension": 64.12889440000001,
+      "y_dimension": 30.952999999999975,
+      "z_dimension": 30.768335599999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenum horizonal",
+      "pref_label": "horizontal part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14929",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.8659168,
+          "y_translation": -273.2244,
+          "z_translation": -12.6802344,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenum horizonal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenum horizonal",
+        "file_subpath": "VH_M_duodenum_horizonal",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.8659168,
+          "y_translation": 273.2244,
+          "z_translation": 12.6802344,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenum horizonal",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:14929",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+      "x_dimension": 44.92890948,
+      "y_dimension": 22.913949000000002,
+      "z_dimension": 47.53218220000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenum superior",
+      "pref_label": "superior part of duodenum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7206",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 42.092110000000005,
+          "y_translation": -342.28745100000003,
+          "z_translation": -20.0085826,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenum superior",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenum superior",
+        "file_subpath": "VH_M_duodenum_superior",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -42.092110000000005,
+          "y_translation": 342.28745100000003,
+          "z_translation": 20.0085826,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenum superior",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:7206",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+      "x_dimension": 22.6045028,
+      "y_dimension": 21.907031000000018,
+      "z_dimension": 23.1725024,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenal ampulla",
+      "pref_label": "duodenal ampulla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0013644",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.2536272,
+          "y_translation": -340.815425,
+          "z_translation": -54.8851676,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenal ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenal ampulla",
+        "file_subpath": "VH_M_duodenal_ampulla",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.2536272,
+          "y_translation": 340.815425,
+          "z_translation": 54.8851676,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenal ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0013644",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+      "x_dimension": 6.948415400000002,
+      "y_dimension": 9.79399699999999,
+      "z_dimension": 9.770413800000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male sphincter of hepatopancreatic ampulla",
+      "pref_label": "Sphincter of hepatopancreatic ampulla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15077",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 38.9697254,
+          "y_translation": -305.871665,
+          "z_translation": -17.492102499999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male sphincter of hepatopancreatic ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male sphincter of hepatopancreatic ampulla",
+        "file_subpath": "VH_M_sphincter_of_hepatopancreatic_ampulla",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -38.9697254,
+          "y_translation": 305.871665,
+          "z_translation": 17.492102499999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male sphincter of hepatopancreatic ampulla",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:15077",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+      "x_dimension": 1.4813989999999997,
+      "y_dimension": 2.2159809999999993,
+      "z_dimension": 1.9683741999999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papilla of santorini",
+      "pref_label": "duodenal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004914",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini_obj",
+        "file_name": "3d-vh-m-small-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/small-intestine-male/v1.2/assets/3d-vh-m-small-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 33.2710259,
+          "y_translation": -330.833644,
+          "z_translation": -22.50677,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papilla of santorini",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papilla of santorini",
+        "file_subpath": "VH_M_papilla_of_santorini",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -33.2710259,
+          "y_translation": 330.833644,
+          "z_translation": 22.50677,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papilla of santorini",
+          "source": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0004914",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

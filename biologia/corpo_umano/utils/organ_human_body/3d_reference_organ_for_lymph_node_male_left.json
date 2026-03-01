@@ -1,0 +1,741 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left",
+  "metadata": {
+    "title": "lymph-node-male-left (v1.0) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Lymph Node, Male, Left dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.0",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/lymph-node-male-left/v1.0",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "x_dimension": 18.318266000000023,
+      "y_dimension": 10.67265900000001,
+      "z_dimension": 12.966960700000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left lymph node a",
+      "pref_label": "Left lymph node",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0000029",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -150.856167,
+          "y_translation": 352.403522,
+          "z_translation": 49.2969342,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left lymph node a",
+        "file_subpath": "Yao_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 150.856167,
+          "y_translation": -352.403522,
+          "z_translation": -49.2969342,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000029",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a",
+      "x_dimension": 6.316215,
+      "y_dimension": 3.8456030000000396,
+      "z_dimension": 9.508036100000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left afferent lymphatic vessel a",
+      "pref_label": "afferent lymphatic vessel",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010396",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -153.830513,
+          "y_translation": 352.403522,
+          "z_translation": 49.2969342,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left afferent lymphatic vessel a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left afferent lymphatic vessel a",
+        "file_subpath": "Yao_afferent_lymphatic_vessel_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 153.830513,
+          "y_translation": -352.403522,
+          "z_translation": -49.2969342,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left afferent lymphatic vessel a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_afferent_lymphatic_vessel_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0010396",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a",
+      "x_dimension": 18.318266000000023,
+      "y_dimension": 8.186131000000046,
+      "z_dimension": 12.879162999999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left capsule of lymph node a",
+      "pref_label": "capsule of lymph node",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0002194",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -150.856167,
+          "y_translation": 351.0437,
+          "z_translation": 49.2091365,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left capsule of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left capsule of lymph node a",
+        "file_subpath": "Yao_capsule_of_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 150.856167,
+          "y_translation": -351.0437,
+          "z_translation": -49.2091365,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left capsule of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_capsule_of_lymph_node_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0002194",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a",
+      "x_dimension": 16.36174600000001,
+      "y_dimension": 6.350934999999993,
+      "z_dimension": 11.383201900000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left follicles a",
+      "pref_label": "lymph node follicle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010748",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -151.607454,
+          "y_translation": 350.493461,
+          "z_translation": 48.3599454,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left follicles a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left follicles a",
+        "file_subpath": "Yao_follicles_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 151.607454,
+          "y_translation": -350.493461,
+          "z_translation": -48.3599454,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left follicles a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_follicles_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0010748",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a",
+      "x_dimension": 6.510347000000053,
+      "y_dimension": 4.686736999999994,
+      "z_dimension": 10.073772599999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left efferent lymph node a",
+      "pref_label": "efferent lymphatic vessel",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010397",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -157.35448899999997,
+          "y_translation": 346.4176,
+          "z_translation": 46.67076,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left efferent lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left efferent lymph node a",
+        "file_subpath": "Yao_efferent_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 157.35448899999997,
+          "y_translation": -346.4176,
+          "z_translation": -46.67076,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left efferent lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_efferent_lymph_node_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0010397",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a",
+      "x_dimension": 17.269018000000017,
+      "y_dimension": 6.948501000000022,
+      "z_dimension": 12.089356800000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left medulla of lymph node a",
+      "pref_label": "medulla of lymph node",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0002007",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -151.56318199999998,
+          "y_translation": 350.117564,
+          "z_translation": 48.920683600000004,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left medulla of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left medulla of lymph node a",
+        "file_subpath": "Yao_medulla_of_lymph_node_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 151.56318199999998,
+          "y_translation": -350.117564,
+          "z_translation": -48.920683600000004,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left medulla of lymph node a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_medulla_of_lymph_node_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0002007",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a",
+      "x_dimension": 16.48303900000002,
+      "y_dimension": 6.65494799999999,
+      "z_dimension": 10.6149092,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left paracortex a",
+      "pref_label": "lymph node T cell domain",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0010417",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -151.45561099999998,
+          "y_translation": 350.614816,
+          "z_translation": 47.3235361,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left paracortex a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left paracortex a",
+        "file_subpath": "Yao_paracortex_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 151.45561099999998,
+          "y_translation": -350.614816,
+          "z_translation": -47.3235361,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left paracortex a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_paracortex_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0010417",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a",
+      "x_dimension": 17.39233699999997,
+      "y_dimension": 8.159423000000004,
+      "z_dimension": 11.887591299999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left vasculature a",
+      "pref_label": "vasculature",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-2390-083X",
+          "label": "Li Yao",
+          "conforms_to": "Person",
+          "fullName": "Li Yao",
+          "firstName": "Li",
+          "lastName": "Yao",
+          "orcid": "0000-0003-2390-083X",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2021-03-12",
+      "representation_of": "UBERON:0002049",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a_obj",
+        "file_name": "NIH_M_Lymph_Node_Left.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/lymph-node-male-left/v1.0/assets/NIH_M_Lymph_Node_Left.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -151.356444,
+          "y_translation": 350.2078,
+          "z_translation": 48.831604399999996,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left vasculature a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left vasculature a",
+        "file_subpath": "Yao_vasculature_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2021-03-12",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 151.356444,
+          "y_translation": -350.2078,
+          "z_translation": -48.831604399999996,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left vasculature a",
+          "source": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#Yao_vasculature_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/lymph-node-male-left/v1.0#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0002049",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

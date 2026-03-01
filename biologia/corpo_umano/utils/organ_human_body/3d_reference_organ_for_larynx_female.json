@@ -1,0 +1,1132 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/larynx-female",
+  "metadata": {
+    "title": "larynx-female (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Larynx, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/larynx-female/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/larynx-female/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "x_dimension": 46.4605512,
+      "y_dimension": 60.37850000000003,
+      "z_dimension": 40.061263239999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female larynx",
+      "pref_label": "larynx",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001737",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.5834863,
+          "y_translation": -603.4977,
+          "z_translation": 43.34083,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female larynx",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female larynx",
+        "file_subpath": "VH_F_larynx",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.5834863,
+          "y_translation": 603.4977,
+          "z_translation": -43.34083,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female larynx",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001737",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage",
+      "x_dimension": 46.4605512,
+      "y_dimension": 60.37850000000003,
+      "z_dimension": 40.061263239999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female laryngeal cartilage",
+      "pref_label": "laryngeal cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001739",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.5834863,
+          "y_translation": -603.4977,
+          "z_translation": 43.34083,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female laryngeal cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female laryngeal cartilage",
+        "file_subpath": "VH_F_laryngeal_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.5834863,
+          "y_translation": 603.4977,
+          "z_translation": -43.34083,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female laryngeal cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_laryngeal_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0001739",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage",
+      "x_dimension": 23.73925065,
+      "y_dimension": 18.711506999999983,
+      "z_dimension": 13.5588141,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female arytenoid cartilage",
+      "pref_label": "arytenoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001740",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.8259188,
+          "y_translation": -623.531461,
+          "z_translation": 35.69491,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female arytenoid cartilage",
+        "file_subpath": "VH_F_arytenoid_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.8259188,
+          "y_translation": 623.531461,
+          "z_translation": -35.69491,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001740",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R",
+      "x_dimension": 10.1801111,
+      "y_dimension": 18.52710000000002,
+      "z_dimension": 12.668438299999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female arytenoid cartilage",
+      "pref_label": "Right arytenoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55113",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.8259188,
+          "y_translation": -623.6682999999999,
+          "z_translation": 34.8045342,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female arytenoid cartilage",
+        "file_subpath": "VH_F_arytenoid_cartilage_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.8259188,
+          "y_translation": 623.6682999999999,
+          "z_translation": -34.8045342,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:55113",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L",
+      "x_dimension": 10.25434328,
+      "y_dimension": 18.711506999999983,
+      "z_dimension": 12.950284199999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female arytenoid cartilage",
+      "pref_label": "Left arytenoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55114",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.34101143,
+          "y_translation": -623.531461,
+          "z_translation": 35.69491,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female arytenoid cartilage",
+        "file_subpath": "VH_F_arytenoid_cartilage_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.34101143,
+          "y_translation": 623.531461,
+          "z_translation": -35.69491,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female arytenoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_arytenoid_cartilage_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:55114",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage",
+      "x_dimension": 20.142237163,
+      "y_dimension": 31.809799999999996,
+      "z_dimension": 11.0769868,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female epiglotic cartilage",
+      "pref_label": "epiglottic cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001742",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.4236265,
+          "y_translation": -632.0664,
+          "z_translation": 24.9104016,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female epiglotic cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female epiglotic cartilage",
+        "file_subpath": "VH_F_epiglotic_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.4236265,
+          "y_translation": 632.0664,
+          "z_translation": -24.9104016,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female epiglotic cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_epiglotic_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001742",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage",
+      "x_dimension": 31.19562053,
+      "y_dimension": 26.504999999999995,
+      "z_dimension": 24.683739999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female cricoid cartilage",
+      "pref_label": "cricoid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002375",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 25.6242752,
+          "y_translation": -603.4977,
+          "z_translation": 43.34083,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female cricoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female cricoid cartilage",
+        "file_subpath": "VH_F_cricoid_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -25.6242752,
+          "y_translation": 603.4977,
+          "z_translation": -43.34083,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female cricoid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_cricoid_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0002375",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage",
+      "x_dimension": 46.4605512,
+      "y_dimension": 47.315597000000025,
+      "z_dimension": 34.96994074,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female thyroid cartilage",
+      "pref_label": "thyroid cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001738",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.5834863,
+          "y_translation": -614.8540380000001,
+          "z_translation": 38.2495075,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female thyroid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female thyroid cartilage",
+        "file_subpath": "VH_F_thyroid_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.5834863,
+          "y_translation": 614.8540380000001,
+          "z_translation": -38.2495075,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female thyroid cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_thyroid_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001738",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage",
+      "x_dimension": 12.62108285,
+      "y_dimension": 6.277899999999931,
+      "z_dimension": 6.2965713,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female corniculate cartilage",
+      "pref_label": "corniculate cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001741",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 15.4555673,
+          "y_translation": -640.8899,
+          "z_translation": 28.5563264,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female corniculate cartilage",
+        "file_subpath": "VH_F_corniculate_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -15.4555673,
+          "y_translation": 640.8899,
+          "z_translation": -28.5563264,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001741",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L",
+      "x_dimension": 3.785917070000001,
+      "y_dimension": 5.603200000000015,
+      "z_dimension": 3.8827364000000024,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female corniculate cartilage",
+      "pref_label": "Left corniculate cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55116",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.620401520000001,
+          "y_translation": -640.8899,
+          "z_translation": 28.5563264,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female corniculate cartilage",
+        "file_subpath": "VH_F_corniculate_cartilage_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.620401520000001,
+          "y_translation": 640.8899,
+          "z_translation": -28.5563264,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:55116",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R",
+      "x_dimension": 6.199616300000001,
+      "y_dimension": 5.584799999999973,
+      "z_dimension": 4.552874900000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female corniculate cartilage",
+      "pref_label": "Right corniculate cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:55115",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R_obj",
+        "file_name": "3d-vh-f-larynx.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 15.4555673,
+          "y_translation": -641.583,
+          "z_translation": 26.812630000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female corniculate cartilage",
+        "file_subpath": "VH_F_corniculate_cartilage_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -15.4555673,
+          "y_translation": 641.583,
+          "z_translation": -26.812630000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female corniculate cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#VH_F_corniculate_cartilage_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:55115",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

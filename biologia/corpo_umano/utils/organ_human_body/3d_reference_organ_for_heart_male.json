@@ -1,0 +1,1534 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/heart-male",
+  "metadata": {
+    "title": "heart-male (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Heart, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/heart-male/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/heart-male/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "x_dimension": 124.35118410000001,
+      "y_dimension": 105.43523400000004,
+      "z_dimension": 105.2152393,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male heart",
+      "pref_label": "heart",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000948",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 43.44825,
+          "y_translation": -423.371166,
+          "z_translation": 15.0267193,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male heart",
+        "file_subpath": "VH_M_heart",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -43.44825,
+          "y_translation": 423.371166,
+          "z_translation": -15.0267193,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000948",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve",
+      "x_dimension": 65.3288532,
+      "y_dimension": 83.76006000000001,
+      "z_dimension": 68.02715925,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male heart valve",
+      "pref_label": "valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0003978",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 24.3575852,
+          "y_translation": -436.84610000000004,
+          "z_translation": 3.53920925,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male heart valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male heart valve",
+        "file_subpath": "VH_M_heart_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -24.3575852,
+          "y_translation": 436.84610000000004,
+          "z_translation": -3.53920925,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male heart valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0003978",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve",
+      "x_dimension": 36.596981369999995,
+      "y_dimension": 41.085324000000014,
+      "z_dimension": 30.456450750000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male mitral valve",
+      "pref_label": "mitral valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002135",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.37428663,
+          "y_translation": -456.529,
+          "z_translation": 3.53920925,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male mitral valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male mitral valve",
+        "file_subpath": "VH_M_mitral_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.37428663,
+          "y_translation": 456.529,
+          "z_translation": -3.53920925,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male mitral valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_mitral_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0002135",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve",
+      "x_dimension": 37.7279045,
+      "y_dimension": 46.19247399999995,
+      "z_dimension": 37.6009038,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male tricuspid valve",
+      "pref_label": "tricuspid valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002134",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 24.3575852,
+          "y_translation": -436.84610000000004,
+          "z_translation": -26.8870462,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male tricuspid valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male tricuspid valve",
+        "file_subpath": "VH_M_tricuspid_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -24.3575852,
+          "y_translation": 436.84610000000004,
+          "z_translation": 26.8870462,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male tricuspid valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_tricuspid_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0002134",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve",
+      "x_dimension": 24.673980099999998,
+      "y_dimension": 25.410472999999968,
+      "z_dimension": 21.4570645,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male aortic valve",
+      "pref_label": "aortic valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002137",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 5.520916,
+          "y_translation": -486.516178,
+          "z_translation": -17.9098155,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male aortic valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male aortic valve",
+        "file_subpath": "VH_M_aortic_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -5.520916,
+          "y_translation": 486.516178,
+          "z_translation": 17.9098155,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male aortic valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_aortic_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0002137",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve",
+      "x_dimension": 25.717133170000004,
+      "y_dimension": 24.220913000000053,
+      "z_dimension": 23.022274700000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male pulmonary valve",
+      "pref_label": "pulmonary valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002146",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.36516153,
+          "y_translation": -496.385247,
+          "z_translation": -30.76936,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male pulmonary valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male pulmonary valve",
+        "file_subpath": "VH_M_pulmonary_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.36516153,
+          "y_translation": 496.385247,
+          "z_translation": 30.76936,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male pulmonary valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_pulmonary_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0002146",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart",
+      "x_dimension": 52.76654008,
+      "y_dimension": 52.206316000000015,
+      "z_dimension": 61.88493,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papillary muscle of heart",
+      "pref_label": "papillary muscle of heart",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002494",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.33006652,
+          "y_translation": -431.416184,
+          "z_translation": -23.446270000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papillary muscle of heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papillary muscle of heart",
+        "file_subpath": "VH_M_papillary_muscle_of_heart",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.33006652,
+          "y_translation": 431.416184,
+          "z_translation": 23.446270000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papillary muscle of heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0002494",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior",
+      "x_dimension": 23.251739380000004,
+      "y_dimension": 14.436800000000005,
+      "z_dimension": 16.382625599999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papillary muscle of heart anterior",
+      "pref_label": "Anterior papillary muscle of left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7264",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.33006652,
+          "y_translation": -445.7935,
+          "z_translation": -68.9485744,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papillary muscle of heart anterior",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papillary muscle of heart anterior",
+        "file_subpath": "VH_M_papillary_muscle_of_heart_anterior",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.33006652,
+          "y_translation": 445.7935,
+          "z_translation": 68.9485744,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papillary muscle of heart anterior",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterior",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:7264",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral",
+      "x_dimension": 29.246826600000002,
+      "y_dimension": 28.585699999999974,
+      "z_dimension": 36.957535199999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papillary muscle of heart anterolateral",
+      "pref_label": "Anterolateral head of lateral papillary muscle of left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7265",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -30.84978,
+          "y_translation": -455.0368,
+          "z_translation": -23.446270000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papillary muscle of heart anterolateral",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papillary muscle of heart anterolateral",
+        "file_subpath": "VH_M_papillary_muscle_of_heart_anterolateral",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 30.84978,
+          "y_translation": 455.0368,
+          "z_translation": 23.446270000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papillary muscle of heart anterolateral",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_anterolateral",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:7265",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial",
+      "x_dimension": 6.311737400000002,
+      "y_dimension": 6.127297999999996,
+      "z_dimension": 8.495379199999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papillary muscle of heart medial",
+      "pref_label": "Septal papillary muscle of right ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7262",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -21.249072599999998,
+          "y_translation": -440.913379,
+          "z_translation": -50.3119752,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papillary muscle of heart medial",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papillary muscle of heart medial",
+        "file_subpath": "VH_M_papillary_muscle_of_heart_medial",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 21.249072599999998,
+          "y_translation": 440.913379,
+          "z_translation": 50.3119752,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papillary muscle of heart medial",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_medial",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:7262",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior",
+      "x_dimension": 8.398406999999999,
+      "y_dimension": 5.450934000000018,
+      "z_dimension": 6.842547300000007,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papillary muscle of heart posterior",
+      "pref_label": "Posterior papillary muscle of right ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7261",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.377033,
+          "y_translation": -431.416184,
+          "z_translation": -55.321052699999996,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papillary muscle of heart posterior",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papillary muscle of heart posterior",
+        "file_subpath": "VH_M_papillary_muscle_of_heart_posterior",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.377033,
+          "y_translation": 431.416184,
+          "z_translation": 55.321052699999996,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papillary muscle of heart posterior",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posterior",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:7261",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial",
+      "x_dimension": 27.2292495,
+      "y_dimension": 12.576818000000003,
+      "z_dimension": 33.6648964,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male papillary muscle of heart posteromedial",
+      "pref_label": "Posteromedial head of posterior papillary muscle of left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7267",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -31.837847099999998,
+          "y_translation": -451.97272300000003,
+          "z_translation": -25.0845,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male papillary muscle of heart posteromedial",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male papillary muscle of heart posteromedial",
+        "file_subpath": "VH_M_papillary_muscle_of_heart_posteromedial",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 31.837847099999998,
+          "y_translation": 451.97272300000003,
+          "z_translation": 25.0845,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male papillary muscle of heart posteromedial",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_papillary_muscle_of_heart_posteromedial",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "FMA:7267",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium",
+      "x_dimension": 72.9618759,
+      "y_dimension": 72.15559999999999,
+      "z_dimension": 46.9716461,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left cardiac atrium",
+      "pref_label": "left cardiac atrium",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002079",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.112410000000004,
+          "y_translation": -456.55649999999997,
+          "z_translation": 15.0267193,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left cardiac atrium",
+        "file_subpath": "VH_M_left_cardiac_atrium",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.112410000000004,
+          "y_translation": 456.55649999999997,
+          "z_translation": -15.0267193,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_left_cardiac_atrium",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0002079",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium",
+      "x_dimension": 52.143283000000004,
+      "y_dimension": 95.79883200000006,
+      "z_dimension": 62.81008688,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right cardiac atrium",
+      "pref_label": "right cardiac atrium",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002078",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 43.44825,
+          "y_translation": -433.007568,
+          "z_translation": -2.97307852,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right cardiac atrium",
+        "file_subpath": "VH_M_right_cardiac_atrium",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -43.44825,
+          "y_translation": 433.007568,
+          "z_translation": 2.97307852,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_right_cardiac_atrium",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0002078",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle",
+      "x_dimension": 83.1189472,
+      "y_dimension": 97.67433400000004,
+      "z_dimension": 65.3437115,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male heart right ventricle",
+      "pref_label": "heart right ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002080",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 23.8987412,
+          "y_translation": -423.371166,
+          "z_translation": -24.8448085,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male heart right ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male heart right ventricle",
+        "file_subpath": "VH_M_heart_right_ventricle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -23.8987412,
+          "y_translation": 423.371166,
+          "z_translation": 24.8448085,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male heart right ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_right_ventricle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0002080",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum",
+      "x_dimension": 51.8729259,
+      "y_dimension": 72.48265100000003,
+      "z_dimension": 66.7629456,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male interventricular septum",
+      "pref_label": "interventricular septum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002094",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.6408570000000005,
+          "y_translation": -427.0136,
+          "z_translation": -16.753444400000003,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male interventricular septum",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male interventricular septum",
+        "file_subpath": "VH_M_interventricular_septum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.6408570000000005,
+          "y_translation": 427.0136,
+          "z_translation": 16.753444400000003,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male interventricular septum",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_interventricular_septum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0002094",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle",
+      "x_dimension": 76.36421875,
+      "y_dimension": 76.81199999999995,
+      "z_dimension": 92.605011,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male heart left ventricle",
+      "pref_label": "heart left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002084",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle_obj",
+        "file_name": "3d-vh-m-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.3/assets/3d-vh-m-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.53871535,
+          "y_translation": -425.8946,
+          "z_translation": 4.836521,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male heart left ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male heart left ventricle",
+        "file_subpath": "VH_M_heart_left_ventricle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.53871535,
+          "y_translation": 425.8946,
+          "z_translation": -4.836521,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male heart left ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#VH_M_heart_left_ventricle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0002084",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

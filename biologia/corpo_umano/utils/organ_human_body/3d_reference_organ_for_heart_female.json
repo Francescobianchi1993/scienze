@@ -1,0 +1,1738 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/heart-female",
+  "metadata": {
+    "title": "heart-female (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Heart, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/heart-female/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/heart-female/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "x_dimension": 142.54222620000002,
+      "y_dimension": 109.98499399999997,
+      "z_dimension": 101.49742499999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female heart",
+      "pref_label": "heart",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000948",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.9527262,
+          "y_translation": -389.061868,
+          "z_translation": 106.605567,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female heart",
+        "file_subpath": "VH_F_heart",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.9527262,
+          "y_translation": 389.061868,
+          "z_translation": -106.605567,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000948",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum",
+      "x_dimension": 68.19877770000001,
+      "y_dimension": 66.07791800000001,
+      "z_dimension": 59.85428759999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female interventricular septum",
+      "pref_label": "interventricular septum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002094",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -14.379502299999999,
+          "y_translation": -396.343946,
+          "z_translation": 77.0979151,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female interventricular septum",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female interventricular septum",
+        "file_subpath": "VH_F_interventricular_septum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 14.379502299999999,
+          "y_translation": 396.343946,
+          "z_translation": -77.0979151,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female interventricular septum",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_interventricular_septum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0002094",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium",
+      "x_dimension": 74.0930319,
+      "y_dimension": 65.34967900000004,
+      "z_dimension": 55.301159600000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left cardiac atrium",
+      "pref_label": "left cardiac atrium",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002079",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.324819999999995,
+          "y_translation": -429.783821,
+          "z_translation": 104.045257,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left cardiac atrium",
+        "file_subpath": "VH_F_left_cardiac_atrium",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.324819999999995,
+          "y_translation": 429.783821,
+          "z_translation": -104.045257,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_cardiac_atrium",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0002079",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle",
+      "x_dimension": 97.2565869,
+      "y_dimension": 82.93103399999995,
+      "z_dimension": 87.9933685,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left ventricle",
+      "pref_label": "heart left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002084",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.3329131,
+          "y_translation": -395.192266,
+          "z_translation": 106.605567,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left ventricle",
+        "file_subpath": "VH_F_left_ventricle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.3329131,
+          "y_translation": 395.192266,
+          "z_translation": -106.605567,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_left_ventricle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0002084",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium",
+      "x_dimension": 50.5665162,
+      "y_dimension": 83.45875199999995,
+      "z_dimension": 78.6747146,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right cardiac atrium",
+      "pref_label": "right cardiac atrium",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002078",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.9527262,
+          "y_translation": -397.863448,
+          "z_translation": 95.31635,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right cardiac atrium",
+        "file_subpath": "VH_F_right_cardiac_atrium",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.9527262,
+          "y_translation": 397.863448,
+          "z_translation": -95.31635,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right cardiac atrium",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_cardiac_atrium",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0002078",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle",
+      "x_dimension": 92.83046660999999,
+      "y_dimension": 109.98499399999997,
+      "z_dimension": 59.01759800000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right ventricle",
+      "pref_label": "heart right ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002080",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.41631661,
+          "y_translation": -389.061868,
+          "z_translation": 64.12574000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right ventricle",
+        "file_subpath": "VH_F_right_ventricle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.41631661,
+          "y_translation": 389.061868,
+          "z_translation": -64.12574000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right ventricle",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_right_ventricle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0002080",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart",
+      "x_dimension": 61.51508820000001,
+      "y_dimension": 51.683604,
+      "z_dimension": 64.709604,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female papillary muscle of heart",
+      "pref_label": "papillary muscle of heart",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002494",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -21.7735618,
+          "y_translation": -404.395521,
+          "z_translation": 77.5895,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female papillary muscle of heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female papillary muscle of heart",
+        "file_subpath": "VH_F_papillary_muscle_of_heart",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 21.7735618,
+          "y_translation": 404.395521,
+          "z_translation": -77.5895,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female papillary muscle of heart",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0002494",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant",
+      "x_dimension": 30.380053100000005,
+      "y_dimension": 17.631547000000012,
+      "z_dimension": 9.0646455,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female papillary muscle of heart ant",
+      "pref_label": "Anterior papillary muscle of left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7264",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.6859069,
+          "y_translation": -411.3463,
+          "z_translation": 21.9445415,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female papillary muscle of heart ant",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female papillary muscle of heart ant",
+        "file_subpath": "VH_F_papillary_muscle_of_heart_ant",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.6859069,
+          "y_translation": 411.3463,
+          "z_translation": -21.9445415,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female papillary muscle of heart ant",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_ant",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:7264",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat",
+      "x_dimension": 35.9245864,
+      "y_dimension": 29.386757999999986,
+      "z_dimension": 28.552334100000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female papillary muscle of heart antlat",
+      "pref_label": "Anterolateral head of lateral papillary muscle of left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7265",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -47.3640636,
+          "y_translation": -426.692367,
+          "z_translation": 77.5895,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female papillary muscle of heart antlat",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female papillary muscle of heart antlat",
+        "file_subpath": "VH_F_papillary_muscle_of_heart_antlat",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 47.3640636,
+          "y_translation": 426.692367,
+          "z_translation": -77.5895,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female papillary muscle of heart antlat",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_antlat",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:7265",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med",
+      "x_dimension": 7.574161500000006,
+      "y_dimension": 6.386233000000061,
+      "z_dimension": 7.602104800000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female papillary muscle of heart med",
+      "pref_label": "Septal papillary muscle of right ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7262",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -30.0742928,
+          "y_translation": -418.46139999999997,
+          "z_translation": 41.667370000000005,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female papillary muscle of heart med",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female papillary muscle of heart med",
+        "file_subpath": "VH_F_papillary_muscle_of_heart_med",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 30.0742928,
+          "y_translation": 418.46139999999997,
+          "z_translation": -41.667370000000005,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female papillary muscle of heart med",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_med",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:7262",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos",
+      "x_dimension": 6.052704600000002,
+      "y_dimension": 5.424878999999976,
+      "z_dimension": 6.236404199999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female papillary muscle of heart pos",
+      "pref_label": "Posterior papillary muscle of right ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7261",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -21.7735618,
+          "y_translation": -404.395521,
+          "z_translation": 35.8533561,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female papillary muscle of heart pos",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female papillary muscle of heart pos",
+        "file_subpath": "VH_F_papillary_muscle_of_heart_pos",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 21.7735618,
+          "y_translation": 404.395521,
+          "z_translation": -35.8533561,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female papillary muscle of heart pos",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_pos",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:7261",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed",
+      "x_dimension": 30.598998,
+      "y_dimension": 23.86528199999998,
+      "z_dimension": 27.637965000000015,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female papillary muscle of heart posmed",
+      "pref_label": "Posteromedial head of posterior papillary muscle of left ventricle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:7267",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -48.1159762,
+          "y_translation": -413.727373,
+          "z_translation": 69.72603500000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female papillary muscle of heart posmed",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female papillary muscle of heart posmed",
+        "file_subpath": "VH_F_papillary_muscle_of_heart_posmed",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 48.1159762,
+          "y_translation": 413.727373,
+          "z_translation": -69.72603500000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female papillary muscle of heart posmed",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_papillary_muscle_of_heart_posmed",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "FMA:7267",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve",
+      "x_dimension": 44.65986514,
+      "y_dimension": 90.358653,
+      "z_dimension": 60.978242800000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female valve",
+      "pref_label": "valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0003978",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.28743754,
+          "y_translation": -402.72414699999996,
+          "z_translation": 83.2112,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female valve",
+        "file_subpath": "VH_F_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.28743754,
+          "y_translation": 402.72414699999996,
+          "z_translation": -83.2112,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0003978",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve",
+      "x_dimension": 24.9065503,
+      "y_dimension": 30.294399999999996,
+      "z_dimension": 24.9728784,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female aortic valve",
+      "pref_label": "aortic valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002137",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.7399612,
+          "y_translation": -447.8916,
+          "z_translation": 63.8616756,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female aortic valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female aortic valve",
+        "file_subpath": "VH_F_aortic_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.7399612,
+          "y_translation": 447.8916,
+          "z_translation": -63.8616756,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female aortic valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_aortic_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0002137",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve",
+      "x_dimension": 24.87006869,
+      "y_dimension": 23.397721999999987,
+      "z_dimension": 18.297474799999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pulmonary valve",
+      "pref_label": "pulmonary valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002146",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.30673131,
+          "y_translation": -469.685078,
+          "z_translation": 40.530432,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pulmonary valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pulmonary valve",
+        "file_subpath": "VH_F_pulmonary_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.30673131,
+          "y_translation": 469.685078,
+          "z_translation": -40.530432,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pulmonary valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_pulmonary_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0002146",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve",
+      "x_dimension": 27.3089754,
+      "y_dimension": 31.823158000000035,
+      "z_dimension": 29.900920000000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female mitral valve",
+      "pref_label": "mitral valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002135",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -13.0634522,
+          "y_translation": -428.915173,
+          "z_translation": 83.2112,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female mitral valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female mitral valve",
+        "file_subpath": "VH_F_mitral_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 13.0634522,
+          "y_translation": 428.915173,
+          "z_translation": -83.2112,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female mitral valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_mitral_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0002135",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve",
+      "x_dimension": 30.85791414,
+      "y_dimension": 46.90539800000005,
+      "z_dimension": 37.2745751,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female tricuspid valve",
+      "pref_label": "tricuspid valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002134",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve_obj",
+        "file_name": "3d-vh-f-heart.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/heart-female/v1.3/assets/3d-vh-f-heart.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.28743754,
+          "y_translation": -402.72414699999996,
+          "z_translation": 61.90585,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female tricuspid valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female tricuspid valve",
+        "file_subpath": "VH_F_tricuspid_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.28743754,
+          "y_translation": 402.72414699999996,
+          "z_translation": -61.90585,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female tricuspid valve",
+          "source": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#VH_F_tricuspid_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0002134",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

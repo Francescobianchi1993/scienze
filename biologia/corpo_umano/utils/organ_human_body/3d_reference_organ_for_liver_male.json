@@ -1,0 +1,2344 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/liver-male",
+  "metadata": {
+    "title": "liver-male (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Liver, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/liver-male/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/liver-male/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "x_dimension": 191.36759669999998,
+      "y_dimension": 174.55454399999996,
+      "z_dimension": 201.756768,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male liver",
+      "pref_label": "liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002107",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 133.268759,
+          "y_translation": -279.973656,
+          "z_translation": 89.579314,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male liver",
+        "file_subpath": "VH_M_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -133.268759,
+          "y_translation": 279.973656,
+          "z_translation": -89.579314,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002107",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver",
+      "x_dimension": 88.14598099999999,
+      "y_dimension": 99.60934699999996,
+      "z_dimension": 125.6568966,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male bare area of liver",
+      "pref_label": "bare area of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001149",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 76.97205,
+          "y_translation": -336.5387,
+          "z_translation": 84.84674,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male bare area of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male bare area of liver",
+        "file_subpath": "VH_M_bare_area_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -76.97205,
+          "y_translation": 336.5387,
+          "z_translation": -84.84674,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male bare area of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0001149",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule",
+      "x_dimension": 191.36759669999998,
+      "y_dimension": 174.55454399999996,
+      "z_dimension": 193.90289510000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male liver capsule",
+      "pref_label": "capsule of the liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0016479",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 133.268759,
+          "y_translation": -279.973656,
+          "z_translation": 85.59804410000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male liver capsule",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male liver capsule",
+        "file_subpath": "VH_M_liver_capsule",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -133.268759,
+          "y_translation": 279.973656,
+          "z_translation": -85.59804410000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male liver capsule",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0016479",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface",
+      "x_dimension": 171.6398972,
+      "y_dimension": 148.64594300000005,
+      "z_dimension": 186.996739,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male diaphragmatic surface",
+      "pref_label": "diaphragmatic surface of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15729",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 114.57083399999999,
+          "y_translation": -281.0938,
+          "z_translation": 81.01831,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male diaphragmatic surface",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male diaphragmatic surface",
+        "file_subpath": "VH_M_diaphragmatic_surface",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -114.57083399999999,
+          "y_translation": 281.0938,
+          "z_translation": -81.01831,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male diaphragmatic surface",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:15729",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver",
+      "x_dimension": 20.2087164,
+      "y_dimension": 14.651834000000065,
+      "z_dimension": 39.181221300000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male suprarenal impression of liver",
+      "pref_label": "Suprarenal impression of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14489",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 56.261804,
+          "y_translation": -333.89082599999995,
+          "z_translation": 53.6468439,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male suprarenal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male suprarenal impression of liver",
+        "file_subpath": "VH_M_suprarenal_impression_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -56.261804,
+          "y_translation": 333.89082599999995,
+          "z_translation": -53.6468439,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male suprarenal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:14489",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver",
+      "x_dimension": 49.1185245,
+      "y_dimension": 46.303361999999936,
+      "z_dimension": 47.5210675,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male renal impression of liver",
+      "pref_label": "renal impression of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14488",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 101.5513,
+          "y_translation": -296.18221500000004,
+          "z_translation": 56.887153500000004,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male renal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male renal impression of liver",
+        "file_subpath": "VH_M_renal_impression_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -101.5513,
+          "y_translation": 296.18221500000004,
+          "z_translation": -56.887153500000004,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male renal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:14488",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver",
+      "x_dimension": 53.756472699999996,
+      "y_dimension": 58.416157999999996,
+      "z_dimension": 68.961078,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male gastric impression of liver",
+      "pref_label": "gastric impression of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14487",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 5.365138,
+          "y_translation": -355.35112000000004,
+          "z_translation": -32.38955,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male gastric impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male gastric impression of liver",
+        "file_subpath": "VH_M_gastric_impression_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -5.365138,
+          "y_translation": 355.35112000000004,
+          "z_translation": 32.38955,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male gastric impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:14487",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver",
+      "x_dimension": 43.358789,
+      "y_dimension": 77.46945699999998,
+      "z_dimension": 63.2765895,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male colic impression of liver",
+      "pref_label": "colic impression of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14484",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 111.298829,
+          "y_translation": -285.170943,
+          "z_translation": 0.49083950000000004,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male colic impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male colic impression of liver",
+        "file_subpath": "VH_M_colic_impression_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -111.298829,
+          "y_translation": 285.170943,
+          "z_translation": -0.49083950000000004,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male colic impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:14484",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver",
+      "x_dimension": 36.93226863,
+      "y_dimension": 51.38358299999999,
+      "z_dimension": 29.485188,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male esophageal impression of liver",
+      "pref_label": "esophageal impression of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14486",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.10326137,
+          "y_translation": -373.369217,
+          "z_translation": -7.716412,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male esophageal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male esophageal impression of liver",
+        "file_subpath": "VH_M_esophageal_impression_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.10326137,
+          "y_translation": 373.369217,
+          "z_translation": 7.716412,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male esophageal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:14486",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver",
+      "x_dimension": 33.13047710000001,
+      "y_dimension": 21.676390999999967,
+      "z_dimension": 16.2748974,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male duodenal impression of liver",
+      "pref_label": "duodenal impression of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14485",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 75.50007000000001,
+          "y_translation": -325.14736100000005,
+          "z_translation": 6.266186,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male duodenal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male duodenal impression of liver",
+        "file_subpath": "VH_M_duodenal_impression_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -75.50007000000001,
+          "y_translation": 325.14736100000005,
+          "z_translation": -6.266186,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male duodenal impression of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:14485",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis",
+      "x_dimension": 62.34768339000001,
+      "y_dimension": 35.992264999999975,
+      "z_dimension": 38.9846214,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male porta hepatis",
+      "pref_label": "porta hepatis",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15758",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 65.94424000000001,
+          "y_translation": -349.49097,
+          "z_translation": -1.8255352,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male porta hepatis",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male porta hepatis",
+        "file_subpath": "VH_M_porta_hepatis",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -65.94424000000001,
+          "y_translation": 349.49097,
+          "z_translation": 1.8255352,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male porta hepatis",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:15758",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver",
+      "x_dimension": 60.0403628,
+      "y_dimension": 104.32842299999999,
+      "z_dimension": 65.7264721,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male caudate lobe of liver",
+      "pref_label": "caudate lobe of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001117",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 43.994119999999995,
+          "y_translation": -338.27993299999997,
+          "z_translation": 36.5943052,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male caudate lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male caudate lobe of liver",
+        "file_subpath": "VH_M_caudate_lobe_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -43.994119999999995,
+          "y_translation": 338.27993299999997,
+          "z_translation": -36.5943052,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male caudate lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0001117",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver",
+      "x_dimension": 107.305137,
+      "y_dimension": 172.335439,
+      "z_dimension": 164.12501,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right lobe of liver",
+      "pref_label": "right lobe of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001114",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 132.278547,
+          "y_translation": -281.0942,
+          "z_translation": 84.63399000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right lobe of liver",
+        "file_subpath": "VH_M_right_lobe_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -132.278547,
+          "y_translation": 281.0942,
+          "z_translation": -84.63399000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0001114",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver",
+      "x_dimension": 150.65931,
+      "y_dimension": 101.24137999999999,
+      "z_dimension": 99.7608546,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left lobe of liver",
+      "pref_label": "left lobe of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001115",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 93.59087000000001,
+          "y_translation": -347.953051,
+          "z_translation": -7.574027399999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left lobe of liver",
+        "file_subpath": "VH_M_left_lobe_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -93.59087000000001,
+          "y_translation": 347.953051,
+          "z_translation": 7.574027399999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0001115",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe",
+      "x_dimension": 83.23659459999999,
+      "y_dimension": 81.397449,
+      "z_dimension": 99.7608546,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left lateral lobe",
+      "pref_label": "liver left lateral lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006727",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 26.1681546,
+          "y_translation": -347.953051,
+          "z_translation": -7.574027399999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left lateral lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left lateral lobe",
+        "file_subpath": "VH_M_left_lateral_lobe",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -26.1681546,
+          "y_translation": 347.953051,
+          "z_translation": 7.574027399999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left lateral lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0006727",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe",
+      "x_dimension": 89.54416300000001,
+      "y_dimension": 97.07790599999998,
+      "z_dimension": 93.807742,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left medial lobe",
+      "pref_label": "liver left medial lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006728",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 93.59087000000001,
+          "y_translation": -352.116525,
+          "z_translation": -8.234128,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left medial lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left medial lobe",
+        "file_subpath": "VH_M_left_medial_lobe",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -93.59087000000001,
+          "y_translation": 352.116525,
+          "z_translation": 8.234128,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left medial lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0006728",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver",
+      "x_dimension": 81.0250696,
+      "y_dimension": 32.05307499999998,
+      "z_dimension": 88.0688332,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male quadrate lobe of liver",
+      "pref_label": "quadrate lobe of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001116",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 91.7978361,
+          "y_translation": -352.116525,
+          "z_translation": -13.9730368,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male quadrate lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male quadrate lobe of liver",
+        "file_subpath": "VH_M_quadrate_lobe_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -91.7978361,
+          "y_translation": 352.116525,
+          "z_translation": 13.9730368,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male quadrate lobe of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0001116",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament",
+      "x_dimension": 66.0639203,
+      "y_dimension": 34.13221900000002,
+      "z_dimension": 42.20855027,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male hepataduodenal ligament",
+      "pref_label": "hepatoduodenal ligament",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0012472",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 66.95750000000001,
+          "y_translation": -346.180081,
+          "z_translation": -3.84707213,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male hepataduodenal ligament",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male hepataduodenal ligament",
+        "file_subpath": "VH_M_hepataduodenal_ligament",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -66.95750000000001,
+          "y_translation": 346.180081,
+          "z_translation": 3.84707213,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male hepataduodenal ligament",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0012472",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum",
+      "x_dimension": 26.8225519,
+      "y_dimension": 55.97357599999998,
+      "z_dimension": 24.253395599999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ligamentum venosum",
+      "pref_label": "ligamentum venosum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006587",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.599603,
+          "y_translation": -365.495324,
+          "z_translation": -2.7482796,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ligamentum venosum",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ligamentum venosum",
+        "file_subpath": "VH_M_ligamentum_venosum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.599603,
+          "y_translation": 365.495324,
+          "z_translation": 2.7482796,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ligamentum venosum",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0006587",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver",
+      "x_dimension": 20.836266699999996,
+      "y_dimension": 35.31310000000002,
+      "z_dimension": 69.521024,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male round ligament of liver",
+      "pref_label": "round ligament of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006588",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.9610631,
+          "y_translation": -343.83502599999997,
+          "z_translation": -42.65643,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male round ligament of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male round ligament of liver",
+        "file_subpath": "VH_M_round_ligament_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.9610631,
+          "y_translation": 343.83502599999997,
+          "z_translation": 42.65643,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male round ligament of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0006588",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver",
+      "x_dimension": 35.4263354,
+      "y_dimension": 12.372969000000012,
+      "z_dimension": 12.7113359,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male triangular ligament of liver",
+      "pref_label": "triangular ligament of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0035444",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.3776809,
+          "y_translation": -415.2523,
+          "z_translation": -3.098228,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male triangular ligament of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male triangular ligament of liver",
+        "file_subpath": "VH_M_triangular_ligament_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.3776809,
+          "y_translation": 415.2523,
+          "z_translation": 3.098228,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male triangular ligament of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0035444",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament",
+      "x_dimension": 31.424567699999997,
+      "y_dimension": 81.79718199999996,
+      "z_dimension": 78.0882985,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male falciform ligament",
+      "pref_label": "falciform ligament",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001247",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.6161124,
+          "y_translation": -348.54868100000004,
+          "z_translation": -34.089155500000004,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male falciform ligament",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male falciform ligament",
+        "file_subpath": "VH_M_falciform_ligament",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.6161124,
+          "y_translation": 348.54868100000004,
+          "z_translation": 34.089155500000004,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male falciform ligament",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0001247",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver",
+      "x_dimension": 93.1830977,
+      "y_dimension": 111.55565200000001,
+      "z_dimension": 126.4337711,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male coronary ligament of liver",
+      "pref_label": "coronary ligament of liver",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0013138",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver_obj",
+        "file_name": "3d-vh-m-liver.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/liver-male/v1.2/assets/3d-vh-m-liver.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.06359,
+          "y_translation": -328.4768,
+          "z_translation": 89.579314,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male coronary ligament of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male coronary ligament of liver",
+        "file_subpath": "VH_M_coronary_ligament_of_liver",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.06359,
+          "y_translation": 328.4768,
+          "z_translation": -89.579314,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male coronary ligament of liver",
+          "source": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0013138",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

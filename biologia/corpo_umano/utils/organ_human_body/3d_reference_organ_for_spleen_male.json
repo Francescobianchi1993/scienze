@@ -1,0 +1,627 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/spleen-male",
+  "metadata": {
+    "title": "spleen-male (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Spleen, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/spleen-male/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/spleen-male/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "x_dimension": 110.4075533,
+      "y_dimension": 118.63755900000001,
+      "z_dimension": 88.6326881,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male spleen",
+      "pref_label": "spleen",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002106",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary_obj",
+        "file_name": "3d-vh-m-spleen.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spleen-male/v1.3/assets/3d-vh-m-spleen.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -25.887958700000002,
+          "y_translation": -310.744941,
+          "z_translation": 80.8403641,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male spleen",
+        "file_subpath": "VH_M_spleen",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 25.887958700000002,
+          "y_translation": 310.744941,
+          "z_translation": -80.8403641,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002106",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen",
+      "x_dimension": 21.53233799999998,
+      "y_dimension": 51.73927500000002,
+      "z_dimension": 26.3825973,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male colic surface of spleen",
+      "pref_label": "colic surface of spleen",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15838",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen_obj",
+        "file_name": "3d-vh-m-spleen.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spleen-male/v1.3/assets/3d-vh-m-spleen.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -110.825062,
+          "y_translation": -311.113775,
+          "z_translation": 18.5902733,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male colic surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male colic surface of spleen",
+        "file_subpath": "VH_M_colic_surface_of_spleen",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 110.825062,
+          "y_translation": 311.113775,
+          "z_translation": -18.5902733,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male colic surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_colic_surface_of_spleen",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:15838",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen",
+      "x_dimension": 110.4075533,
+      "y_dimension": 118.63755900000001,
+      "z_dimension": 87.68755850000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male diaphragmatic surface of spleen",
+      "pref_label": "diaphragmatic surface of spleen",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15828",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen_obj",
+        "file_name": "3d-vh-m-spleen.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spleen-male/v1.3/assets/3d-vh-m-spleen.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -25.887958700000002,
+          "y_translation": -310.744941,
+          "z_translation": 80.8403641,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male diaphragmatic surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male diaphragmatic surface of spleen",
+        "file_subpath": "VH_M_diaphragmatic_surface_of_spleen",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 25.887958700000002,
+          "y_translation": 310.744941,
+          "z_translation": -80.8403641,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male diaphragmatic surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_diaphragmatic_surface_of_spleen",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:15828",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen",
+      "x_dimension": 101.4121418,
+      "y_dimension": 73.463798,
+      "z_dimension": 62.677862999999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male gastric surface of spleen",
+      "pref_label": "gastric surface of spleen",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15837",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen_obj",
+        "file_name": "3d-vh-m-spleen.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spleen-male/v1.3/assets/3d-vh-m-spleen.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -27.9072132,
+          "y_translation": -355.678469,
+          "z_translation": 57.4145,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male gastric surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male gastric surface of spleen",
+        "file_subpath": "VH_M_gastric_surface_of_spleen",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 27.9072132,
+          "y_translation": 355.678469,
+          "z_translation": -57.4145,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male gastric surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_gastric_surface_of_spleen",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:15837",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen",
+      "x_dimension": 95.7314394,
+      "y_dimension": 62.171221,
+      "z_dimension": 53.772538299999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male hilum of spleen",
+      "pref_label": "hilum of spleen",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001248",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen_obj",
+        "file_name": "3d-vh-m-spleen.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spleen-male/v1.3/assets/3d-vh-m-spleen.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -29.645068600000002,
+          "y_translation": -328.429252,
+          "z_translation": 59.3960173,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male hilum of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male hilum of spleen",
+        "file_subpath": "VH_M_hilum_of_spleen",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 29.645068600000002,
+          "y_translation": 328.429252,
+          "z_translation": -59.3960173,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male hilum of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_hilum_of_spleen",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001248",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen",
+      "x_dimension": 85.4354795,
+      "y_dimension": 67.55748399999999,
+      "z_dimension": 61.0695406,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male renal surface of spleen",
+      "pref_label": "renal surface of spleen",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15839",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen_obj",
+        "file_name": "3d-vh-m-spleen.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spleen-male/v1.3/assets/3d-vh-m-spleen.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.184895499999996,
+          "y_translation": -310.744941,
+          "z_translation": 76.24258,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male renal surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male renal surface of spleen",
+        "file_subpath": "VH_M_renal_surface_of_spleen",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.184895499999996,
+          "y_translation": 310.744941,
+          "z_translation": -76.24258,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male renal surface of spleen",
+          "source": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#VH_M_renal_surface_of_spleen",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:15839",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

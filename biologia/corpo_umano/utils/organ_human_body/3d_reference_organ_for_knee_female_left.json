@@ -1,0 +1,1653 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/knee-female-left",
+  "metadata": {
+    "title": "knee-female-left (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Knee, Female, Left dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/knee-female-left/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/knee-female-left/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "x_dimension": 101.6387343,
+      "y_dimension": 771.7859324,
+      "z_dimension": 110.47752940000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left knee",
+      "pref_label": "Left knee",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:24978",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -67.80898570000001,
+          "y_translation": 733.0566,
+          "z_translation": 123.269692,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left knee",
+        "file_subpath": "VH_F_knee_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 67.80898570000001,
+          "y_translation": -733.0566,
+          "z_translation": -123.269692,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "FMA:24978",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L",
+      "x_dimension": 72.91675,
+      "y_dimension": 20.03917100000001,
+      "z_dimension": 58.9539442,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left meniscus",
+      "pref_label": "Articular disk of knee joint",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:64019",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -81.32635,
+          "y_translation": 395.27013900000003,
+          "z_translation": 111.371189,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left meniscus",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left meniscus",
+        "file_subpath": "VH_F_meniscus_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 81.32635,
+          "y_translation": -395.27013900000003,
+          "z_translation": -111.371189,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left meniscus",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_meniscus_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:64019",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L",
+      "x_dimension": 101.6387343,
+      "y_dimension": 771.7859324,
+      "z_dimension": 110.47752940000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left knee joint",
+      "pref_label": "Left knee joint",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:35177",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -67.80898570000001,
+          "y_translation": 733.0566,
+          "z_translation": 123.269692,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left knee joint",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left knee joint",
+        "file_subpath": "VH_F_knee_joint_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 67.80898570000001,
+          "y_translation": -733.0566,
+          "z_translation": -123.269692,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left knee joint",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_knee_joint_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:35177",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L",
+      "x_dimension": 98.08246829999997,
+      "y_dimension": 420.8034324,
+      "z_dimension": 65.073645,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left femur",
+      "pref_label": "Left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:24475",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -67.80898570000001,
+          "y_translation": 382.07410000000004,
+          "z_translation": 102.389865,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left femur",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left femur",
+        "file_subpath": "VH_F_femur_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 67.80898570000001,
+          "y_translation": -382.07410000000004,
+          "z_translation": -102.389865,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left femur",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_femur_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:24475",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L",
+      "x_dimension": 6.957779000000002,
+      "y_dimension": 28.54296599999998,
+      "z_dimension": 13.382130000000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left intercondylar fossa",
+      "pref_label": "Intercondylar fossa of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:43750",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -98.08440999999999,
+          "y_translation": 375.787944,
+          "z_translation": 95.05032,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left intercondylar fossa",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left intercondylar fossa",
+        "file_subpath": "VH_F_intercondylar_fossa_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 98.08440999999999,
+          "y_translation": -375.787944,
+          "z_translation": -95.05032,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left intercondylar fossa",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_intercondylar_fossa_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:43750",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L",
+      "x_dimension": 10.002388999999994,
+      "y_dimension": 19.38197000000008,
+      "z_dimension": 31.577564099999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left trochlear groove",
+      "pref_label": "Patellar surface of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:43747",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -115.017295,
+          "y_translation": 377.26774800000004,
+          "z_translation": 73.7730041,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left trochlear groove",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left trochlear groove",
+        "file_subpath": "VH_F_trochlear_groove_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 115.017295,
+          "y_translation": -377.26774800000004,
+          "z_translation": -73.7730041,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left trochlear groove",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_trochlear_groove_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:43747",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L",
+      "x_dimension": 79.29315460000002,
+      "y_dimension": 44.192612,
+      "z_dimension": 60.998303500000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left articular cartilage of knee",
+      "pref_label": "Articular cartilage of distal epiphysis of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:33190",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -73.19479439999999,
+          "y_translation": 385.047257,
+          "z_translation": 99.39233,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left articular cartilage of knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left articular cartilage of knee",
+        "file_subpath": "VH_F_articular_cartilage_of_knee_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 73.19479439999999,
+          "y_translation": -385.047257,
+          "z_translation": -99.39233,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left articular cartilage of knee",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_articular_cartilage_of_knee_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:33190",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf",
+      "x_dimension": 26.867293000000004,
+      "y_dimension": 34.67075200000005,
+      "z_dimension": 12.782922999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female medial condyle of left femur inf",
+      "pref_label": "Medial condyle of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:32863",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -73.61786,
+          "y_translation": 379.2683,
+          "z_translation": 104.48048299999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female medial condyle of left femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female medial condyle of left femur inf",
+        "file_subpath": "VH_F_medial_condyle_of_left_femur_inf",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 73.61786,
+          "y_translation": -379.2683,
+          "z_translation": -104.48048299999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female medial condyle of left femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_inf",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:32863",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L",
+      "x_dimension": 27.363449000000017,
+      "y_dimension": 33.16994399999999,
+      "z_dimension": 13.85036070000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left lateral condyle of femur inf",
+      "pref_label": "Lateral condyle of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:32861",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -125.1245,
+          "y_translation": 374.1525,
+          "z_translation": 105.790935,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left lateral condyle of femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left lateral condyle of femur inf",
+        "file_subpath": "VH_F_lateral_condyle_of_femur_inf_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 125.1245,
+          "y_translation": -374.1525,
+          "z_translation": -105.790935,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left lateral condyle of femur inf",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_inf_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:32861",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L",
+      "x_dimension": 30.624389000000008,
+      "y_dimension": 6.411660999999924,
+      "z_dimension": 24.264560000000017,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left lateral condyle of femur frontal",
+      "pref_label": "Lateral condyle of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:32861",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -120.988742,
+          "y_translation": 378.86986099999996,
+          "z_translation": 90.33357000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left lateral condyle of femur frontal",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left lateral condyle of femur frontal",
+        "file_subpath": "VH_F_lateral_condyle_of_femur_frontal_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 120.988742,
+          "y_translation": -378.86986099999996,
+          "z_translation": -90.33357000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left lateral condyle of femur frontal",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_frontal_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:32861",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L",
+      "x_dimension": 33.4623603,
+      "y_dimension": 9.695652999999936,
+      "z_dimension": 29.30285,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left distal most point of medial condyle",
+      "pref_label": "distal-most point of medial condyle of femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "UBERON:7500033",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -77.1420747,
+          "y_translation": 386.07099999999997,
+          "z_translation": 89.09249,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left distal most point of medial condyle",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left distal most point of medial condyle",
+        "file_subpath": "VH_F_distal_most_point_of_medial_condyle_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 77.1420747,
+          "y_translation": -386.07099999999997,
+          "z_translation": -89.09249,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left distal most point of medial condyle",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_distal_most_point_of_medial_condyle_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:7500033",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L",
+      "x_dimension": 24.858258999999975,
+      "y_dimension": 20.868539999999996,
+      "z_dimension": 23.963255700000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left lateral condyle of femur sup",
+      "pref_label": "Lateral condyle of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:32861",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -123.447485,
+          "y_translation": 377.208859,
+          "z_translation": 62.76202,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left lateral condyle of femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left lateral condyle of femur sup",
+        "file_subpath": "VH_F_lateral_condyle_of_femur_sup_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 123.447485,
+          "y_translation": -377.208859,
+          "z_translation": -62.76202,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left lateral condyle of femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_lateral_condyle_of_femur_sup_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "FMA:32861",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup",
+      "x_dimension": 24.7088971,
+      "y_dimension": 23.07084199999997,
+      "z_dimension": 24.278223500000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female medial condyle of left femur sup",
+      "pref_label": "Medial condyle of left femur",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:32863",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -95.0690359,
+          "y_translation": 381.721616,
+          "z_translation": 62.67225,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female medial condyle of left femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female medial condyle of left femur sup",
+        "file_subpath": "VH_F_medial_condyle_of_left_femur_sup",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 95.0690359,
+          "y_translation": -381.721616,
+          "z_translation": -62.67225,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female medial condyle of left femur sup",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_medial_condyle_of_left_femur_sup",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "FMA:32863",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L",
+      "x_dimension": 45.54235200000001,
+      "y_dimension": 47.176248000000044,
+      "z_dimension": 26.1593274,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left patella",
+      "pref_label": "Left patella",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:24487",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -103.426881,
+          "y_translation": 377.43870000000004,
+          "z_translation": 38.95149,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left patella",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left patella",
+        "file_subpath": "VH_F_patella_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 103.426881,
+          "y_translation": -377.43870000000004,
+          "z_translation": -38.95149,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left patella",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_patella_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "FMA:24487",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L",
+      "x_dimension": 79.08957900000001,
+      "y_dimension": 343.471479,
+      "z_dimension": 62.412107899999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left tibia",
+      "pref_label": "Left tibia",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:24478",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.05868000000001,
+          "y_translation": 720.6317,
+          "z_translation": 111.8865,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left tibia",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left tibia",
+        "file_subpath": "VH_F_tibia_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.05868000000001,
+          "y_translation": -720.6317,
+          "z_translation": -111.8865,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left tibia",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_tibia_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "FMA:24478",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L",
+      "x_dimension": 28.284997000000004,
+      "y_dimension": 337.22805500000004,
+      "z_dimension": 31.771642000000014,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left fibula",
+      "pref_label": "Left fibula",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-12-15",
+      "representation_of": "FMA:24481",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L_obj",
+        "file_name": "3d-vh-f-knee-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/knee-female-left/v1.3/assets/3d-vh-f-knee-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -141.162723,
+          "y_translation": 733.0566,
+          "z_translation": 123.269692,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left fibula",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left fibula",
+        "file_subpath": "VH_F_fibula_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 141.162723,
+          "y_translation": -733.0566,
+          "z_translation": -123.269692,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left fibula",
+          "source": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#VH_F_fibula_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/knee-female-left/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "FMA:24481",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

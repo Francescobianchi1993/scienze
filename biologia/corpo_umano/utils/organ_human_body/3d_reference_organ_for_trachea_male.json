@@ -1,0 +1,324 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/trachea-male",
+  "metadata": {
+    "title": "trachea-male (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Trachea, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/trachea-male/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/trachea-male/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary",
+      "x_dimension": 28.7184743,
+      "y_dimension": 125.12060000000008,
+      "z_dimension": 67.22983339999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male trachea",
+      "pref_label": "trachea",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0003126",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary_obj",
+        "file_name": "3d-vh-m-trachea.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/trachea-male/v1.1/assets/3d-vh-m-trachea.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 17.5285358,
+          "y_translation": -535.0205,
+          "z_translation": 13.0082034,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male trachea",
+          "source": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male trachea",
+        "file_subpath": "VH_M_trachea",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -17.5285358,
+          "y_translation": 535.0205,
+          "z_translation": -13.0082034,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male trachea",
+          "source": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0003126",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage",
+      "x_dimension": 28.9815972,
+      "y_dimension": 85.56640000000004,
+      "z_dimension": 54.69001461,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male tracheal cartilage",
+      "pref_label": "trachea cartilage",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0003604",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage_obj",
+        "file_name": "3d-vh-m-trachea.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/trachea-male/v1.1/assets/3d-vh-m-trachea.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.5274367,
+          "y_translation": -546.0689,
+          "z_translation": 7.027916609999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male tracheal cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male tracheal cartilage",
+        "file_subpath": "VH_M_tracheal_cartilage",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.5274367,
+          "y_translation": 546.0689,
+          "z_translation": -7.027916609999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male tracheal cartilage",
+          "source": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_tracheal_cartilage",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0003604",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina",
+      "x_dimension": 27.609435400000002,
+      "y_dimension": 14.845100000000002,
+      "z_dimension": 16.416427,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male carina",
+      "pref_label": "carina of trachea",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006679",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina_obj",
+        "file_name": "3d-vh-m-trachea.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/trachea-male/v1.1/assets/3d-vh-m-trachea.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 19.3131734,
+          "y_translation": -534.1464,
+          "z_translation": 12.25387,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male carina",
+          "source": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male carina",
+        "file_subpath": "VH_M_carina",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -19.3131734,
+          "y_translation": 534.1464,
+          "z_translation": -12.25387,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male carina",
+          "source": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#VH_M_carina",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0006679",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

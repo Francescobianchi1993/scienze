@@ -1,0 +1,2869 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/mouth-female",
+  "metadata": {
+    "title": "mouth-female (v1.0) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Mouth, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.0",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/mouth-female/v1.0",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/mouth-female/v1.0#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "x_dimension": 145.00007,
+      "y_dimension": 108.35383100000001,
+      "z_dimension": 128.73029,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female mouth",
+      "pref_label": "mouth",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0000165",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.04438,
+          "y_translation": -645.7754,
+          "z_translation": 75.03983,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female mouth",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female mouth",
+        "file_subpath": "VH_F_mouth",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.04438,
+          "y_translation": 645.7754,
+          "z_translation": -75.03983,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female mouth",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000165",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland",
+      "x_dimension": 145.00007,
+      "y_dimension": 108.35383100000001,
+      "z_dimension": 94.940761,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female major salivary gland",
+      "pref_label": "Major salivary gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001829",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.04438,
+          "y_translation": -645.7754,
+          "z_translation": 75.03983,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female major salivary gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female major salivary gland",
+        "file_subpath": "VH_F_major_salivary_gland",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.04438,
+          "y_translation": 645.7754,
+          "z_translation": -75.03983,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female major salivary gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_major_salivary_gland",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0001829",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland",
+      "x_dimension": 98.79813580000001,
+      "y_dimension": 41.07806800000003,
+      "z_dimension": 26.311695599999993,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female submandibular gland",
+      "pref_label": "Submandibular gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001736",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 52.3241,
+          "y_translation": -645.7754,
+          "z_translation": 41.646473099999994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female submandibular gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female submandibular gland",
+        "file_subpath": "VH_F_submandibular_gland",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -52.3241,
+          "y_translation": 645.7754,
+          "z_translation": -41.646473099999994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female submandibular gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001736",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L",
+      "x_dimension": 26.2716673,
+      "y_dimension": 34.40141600000004,
+      "z_dimension": 21.856367599999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female submandibular gland",
+      "pref_label": "Left submandibular gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:59803",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.202368500000002,
+          "y_translation": -652.452052,
+          "z_translation": 41.646473099999994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female submandibular gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female submandibular gland",
+        "file_subpath": "VH_F_submandibular_gland_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.202368500000002,
+          "y_translation": 652.452052,
+          "z_translation": -41.646473099999994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female submandibular gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:59803",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R",
+      "x_dimension": 22.4098177,
+      "y_dimension": 40.01819999999998,
+      "z_dimension": 22.9891688,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female submandibular gland",
+      "pref_label": "Right submandibular gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:59802",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 52.3241,
+          "y_translation": -645.7754,
+          "z_translation": 38.3239463,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female submandibular gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female submandibular gland",
+        "file_subpath": "VH_F_submandibular_gland_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -52.3241,
+          "y_translation": 645.7754,
+          "z_translation": -38.3239463,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female submandibular gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_submandibular_gland_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:59802",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland",
+      "x_dimension": 145.00007,
+      "y_dimension": 98.38673100000005,
+      "z_dimension": 63.202394999999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female parotid gland",
+      "pref_label": "Parotid gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001831",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.04438,
+          "y_translation": -655.7425,
+          "z_translation": 75.03983,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female parotid gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female parotid gland",
+        "file_subpath": "VH_F_parotid_gland",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.04438,
+          "y_translation": 655.7425,
+          "z_translation": -75.03983,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female parotid gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001831",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R",
+      "x_dimension": 39.14047480000001,
+      "y_dimension": 91.58560000000011,
+      "z_dimension": 63.202394999999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female parotid gland",
+      "pref_label": "Right parotid gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:59797",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.04438,
+          "y_translation": -655.7425,
+          "z_translation": 75.03983,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female parotid gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female parotid gland",
+        "file_subpath": "VH_F_parotid_gland_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.04438,
+          "y_translation": 655.7425,
+          "z_translation": -75.03983,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female parotid gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:59797",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L",
+      "x_dimension": 36.947322,
+      "y_dimension": 93.56663100000003,
+      "z_dimension": 58.865945599999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female parotid gland",
+      "pref_label": "Left parotid gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:59798",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -29.008368,
+          "y_translation": -660.5626,
+          "z_translation": 74.69796,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female parotid gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female parotid gland",
+        "file_subpath": "VH_F_parotid_gland_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 29.008368,
+          "y_translation": 660.5626,
+          "z_translation": -74.69796,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female parotid gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_parotid_gland_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:59798",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland",
+      "x_dimension": 59.76699620000001,
+      "y_dimension": 20.51845000000003,
+      "z_dimension": 39.5595245,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sublingual gland",
+      "pref_label": "Sublingual gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001832",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.27658,
+          "y_translation": -670.0556,
+          "z_translation": 19.658593500000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sublingual gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sublingual gland",
+        "file_subpath": "VH_F_sublingual_gland",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.27658,
+          "y_translation": 670.0556,
+          "z_translation": -19.658593500000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sublingual gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001832",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R",
+      "x_dimension": 28.359717720000003,
+      "y_dimension": 20.492792000000122,
+      "z_dimension": 37.30769,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sublingual gland",
+      "pref_label": "Right sublingual gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:59804",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.27658,
+          "y_translation": -670.0812579999999,
+          "z_translation": 18.752660000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sublingual gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sublingual gland",
+        "file_subpath": "VH_F_sublingual_gland_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.27658,
+          "y_translation": 670.0812579999999,
+          "z_translation": -18.752660000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sublingual gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "FMA:59804",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L",
+      "x_dimension": 25.612906132000003,
+      "y_dimension": 19.560600000000022,
+      "z_dimension": 39.5595245,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sublingual gland",
+      "pref_label": "Left sublingual gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:59805",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 0.122489932,
+          "y_translation": -670.0556,
+          "z_translation": 19.658593500000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sublingual gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sublingual gland",
+        "file_subpath": "VH_F_sublingual_gland_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -0.122489932,
+          "y_translation": 670.0556,
+          "z_translation": -19.658593500000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sublingual gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_sublingual_gland_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "FMA:59805",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa",
+      "x_dimension": 136.45742,
+      "y_dimension": 60.892465000000016,
+      "z_dimension": 85.0268346,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female buccal mucosa",
+      "pref_label": "Buccal mucosa",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0006956",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 73.73617,
+          "y_translation": -660.4227999999999,
+          "z_translation": 31.336374600000003,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female buccal mucosa",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female buccal mucosa",
+        "file_subpath": "VH_F_buccal_mucosa",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -73.73617,
+          "y_translation": 660.4227999999999,
+          "z_translation": -31.336374600000003,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female buccal mucosa",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_buccal_mucosa",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0006956",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip",
+      "x_dimension": 9.41291784,
+      "y_dimension": 27.840462000000002,
+      "z_dimension": 14.215724600000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female frenulum of lip",
+      "pref_label": "Frenulum of lip",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0016910",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.6923291,
+          "y_translation": -670.5955,
+          "z_translation": -24.8755254,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female frenulum of lip",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female frenulum of lip",
+        "file_subpath": "VH_F_frenulum_of_lip",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.6923291,
+          "y_translation": 670.5955,
+          "z_translation": 24.8755254,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female frenulum of lip",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lip",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0016910",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip",
+      "x_dimension": 8.0332181,
+      "y_dimension": 11.226116999999931,
+      "z_dimension": 8.773476000000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female frenulum of upper lip",
+      "pref_label": "Frenulum of upper lip",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0016912",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.6923291,
+          "y_translation": -687.2098450000001,
+          "z_translation": -30.317774,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female frenulum of upper lip",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female frenulum of upper lip",
+        "file_subpath": "VH_F_frenulum_of_upper_lip",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.6923291,
+          "y_translation": 687.2098450000001,
+          "z_translation": 30.317774,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female frenulum of upper lip",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_upper_lip",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0016912",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip",
+      "x_dimension": 8.39088474,
+      "y_dimension": 12.452449999999999,
+      "z_dimension": 11.281300299999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female frenulum of lower lip",
+      "pref_label": "Frenulum of lower lip",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0016913",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.670296,
+          "y_translation": -670.5955,
+          "z_translation": -24.8755254,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female frenulum of lower lip",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female frenulum of lower lip",
+        "file_subpath": "VH_F_frenulum_of_lower_lip",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.670296,
+          "y_translation": 670.5955,
+          "z_translation": 24.8755254,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female frenulum of lower lip",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_frenulum_of_lower_lip",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0016913",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor",
+      "x_dimension": 48.660924699999995,
+      "y_dimension": 12.985743999999954,
+      "z_dimension": 45.4344349,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female mouth floor",
+      "pref_label": "Mouth floor",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0003679",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 29.5639411,
+          "y_translation": -681.0177560000001,
+          "z_translation": 23.1615249,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female mouth floor",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female mouth floor",
+        "file_subpath": "VH_F_mouth_floor",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -29.5639411,
+          "y_translation": 681.0177560000001,
+          "z_translation": -23.1615249,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female mouth floor",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mouth_floor",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0003679",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva",
+      "x_dimension": 83.1991546,
+      "y_dimension": 71.86490000000003,
+      "z_dimension": 61.654157999999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female gingiva",
+      "pref_label": "Gingiva",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001828",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 44.9550226,
+          "y_translation": -657.5018,
+          "z_translation": 27.060203299999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female gingiva",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female gingiva",
+        "file_subpath": "VH_F_gingiva",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -44.9550226,
+          "y_translation": 657.5018,
+          "z_translation": -27.060203299999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female gingiva",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0001828",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw",
+      "x_dimension": 64.0622712,
+      "y_dimension": 24.356167000000028,
+      "z_dimension": 54.1368388,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ginviva of upper jaw",
+      "pref_label": "Gingiva of upper jaw",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0011601",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 35.287514300000005,
+          "y_translation": -705.010533,
+          "z_translation": 19.542884100000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ginviva of upper jaw",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ginviva of upper jaw",
+        "file_subpath": "VH_F_ginviva_of_upper_jaw",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -35.287514300000005,
+          "y_translation": 705.010533,
+          "z_translation": -19.542884100000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ginviva of upper jaw",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ginviva_of_upper_jaw",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0011601",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw",
+      "x_dimension": 83.1991546,
+      "y_dimension": 55.002700000000004,
+      "z_dimension": 61.0592433,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female gingiva of lower jaw",
+      "pref_label": "Gingiva of lower jaw",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0011602",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 44.9550226,
+          "y_translation": -657.5018,
+          "z_translation": 27.060203299999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female gingiva of lower jaw",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female gingiva of lower jaw",
+        "file_subpath": "VH_F_gingiva_of_lower_jaw",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -44.9550226,
+          "y_translation": 657.5018,
+          "z_translation": -27.060203299999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female gingiva of lower jaw",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_gingiva_of_lower_jaw",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0011602",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue",
+      "x_dimension": 47.053108,
+      "y_dimension": 63.32859999999994,
+      "z_dimension": 80.3936056,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female tongue",
+      "pref_label": "Tongue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001723",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 29.0660858,
+          "y_translation": -655.9523,
+          "z_translation": 45.630555599999994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female tongue",
+        "file_subpath": "VH_F_tongue",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -29.0660858,
+          "y_translation": 655.9523,
+          "z_translation": -45.630555599999994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tongue",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0001723",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue",
+      "x_dimension": 46.3558193,
+      "y_dimension": 44.48876199999995,
+      "z_dimension": 44.423881099999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female posterior part of tongue",
+      "pref_label": "Posterior part of tongue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0010033",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 29.0660858,
+          "y_translation": -655.9523,
+          "z_translation": 45.630555599999994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female posterior part of tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female posterior part of tongue",
+        "file_subpath": "VH_F_posterior_part_of_tongue",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -29.0660858,
+          "y_translation": 655.9523,
+          "z_translation": -45.630555599999994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female posterior part of tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_posterior_part_of_tongue",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0010033",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue",
+      "x_dimension": 46.533964600000004,
+      "y_dimension": 26.606858999999986,
+      "z_dimension": 73.9991627,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female dorsal tongue",
+      "pref_label": "Superior surface of tongue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0007371",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.5469424,
+          "y_translation": -692.674041,
+          "z_translation": 39.3225364,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female dorsal tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female dorsal tongue",
+        "file_subpath": "VH_F_dorsal_tongue",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.5469424,
+          "y_translation": 692.674041,
+          "z_translation": -39.3225364,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female dorsal tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_dorsal_tongue",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0007371",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue",
+      "x_dimension": 44.9077968,
+      "y_dimension": 15.761376000000041,
+      "z_dimension": 55.8152578,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ventral tongue",
+      "pref_label": "Inferior surface of tongue",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0007373",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.13011,
+          "y_translation": -682.035863,
+          "z_translation": 21.0522078,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ventral tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ventral tongue",
+        "file_subpath": "VH_F_ventral_tongue",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.13011,
+          "y_translation": 682.035863,
+          "z_translation": -21.0522078,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ventral tongue",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_ventral_tongue",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0007373",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae",
+      "x_dimension": 41.5402986,
+      "y_dimension": 15.012552999999912,
+      "z_dimension": 45.3963075,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female fungiform papillae",
+      "pref_label": "Fungiform papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0002448",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 24.665527,
+          "y_translation": -699.1644,
+          "z_translation": 12.6908775,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female fungiform papillae",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female fungiform papillae",
+        "file_subpath": "VH_F_fungiform_papillae",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -24.665527,
+          "y_translation": 699.1644,
+          "z_translation": -12.6908775,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female fungiform papillae",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_fungiform_papillae",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "UBERON:0002448",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae",
+      "x_dimension": 45.2000797,
+      "y_dimension": 9.180754999999863,
+      "z_dimension": 16.77883,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female circumvallate papillae",
+      "pref_label": "Vallate papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0000396",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 28.2456968,
+          "y_translation": -697.4698000000001,
+          "z_translation": 36.81218,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female circumvallate papillae",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female circumvallate papillae",
+        "file_subpath": "VH_F_circumvallate_papillae",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -28.2456968,
+          "y_translation": 697.4698000000001,
+          "z_translation": -36.81218,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female circumvallate papillae",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_circumvallate_papillae",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 24,
+      "type_of": [
+        "UBERON:0000396",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate",
+      "x_dimension": 62.486648599999995,
+      "y_dimension": 49.200000000000045,
+      "z_dimension": 80.2511485,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female secondary palate",
+      "pref_label": "Secondary palate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001716",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.5450975,
+          "y_translation": -681.9026,
+          "z_translation": 49.18805,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female secondary palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female secondary palate",
+        "file_subpath": "VH_F_secondary_palate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.5450975,
+          "y_translation": 681.9026,
+          "z_translation": -49.18805,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female secondary palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_secondary_palate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 25,
+      "type_of": [
+        "UBERON:0001716",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate",
+      "x_dimension": 62.486648599999995,
+      "y_dimension": 24.140264000000002,
+      "z_dimension": 50.6076422,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female hard palate",
+      "pref_label": "Hard palate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0003216",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.5450975,
+          "y_translation": -706.801236,
+          "z_translation": 19.5445437,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female hard palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female hard palate",
+        "file_subpath": "VH_F_hard_palate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.5450975,
+          "y_translation": 706.801236,
+          "z_translation": -19.5445437,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female hard palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_hard_palate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 26,
+      "type_of": [
+        "UBERON:0003216",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate",
+      "x_dimension": 55.3603712,
+      "y_dimension": 49.200000000000045,
+      "z_dimension": 39.493703,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female soft palate",
+      "pref_label": "Soft palate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0001733",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.2478156,
+          "y_translation": -681.9026,
+          "z_translation": 49.18805,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female soft palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female soft palate",
+        "file_subpath": "VH_F_soft_palate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.2478156,
+          "y_translation": 681.9026,
+          "z_translation": -49.18805,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female soft palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_soft_palate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 27,
+      "type_of": [
+        "UBERON:0001733",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate",
+      "x_dimension": 55.3603712,
+      "y_dimension": 49.200000000000045,
+      "z_dimension": 39.493703,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female mucosa of soft palate",
+      "pref_label": "Mucosa of soft palate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0005024",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.2478156,
+          "y_translation": -681.9026,
+          "z_translation": 49.18805,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female mucosa of soft palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female mucosa of soft palate",
+        "file_subpath": "VH_F_mucosa_of_soft_palate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.2478156,
+          "y_translation": 681.9026,
+          "z_translation": -49.18805,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female mucosa of soft palate",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_mucosa_of_soft_palate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 28,
+      "type_of": [
+        "UBERON:0005024",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row",
+      "x_dimension": 65.3093308,
+      "y_dimension": 46.06460000000004,
+      "z_dimension": 56.4319305,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female tooth row",
+      "pref_label": "Tooth row",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0009678",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.537587599999995,
+          "y_translation": -676.6794,
+          "z_translation": 19.3042941,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female tooth row",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female tooth row",
+        "file_subpath": "VH_F_tooth_row",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.537587599999995,
+          "y_translation": 676.6794,
+          "z_translation": -19.3042941,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female tooth row",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_tooth_row",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 29,
+      "type_of": [
+        "UBERON:0009678",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth",
+      "x_dimension": 65.3093308,
+      "y_dimension": 29.452199999999948,
+      "z_dimension": 54.851131599999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female set of lower jaw teeth",
+      "pref_label": "Lower teeth",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0009679",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.537587599999995,
+          "y_translation": -676.6794,
+          "z_translation": 19.2841236,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female set of lower jaw teeth",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female set of lower jaw teeth",
+        "file_subpath": "VH_F_set_of_lower_jaw_teeth",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.537587599999995,
+          "y_translation": 676.6794,
+          "z_translation": -19.2841236,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female set of lower jaw teeth",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_lower_jaw_teeth",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 30,
+      "type_of": [
+        "UBERON:0009679",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth",
+      "x_dimension": 63.0625133,
+      "y_dimension": 24.62099999999998,
+      "z_dimension": 56.4319305,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female set of upper jaw teeth",
+      "pref_label": "Upper teeth",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "UBERON:0009680",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth_obj",
+        "file_name": "3d-vh-f-mouth.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 34.6955471,
+          "y_translation": -698.123,
+          "z_translation": 19.3042941,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female set of upper jaw teeth",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female set of upper jaw teeth",
+        "file_subpath": "VH_F_set_of_upper_jaw_teeth",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -34.6955471,
+          "y_translation": 698.123,
+          "z_translation": -19.3042941,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female set of upper jaw teeth",
+          "source": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#VH_F_set_of_upper_jaw_teeth",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mouth-female/v1.0#primary",
+      "rui_rank": 31,
+      "type_of": [
+        "UBERON:0009680",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

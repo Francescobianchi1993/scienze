@@ -1,0 +1,324 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/thymus-male",
+  "metadata": {
+    "title": "thymus-male (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Thymus, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/thymus-male/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/thymus-male/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary",
+      "x_dimension": 36.9998542,
+      "y_dimension": 75.68869999999993,
+      "z_dimension": 35.079130000000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male thymus",
+      "pref_label": "thymus",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002370",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary_obj",
+        "file_name": "3d-vh-m-thymus.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/thymus-male/v1.3/assets/3d-vh-m-thymus.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 26.719531,
+          "y_translation": -500.1417,
+          "z_translation": -25.74925,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male thymus",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male thymus",
+        "file_subpath": "VH_M_thymus",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -26.719531,
+          "y_translation": 500.1417,
+          "z_translation": 25.74925,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male thymus",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002370",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L",
+      "x_dimension": 19.653167,
+      "y_dimension": 75.68869999999993,
+      "z_dimension": 32.60489,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male thymus lobe",
+      "pref_label": "left thymus lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0005457",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L_obj",
+        "file_name": "3d-vh-m-thymus.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/thymus-male/v1.3/assets/3d-vh-m-thymus.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 26.719531,
+          "y_translation": -500.1417,
+          "z_translation": -25.74925,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male thymus lobe",
+        "file_subpath": "VH_M_thymus_lobe_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -26.719531,
+          "y_translation": 500.1417,
+          "z_translation": 25.74925,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0005457",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R",
+      "x_dimension": 33.0243306,
+      "y_dimension": 73.19573799999995,
+      "z_dimension": 27.5762451,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male thymus lobe",
+      "pref_label": "right thymus lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0005469",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R_obj",
+        "file_name": "3d-vh-m-thymus.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/thymus-male/v1.3/assets/3d-vh-m-thymus.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 22.744007399999997,
+          "y_translation": -500.4278,
+          "z_translation": -33.2521349,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male thymus lobe",
+        "file_subpath": "VH_M_thymus_lobe_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -22.744007399999997,
+          "y_translation": 500.4278,
+          "z_translation": 33.2521349,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#VH_M_thymus_lobe_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0005469",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1132 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/large-intestine-female",
+  "metadata": {
+    "title": "large-intestine-female (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Large Intestine, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/large-intestine-female/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/large-intestine-female/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "x_dimension": 243.27576599999998,
+      "y_dimension": 294.94715120000006,
+      "z_dimension": 193.4178766,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female colon",
+      "pref_label": "large intestine",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000059",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 126.45466599999999,
+          "y_translation": 13.281551200000001,
+          "z_translation": 146.50557899999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female colon",
+        "file_subpath": "VH_F_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -126.45466599999999,
+          "y_translation": -13.281551200000001,
+          "z_translation": -146.50557899999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0000059",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon",
+      "x_dimension": 68.4056688,
+      "y_dimension": 70.725561,
+      "z_dimension": 78.95757300000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female hepatic flexure of colon",
+      "pref_label": "hepatic flexure of colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0022277",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 121.981151,
+          "y_translation": -189.959466,
+          "z_translation": 82.96156,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female hepatic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female hepatic flexure of colon",
+        "file_subpath": "VH_F_hepatic_flexure_of_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -121.981151,
+          "y_translation": 189.959466,
+          "z_translation": -82.96156,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female hepatic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0022277",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon",
+      "x_dimension": 201.2877618,
+      "y_dimension": 105.54664500000004,
+      "z_dimension": 116.7646423,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female transverse colon",
+      "pref_label": "transverse colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001157",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 102.178507,
+          "y_translation": -176.118955,
+          "z_translation": 69.8523447,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female transverse colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female transverse colon",
+        "file_subpath": "VH_F_transverse_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -102.178507,
+          "y_translation": 176.118955,
+          "z_translation": -69.8523447,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female transverse colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001157",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon",
+      "x_dimension": 51.467275999999984,
+      "y_dimension": 125.37387800000002,
+      "z_dimension": 56.724716,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ascending colon",
+      "pref_label": "ascending colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001156",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 126.45466599999999,
+          "y_translation": -135.473922,
+          "z_translation": 83.1555948,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ascending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ascending colon",
+        "file_subpath": "VH_F_ascending_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -126.45466599999999,
+          "y_translation": 135.473922,
+          "z_translation": -83.1555948,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ascending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0001156",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix",
+      "x_dimension": 16.190320299999996,
+      "y_dimension": 23.842,
+      "z_dimension": 23.440155131,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female vermiform appendix",
+      "pref_label": "vermiform appendix",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001154",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 90.4390961,
+          "y_translation": -85.09574,
+          "z_translation": 23.8908473,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female vermiform appendix",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female vermiform appendix",
+        "file_subpath": "VH_F_vermiform_appendix",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -90.4390961,
+          "y_translation": 85.09574,
+          "z_translation": -23.8908473,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female vermiform appendix",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001154",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon",
+      "x_dimension": 136.3104014,
+      "y_dimension": 255.48315900000003,
+      "z_dimension": 80.32640599999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female descending colon",
+      "pref_label": "descending colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001158",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 19.4893014,
+          "y_translation": -26.182441,
+          "z_translation": 68.44989,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female descending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female descending colon",
+        "file_subpath": "VH_F_descending_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -19.4893014,
+          "y_translation": 26.182441,
+          "z_translation": -68.44989,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female descending colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001158",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve",
+      "x_dimension": 5.866460000000004,
+      "y_dimension": 19.737840000000006,
+      "z_dimension": 20.074313500000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ileocecal valve",
+      "pref_label": "ileocecal valve",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000569",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 81.32797,
+          "y_translation": -142.203152,
+          "z_translation": 43.8988954,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ileocecal valve",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ileocecal valve",
+        "file_subpath": "VH_F_ileocecal_valve",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -81.32797,
+          "y_translation": 142.203152,
+          "z_translation": -43.8988954,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ileocecal valve",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0000569",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum",
+      "x_dimension": 53.77569000000001,
+      "y_dimension": 69.24955299999999,
+      "z_dimension": 51.60847032,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female caecum",
+      "pref_label": "caecum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001153",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 120.9962,
+          "y_translation": -98.25063,
+          "z_translation": 54.375890000000005,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female caecum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female caecum",
+        "file_subpath": "VH_F_caecum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -120.9962,
+          "y_translation": 98.25063,
+          "z_translation": -54.375890000000005,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female caecum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001153",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum",
+      "x_dimension": 52.9274959,
+      "y_dimension": 105.8392212,
+      "z_dimension": 63.369138999999976,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female rectum",
+      "pref_label": "rectum",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001052",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 23.8558836,
+          "y_translation": 13.281551200000001,
+          "z_translation": 146.50557899999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female rectum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female rectum",
+        "file_subpath": "VH_F_rectum",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -23.8558836,
+          "y_translation": -13.281551200000001,
+          "z_translation": -146.50557899999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female rectum",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001052",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon",
+      "x_dimension": 88.03223,
+      "y_dimension": 63.229026399999995,
+      "z_dimension": 92.81707718,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sigmoid colon",
+      "pref_label": "sigmoid colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001159",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 53.75452,
+          "y_translation": -31.8587236,
+          "z_translation": 89.03285,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sigmoid colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sigmoid colon",
+        "file_subpath": "VH_F_sigmoid_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -53.75452,
+          "y_translation": 31.8587236,
+          "z_translation": -89.03285,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sigmoid colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0001159",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon",
+      "x_dimension": 64.86352540000001,
+      "y_dimension": 74.49160600000002,
+      "z_dimension": 72.11013410000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female splenic flexure of colon",
+      "pref_label": "splenic flexure of colon",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0022276",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon_obj",
+        "file_name": "3d-sbu-f-large-intestine.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -50.4001826,
+          "y_translation": -206.98671,
+          "z_translation": 62.1633641,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female splenic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female splenic flexure of colon",
+        "file_subpath": "VH_F_splenic_flexure_of_colon",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 50.4001826,
+          "y_translation": 206.98671,
+          "z_translation": -62.1633641,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female splenic flexure of colon",
+          "source": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0022276",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

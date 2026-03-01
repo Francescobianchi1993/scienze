@@ -1,0 +1,3051 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/spinal-cord-female",
+  "metadata": {
+    "title": "spinal-cord-female (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Spinal Cord, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/spinal-cord-female/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/spinal-cord-female/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "x_dimension": 17.90012264,
+      "y_dimension": 408.821016,
+      "z_dimension": 81.90027600000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female spinal cord",
+      "pref_label": "spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002240",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.1741152,
+          "y_translation": -301.949531,
+          "z_translation": 145.683736,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female spinal cord",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female spinal cord",
+        "file_subpath": "VH_F_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.1741152,
+          "y_translation": 301.949531,
+          "z_translation": -145.683736,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female spinal cord",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002240",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord",
+      "x_dimension": 10.599832,
+      "y_dimension": 12.393047000000024,
+      "z_dimension": 9.128410000000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C1 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006469",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.038999,
+          "y_translation": -698.3774999999999,
+          "z_translation": 75.02056,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C1_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.038999,
+          "y_translation": 698.3774999999999,
+          "z_translation": -75.02056,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C1_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0006469",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord",
+      "x_dimension": 10.192164649999999,
+      "y_dimension": 11.219900000000052,
+      "z_dimension": 9.411199999999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C2 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006489",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.1741152,
+          "y_translation": -687.4338,
+          "z_translation": 74.48787,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C2_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.1741152,
+          "y_translation": 687.4338,
+          "z_translation": -74.48787,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C2_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0006489",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord",
+      "x_dimension": 11.229506,
+      "y_dimension": 15.181868000000009,
+      "z_dimension": 10.015030000000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C3 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006488",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 16.0777,
+          "y_translation": -672.344,
+          "z_translation": 73.83525,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C3_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -16.0777,
+          "y_translation": 672.344,
+          "z_translation": -73.83525,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C3_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0006488",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord",
+      "x_dimension": 11.54587724,
+      "y_dimension": 12.407600000000002,
+      "z_dimension": 8.035810000000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C4 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006490",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 15.1203629,
+          "y_translation": -660.0212,
+          "z_translation": 71.81927,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C4_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -15.1203629,
+          "y_translation": 660.0212,
+          "z_translation": -71.81927,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C4_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0006490",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord",
+      "x_dimension": 9.46033471,
+      "y_dimension": 13.364859999999908,
+      "z_dimension": 9.267373899999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C5 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006491",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.9376315,
+          "y_translation": -647.3326000000001,
+          "z_translation": 74.14925,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C5_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.9376315,
+          "y_translation": 647.3326000000001,
+          "z_translation": -74.14925,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C5_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0006491",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord",
+      "x_dimension": 9.273385809999999,
+      "y_dimension": 14.427032999999824,
+      "z_dimension": 12.325639999999993,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C6 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006492",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.39974,
+          "y_translation": -636.2096670000001,
+          "z_translation": 79.59236,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C6_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.39974,
+          "y_translation": 636.2096670000001,
+          "z_translation": -79.59236,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C6_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0006492",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord",
+      "x_dimension": 9.05968617,
+      "y_dimension": 18.41120000000012,
+      "z_dimension": 14.697640000000007,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C7 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006493",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.3570533,
+          "y_translation": -621.2588999999999,
+          "z_translation": 87.07384,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C7_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.3570533,
+          "y_translation": 621.2588999999999,
+          "z_translation": -87.07384,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C7_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0006493",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord",
+      "x_dimension": 9.0884114,
+      "y_dimension": 17.153202999999962,
+      "z_dimension": 13.2891853,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female",
+      "pref_label": "C8 segment of cervical spinal cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006470",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.2860624,
+          "y_translation": -607.382238,
+          "z_translation": 93.51963,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female",
+        "file_subpath": "VH_F_C8_segment_of_cervical_spinal_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.2860624,
+          "y_translation": 607.382238,
+          "z_translation": -93.51963,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_C8_segment_of_cervical_spinal_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0006470",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment",
+      "x_dimension": 8.884258500000001,
+      "y_dimension": 21.12270000000001,
+      "z_dimension": 15.12346500000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female first thoracic spinal cord segment",
+      "pref_label": "first thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006457",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.741552500000001,
+          "y_translation": -590.25,
+          "z_translation": 101.896055,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female first thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female first thoracic spinal cord segment",
+        "file_subpath": "VH_F_first_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.741552500000001,
+          "y_translation": 590.25,
+          "z_translation": -101.896055,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female first thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0006457",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment",
+      "x_dimension": 8.89603562,
+      "y_dimension": 19.646240000000034,
+      "z_dimension": 14.60456880000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female second thoracic spinal cord segment",
+      "pref_label": "second thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006458",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.109856899999999,
+          "y_translation": -573.9649999999999,
+          "z_translation": 109.478474,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female second thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female second thoracic spinal cord segment",
+        "file_subpath": "VH_F_second_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.109856899999999,
+          "y_translation": 573.9649999999999,
+          "z_translation": -109.478474,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female second thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0006458",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment",
+      "x_dimension": 9.73215115,
+      "y_dimension": 20.598837999999887,
+      "z_dimension": 15.619591,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female third thoracic spinal cord segment",
+      "pref_label": "third thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006459",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.8190767,
+          "y_translation": -556.836,
+          "z_translation": 117.84736099999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female third thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female third thoracic spinal cord segment",
+        "file_subpath": "VH_F_third_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.8190767,
+          "y_translation": 556.836,
+          "z_translation": -117.84736099999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female third thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0006459",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment",
+      "x_dimension": 10.92838283,
+      "y_dimension": 23.614399999999932,
+      "z_dimension": 15.19122200000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female fourth thoracic spinal cord segment",
+      "pref_label": "fourth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006452",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.8219089,
+          "y_translation": -535.6880000000001,
+          "z_translation": 126.46650000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female fourth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female fourth thoracic spinal cord segment",
+        "file_subpath": "VH_F_fourth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.8219089,
+          "y_translation": 535.6880000000001,
+          "z_translation": -126.46650000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female fourth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0006452",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment",
+      "x_dimension": 10.7782357,
+      "y_dimension": 23.40409999999997,
+      "z_dimension": 13.021678000000023,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female fifth thoracic spinal cord segment",
+      "pref_label": "fifth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006453",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.4519875,
+          "y_translation": -514.0662,
+          "z_translation": 133.08963200000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female fifth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female fifth thoracic spinal cord segment",
+        "file_subpath": "VH_F_fifth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.4519875,
+          "y_translation": 514.0662,
+          "z_translation": -133.08963200000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female fifth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0006453",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment",
+      "x_dimension": 10.21716093,
+      "y_dimension": 22.101522000000045,
+      "z_dimension": 10.545059999999978,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female seventh thoracic spinal cord segment",
+      "pref_label": "seventh thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006455",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.755748500000001,
+          "y_translation": -467.52455799999996,
+          "z_translation": 141.916752,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female seventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female seventh thoracic spinal cord segment",
+        "file_subpath": "VH_F_seventh_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.755748500000001,
+          "y_translation": 467.52455799999996,
+          "z_translation": -141.916752,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female seventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_seventh_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0006455",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment",
+      "x_dimension": 9.81590224,
+      "y_dimension": 18.68262100000004,
+      "z_dimension": 9.027026000000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female eigth thoracic spinal cord segment",
+      "pref_label": "eighth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006456",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.024932399999999,
+          "y_translation": -448.923,
+          "z_translation": 143.5282,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female eigth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female eigth thoracic spinal cord segment",
+        "file_subpath": "VH_F_eigth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.024932399999999,
+          "y_translation": 448.923,
+          "z_translation": -143.5282,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female eigth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eigth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0006456",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment",
+      "x_dimension": 10.556516555000002,
+      "y_dimension": 26.955259999999953,
+      "z_dimension": 11.746450999999979,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female sixth thoracic spinal cord segment",
+      "pref_label": "sixth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006454",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 11.325006400000001,
+          "y_translation": -488.9683,
+          "z_translation": 138.170719,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female sixth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female sixth thoracic spinal cord segment",
+        "file_subpath": "VH_F_sixth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -11.325006400000001,
+          "y_translation": 488.9683,
+          "z_translation": -138.170719,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female sixth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_sixth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0006454",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment",
+      "x_dimension": 9.65001131,
+      "y_dimension": 23.100494999999967,
+      "z_dimension": 9.02427800000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ninth thoracic spinal cord segment",
+      "pref_label": "ninth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006465",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.719289999999999,
+          "y_translation": -425.91095,
+          "z_translation": 144.412056,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ninth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ninth thoracic spinal cord segment",
+        "file_subpath": "VH_F_ninth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.719289999999999,
+          "y_translation": 425.91095,
+          "z_translation": -144.412056,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ninth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_ninth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0006465",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment",
+      "x_dimension": 9.9425598,
+      "y_dimension": 20.25091699999996,
+      "z_dimension": 10.353670000000022,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female tenth thoracic spinal cord segment",
+      "pref_label": "tenth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006466",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.9383389,
+          "y_translation": -405.759543,
+          "z_translation": 145.683736,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female tenth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female tenth thoracic spinal cord segment",
+        "file_subpath": "VH_F_tenth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.9383389,
+          "y_translation": 405.759543,
+          "z_translation": -145.683736,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female tenth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_tenth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0006466",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment",
+      "x_dimension": 10.903663167000001,
+      "y_dimension": 17.300757999999973,
+      "z_dimension": 9.316146000000032,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female eleventh thoracic spinal cord segment",
+      "pref_label": "eleventh thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006467",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.3983684,
+          "y_translation": -388.560742,
+          "z_translation": 145.676136,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female eleventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female eleventh thoracic spinal cord segment",
+        "file_subpath": "VH_F_eleventh_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.3983684,
+          "y_translation": 388.560742,
+          "z_translation": -145.676136,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female eleventh thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_eleventh_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0006467",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment",
+      "x_dimension": 10.728091749999999,
+      "y_dimension": 17.4658,
+      "z_dimension": 9.492442000000011,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female twelfth thoracic spinal cord segment",
+      "pref_label": "twelfth thoracic spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006468",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.17057,
+          "y_translation": -371.194273,
+          "z_translation": 145.09946100000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female twelfth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female twelfth thoracic spinal cord segment",
+        "file_subpath": "VH_F_twelfth_thoracic_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.17057,
+          "y_translation": 371.194273,
+          "z_translation": -145.09946100000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female twelfth thoracic spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_twelfth_thoracic_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0006468",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment",
+      "x_dimension": 11.65940244,
+      "y_dimension": 14.188855999999987,
+      "z_dimension": 9.508296999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female first lumbar spinal cord segment",
+      "pref_label": "first lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006448",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.933394999999999,
+          "y_translation": -357.108921,
+          "z_translation": 144.45418099999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female first lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female first lumbar spinal cord segment",
+        "file_subpath": "VH_F_first_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.933394999999999,
+          "y_translation": 357.108921,
+          "z_translation": -144.45418099999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female first lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0006448",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment",
+      "x_dimension": 11.89959477,
+      "y_dimension": 8.850098000000003,
+      "z_dimension": 9.084399999999988,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female second lumbar spinal cord segment",
+      "pref_label": "second lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006450",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.1776309,
+          "y_translation": -348.358452,
+          "z_translation": 143.12369999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female second lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female second lumbar spinal cord segment",
+        "file_subpath": "VH_F_second_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.1776309,
+          "y_translation": 348.358452,
+          "z_translation": -143.12369999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female second lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0006450",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment",
+      "x_dimension": 11.673517140000001,
+      "y_dimension": 9.47667100000001,
+      "z_dimension": 8.223199999999991,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female third lumbar spinal cord segment",
+      "pref_label": "third lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006449",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.205945900000001,
+          "y_translation": -338.9784,
+          "z_translation": 141.91219999999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female third lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female third lumbar spinal cord segment",
+        "file_subpath": "VH_F_third_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.205945900000001,
+          "y_translation": 338.9784,
+          "z_translation": -141.91219999999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female third lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "UBERON:0006449",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment",
+      "x_dimension": 10.034159666,
+      "y_dimension": 8.482977000000005,
+      "z_dimension": 6.9853219999999965,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female fourth lumbar spinal cord segment",
+      "pref_label": "fourth lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006451",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 9.198493000000001,
+          "y_translation": -330.5818,
+          "z_translation": 140.680656,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female fourth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female fourth lumbar spinal cord segment",
+        "file_subpath": "VH_F_fourth_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -9.198493000000001,
+          "y_translation": 330.5818,
+          "z_translation": -140.680656,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female fourth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 24,
+      "type_of": [
+        "UBERON:0006451",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment",
+      "x_dimension": 8.6394491581,
+      "y_dimension": 5.9939639999999486,
+      "z_dimension": 6.434395999999964,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female fifth lumbar spinal cord segment",
+      "pref_label": "fifth lumbar spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006447",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.592948,
+          "y_translation": -324.6662,
+          "z_translation": 140.17638599999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female fifth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female fifth lumbar spinal cord segment",
+        "file_subpath": "VH_F_fifth_lumbar_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.592948,
+          "y_translation": 324.6662,
+          "z_translation": -140.17638599999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female fifth lumbar spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fifth_lumbar_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 25,
+      "type_of": [
+        "UBERON:0006447",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment",
+      "x_dimension": 7.518719641999999,
+      "y_dimension": 6.244947000000025,
+      "z_dimension": 5.950242000000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female first sacral spinal cord segment",
+      "pref_label": "first sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006460",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.127078,
+          "y_translation": -318.492353,
+          "z_translation": 139.782369,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female first sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female first sacral spinal cord segment",
+        "file_subpath": "VH_F_first_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.127078,
+          "y_translation": 318.492353,
+          "z_translation": -139.782369,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female first sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_first_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 26,
+      "type_of": [
+        "UBERON:0006460",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment",
+      "x_dimension": 6.24264741,
+      "y_dimension": 5.447268000000008,
+      "z_dimension": 5.288764999999984,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female second sacral spinal cord segment",
+      "pref_label": "second sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006461",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.5452330000000005,
+          "y_translation": -313.10698399999995,
+          "z_translation": 139.151111,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female second sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female second sacral spinal cord segment",
+        "file_subpath": "VH_F_second_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.5452330000000005,
+          "y_translation": 313.10698399999995,
+          "z_translation": -139.151111,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female second sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_second_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 27,
+      "type_of": [
+        "UBERON:0006461",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment",
+      "x_dimension": 5.412855189999999,
+      "y_dimension": 5.514175000000023,
+      "z_dimension": 4.7341710000000035,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female third sacral spinal cord segment",
+      "pref_label": "third sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006462",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.143993399999999,
+          "y_translation": -307.64827099999997,
+          "z_translation": 138.5155,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female third sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female third sacral spinal cord segment",
+        "file_subpath": "VH_F_third_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.143993399999999,
+          "y_translation": 307.64827099999997,
+          "z_translation": -138.5155,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female third sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_third_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 28,
+      "type_of": [
+        "UBERON:0006462",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment",
+      "x_dimension": 4.5000931699999995,
+      "y_dimension": 5.745023000000003,
+      "z_dimension": 3.898986000000008,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female fourth sacral spinal cord segment",
+      "pref_label": "fourth sacral spinal cord segment",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006463",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment_obj",
+        "file_name": "3d-vh-f-spinal-cord.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/spinal-cord-female/v1.1/assets/3d-vh-f-spinal-cord.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 6.623401309999999,
+          "y_translation": -301.949531,
+          "z_translation": 137.672,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female fourth sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female fourth sacral spinal cord segment",
+        "file_subpath": "VH_F_fourth_sacral_spinal_cord_segment",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -6.623401309999999,
+          "y_translation": 301.949531,
+          "z_translation": -137.672,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female fourth sacral spinal cord segment",
+          "source": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#VH_F_fourth_sacral_spinal_cord_segment",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary",
+      "rui_rank": 29,
+      "type_of": [
+        "UBERON:0006463",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

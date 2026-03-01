@@ -1,0 +1,2979 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/kidney-male-right",
+  "metadata": {
+    "title": "kidney-male-right (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Kidney, Male, Right dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/kidney-male-right/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/kidney-male-right/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "x_dimension": 65.4960264,
+      "y_dimension": 112.53463599999998,
+      "z_dimension": 76.3538089,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right kidney",
+      "pref_label": "Right kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004539",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 96.93149,
+          "y_translation": -229.012564,
+          "z_translation": 51.3739847,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right kidney",
+        "file_subpath": "VH_M_right_kidney",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -96.93149,
+          "y_translation": 229.012564,
+          "z_translation": -51.3739847,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0004539",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+      "x_dimension": 65.4960264,
+      "y_dimension": 112.53463599999998,
+      "z_dimension": 76.3538089,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right kidney capsule",
+      "pref_label": "kidney capsule",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002015",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 96.93149,
+          "y_translation": -229.012564,
+          "z_translation": 51.3739847,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right kidney capsule",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right kidney capsule",
+        "file_subpath": "VH_M_kidney_capsule_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -96.93149,
+          "y_translation": 229.012564,
+          "z_translation": -51.3739847,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right kidney capsule",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0002015",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+      "x_dimension": 33.43144450000001,
+      "y_dimension": 59.656979000000035,
+      "z_dimension": 30.758085700000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right hilum of kidney",
+      "pref_label": "hilum of kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0008716",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 72.35125450000001,
+          "y_translation": -259.1103,
+          "z_translation": 12.0901531,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right hilum of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right hilum of kidney",
+        "file_subpath": "VH_M_hilum_of_kidney_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -72.35125450000001,
+          "y_translation": 259.1103,
+          "z_translation": -12.0901531,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right hilum of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0008716",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+      "x_dimension": 47.032742799999994,
+      "y_dimension": 97.879648,
+      "z_dimension": 61.14921910000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal medulla",
+      "pref_label": "renal medulla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000362",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.34680999999999,
+          "y_translation": -236.626387,
+          "z_translation": 42.846396600000006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal medulla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal medulla",
+        "file_subpath": "VH_M_renal_medulla_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.34680999999999,
+          "y_translation": 236.626387,
+          "z_translation": -42.846396600000006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal medulla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0000362",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+      "x_dimension": 15.73321529999999,
+      "y_dimension": 55.23950000000002,
+      "z_dimension": 40.6291401,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 70.7688853,
+          "y_translation": -259.0028,
+          "z_translation": 28.237786099999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla",
+        "file_subpath": "VH_M_renal_papilla_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -70.7688853,
+          "y_translation": 259.0028,
+          "z_translation": -28.237786099999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+      "x_dimension": 5.580689700000001,
+      "y_dimension": 3.3667829999999412,
+      "z_dimension": 4.1517040000000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla j",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 63.0529448,
+          "y_translation": -259.8878,
+          "z_translation": -8.23965,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla j",
+        "file_subpath": "VH_M_renal_papilla_R_j",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -63.0529448,
+          "y_translation": 259.8878,
+          "z_translation": 8.23965,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+      "x_dimension": 4.556455299999996,
+      "y_dimension": 4.307245000000023,
+      "z_dimension": 6.3546754,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla i",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 70.7688853,
+          "y_translation": -259.0028,
+          "z_translation": -1.04635232,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla i",
+        "file_subpath": "VH_M_renal_papilla_R_i",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -70.7688853,
+          "y_translation": 259.0028,
+          "z_translation": 1.04635232,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+      "x_dimension": 6.708010000000009,
+      "y_dimension": 6.257335000000069,
+      "z_dimension": 4.787353410000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla h",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 65.85385000000001,
+          "y_translation": -263.82939999999996,
+          "z_translation": -4.935481589999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla h",
+        "file_subpath": "VH_M_renal_papilla_R_h",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -65.85385000000001,
+          "y_translation": 263.82939999999996,
+          "z_translation": 4.935481589999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+      "x_dimension": 5.278959999999991,
+      "y_dimension": 6.7297419999999875,
+      "z_dimension": 5.846802,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla g",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 69.25634,
+          "y_translation": -269.4046,
+          "z_translation": -0.5266379999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla g",
+        "file_subpath": "VH_M_renal_papilla_R_g",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -69.25634,
+          "y_translation": 269.4046,
+          "z_translation": 0.5266379999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+      "x_dimension": 3.2147236999999933,
+      "y_dimension": 2.928050999999982,
+      "z_dimension": 3.467772,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla f",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 58.2503937,
+          "y_translation": -288.634449,
+          "z_translation": 7.699344,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla f",
+        "file_subpath": "VH_M_renal_papilla_R_f",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -58.2503937,
+          "y_translation": 288.634449,
+          "z_translation": -7.699344,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+      "x_dimension": 4.655369999999998,
+      "y_dimension": 3.364567999999963,
+      "z_dimension": 5.22705074,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla e",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 67.95962,
+          "y_translation": -299.0708,
+          "z_translation": 8.98767449,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla e",
+        "file_subpath": "VH_M_renal_papilla_R_e",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -67.95962,
+          "y_translation": 299.0708,
+          "z_translation": -8.98767449,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+      "x_dimension": 4.905489999999986,
+      "y_dimension": 3.843552999999986,
+      "z_dimension": 4.53079,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla d",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 66.74898999999999,
+          "y_translation": -305.176347,
+          "z_translation": 23.13138,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla d",
+        "file_subpath": "VH_M_renal_papilla_R_d",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -66.74898999999999,
+          "y_translation": 305.176347,
+          "z_translation": -23.13138,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+      "x_dimension": 2.8214399999999955,
+      "y_dimension": 2.840679000000023,
+      "z_dimension": 4.458742199999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla c",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 67.22668,
+          "y_translation": -306.292921,
+          "z_translation": 20.195774699999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla c",
+        "file_subpath": "VH_M_renal_papilla_R_c",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -67.22668,
+          "y_translation": 306.292921,
+          "z_translation": -20.195774699999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+      "x_dimension": 2.9712840999999983,
+      "y_dimension": 2.717404999999985,
+      "z_dimension": 4.159994399999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla b",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 62.155879999999996,
+          "y_translation": -311.447442,
+          "z_translation": 28.237786099999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla b",
+        "file_subpath": "VH_M_renal_papilla_R_b",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -62.155879999999996,
+          "y_translation": 311.447442,
+          "z_translation": -28.237786099999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+      "x_dimension": 4.1036649999999995,
+      "y_dimension": 4.454000000000008,
+      "z_dimension": 5.7405605999999985,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal papilla a",
+      "pref_label": "renal papilla",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001228",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 59.217155,
+          "y_translation": -309.7883,
+          "z_translation": 26.0241646,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal papilla a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal papilla a",
+        "file_subpath": "VH_M_renal_papilla_R_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -59.217155,
+          "y_translation": 309.7883,
+          "z_translation": -26.0241646,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal papilla a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "UBERON:0001228",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+      "x_dimension": 47.032742799999994,
+      "y_dimension": 97.879648,
+      "z_dimension": 61.14921910000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.34680999999999,
+          "y_translation": -236.626387,
+          "z_translation": 42.846396600000006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid",
+        "file_subpath": "VH_M_renal_pyramid_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.34680999999999,
+          "y_translation": 236.626387,
+          "z_translation": -42.846396600000006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+      "x_dimension": 19.9012905,
+      "y_dimension": 33.73333500000001,
+      "z_dimension": 31.337085200000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid a",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 60.2153577,
+          "y_translation": -300.7727,
+          "z_translation": 42.846396600000006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid a",
+        "file_subpath": "VH_M_renal_pyramid_a",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -60.2153577,
+          "y_translation": 300.7727,
+          "z_translation": -42.846396600000006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid a",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+      "x_dimension": 11.760249999999992,
+      "y_dimension": 13.688361000000043,
+      "z_dimension": 25.850914300000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid b",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 69.96370999999999,
+          "y_translation": -312.7675,
+          "z_translation": 41.01089,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid b",
+        "file_subpath": "VH_M_renal_pyramid_b",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -69.96370999999999,
+          "y_translation": 312.7675,
+          "z_translation": -41.01089,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid b",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+      "x_dimension": 16.605589999999985,
+      "y_dimension": 12.176977999999963,
+      "z_dimension": 23.859123,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid c",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.27919999999999,
+          "y_translation": -306.0206,
+          "z_translation": 30.911006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid c",
+        "file_subpath": "VH_M_renal_pyramid_c",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.27919999999999,
+          "y_translation": 306.0206,
+          "z_translation": -30.911006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid c",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+      "x_dimension": 25.115876099999994,
+      "y_dimension": 16.38963799999999,
+      "z_dimension": 20.062793100000007,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid d",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 83.5801661,
+          "y_translation": -292.83112300000005,
+          "z_translation": 40.098656000000005,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid d",
+        "file_subpath": "VH_M_renal_pyramid_d",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -83.5801661,
+          "y_translation": 292.83112300000005,
+          "z_translation": -40.098656000000005,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid d",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+      "x_dimension": 20.48608,
+      "y_dimension": 11.21703100000002,
+      "z_dimension": 19.09689046,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid e",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 86.17376,
+          "y_translation": -290.7249,
+          "z_translation": 22.096375000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid e",
+        "file_subpath": "VH_M_renal_pyramid_e",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -86.17376,
+          "y_translation": 290.7249,
+          "z_translation": -22.096375000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid e",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+      "x_dimension": 34.03463369999999,
+      "y_dimension": 17.845860999999957,
+      "z_dimension": 29.827929899999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid f",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 79.54182999999999,
+          "y_translation": -275.447339,
+          "z_translation": 27.849081899999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid f",
+        "file_subpath": "VH_M_renal_pyramid_f",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -79.54182999999999,
+          "y_translation": 275.447339,
+          "z_translation": -27.849081899999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid f",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+      "x_dimension": 21.375469999999993,
+      "y_dimension": 15.237330999999926,
+      "z_dimension": 21.8648675,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid g",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 87.34680999999999,
+          "y_translation": -269.390434,
+          "z_translation": 18.7277868,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid g",
+        "file_subpath": "VH_M_renal_pyramid_g",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -87.34680999999999,
+          "y_translation": 269.390434,
+          "z_translation": -18.7277868,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid g",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+      "x_dimension": 23.114769999999993,
+      "y_dimension": 12.762800000000027,
+      "z_dimension": 23.302335999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid h",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 70.56011,
+          "y_translation": -258.58959999999996,
+          "z_translation": 13.48566,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid h",
+        "file_subpath": "VH_M_renal_pyramid_h",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -70.56011,
+          "y_translation": 258.58959999999996,
+          "z_translation": -13.48566,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid h",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+      "x_dimension": 18.707729999999984,
+      "y_dimension": 18.630982000000017,
+      "z_dimension": 16.462494,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid i",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 85.33465,
+          "y_translation": -246.56707,
+          "z_translation": 8.503817999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid i",
+        "file_subpath": "VH_M_renal_pyramid_i",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -85.33465,
+          "y_translation": 246.56707,
+          "z_translation": -8.503817999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid i",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 24,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+      "x_dimension": 20.5083974,
+      "y_dimension": 24.449855000000042,
+      "z_dimension": 15.687011900000002,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal pyramid j",
+      "pref_label": "renal pyramid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004200",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 73.9873946,
+          "y_translation": -236.626387,
+          "z_translation": -2.6158105999999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal pyramid j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal pyramid j",
+        "file_subpath": "VH_M_renal_pyramid_j",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -73.9873946,
+          "y_translation": 236.626387,
+          "z_translation": 2.6158105999999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal pyramid j",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 25,
+      "type_of": [
+        "UBERON:0004200",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+      "x_dimension": 65.30504189999999,
+      "y_dimension": 112.30005,
+      "z_dimension": 76.12025790000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right cortex of kidney",
+      "pref_label": "cortex of kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001225",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 96.80672999999999,
+          "y_translation": -229.13745,
+          "z_translation": 51.281760000000006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right cortex of kidney",
+        "file_subpath": "VH_M_cortex_of_kidney_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -96.80672999999999,
+          "y_translation": 229.13745,
+          "z_translation": -51.281760000000006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 26,
+      "type_of": [
+        "UBERON:0001225",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+      "x_dimension": 46.93848000000001,
+      "y_dimension": 92.01921499999997,
+      "z_dimension": 56.3616828,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right renal column",
+      "pref_label": "renal column",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001284",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 86.80519000000001,
+          "y_translation": -239.378855,
+          "z_translation": 42.8186879,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right renal column",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right renal column",
+        "file_subpath": "VH_M_renal_column_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -86.80519000000001,
+          "y_translation": 239.378855,
+          "z_translation": -42.8186879,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right renal column",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 27,
+      "type_of": [
+        "UBERON:0001284",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+      "x_dimension": 65.30504189999999,
+      "y_dimension": 112.30005,
+      "z_dimension": 76.12025790000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right outer cortex of kidney",
+      "pref_label": "outer cortex of kidney",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002189",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R_obj",
+        "file_name": "3d-vh-m-kidney-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 96.80672999999999,
+          "y_translation": -229.13745,
+          "z_translation": 51.281760000000006,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right outer cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right outer cortex of kidney",
+        "file_subpath": "VH_M_outer_cortex_of_kidney_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -96.80672999999999,
+          "y_translation": 229.13745,
+          "z_translation": -51.281760000000006,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right outer cortex of kidney",
+          "source": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+      "rui_rank": 28,
+      "type_of": [
+        "UBERON:0002189",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2469 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/eye-male-right",
+  "metadata": {
+    "title": "eye-male-right (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Eye, Male, Right dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/eye-male-right/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/eye-male-right/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "x_dimension": 24.4560537,
+      "y_dimension": 24.41210000000001,
+      "z_dimension": 25.748360000000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right eye",
+      "pref_label": "Right eye",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004549",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 46.89653,
+          "y_translation": -798.6549,
+          "z_translation": -71.37339,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right eye",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right eye",
+        "file_subpath": "VH_M_eye_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -46.89653,
+          "y_translation": 798.6549,
+          "z_translation": 71.37339,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right eye",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0004549",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R",
+      "x_dimension": 21.887913299999997,
+      "y_dimension": 21.994156999999973,
+      "z_dimension": 18.414576199999985,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right retina",
+      "pref_label": "Right retina",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58302",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 45.538377,
+          "y_translation": -799.838543,
+          "z_translation": -72.66004380000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right retina",
+        "file_subpath": "VH_M_retina_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -45.538377,
+          "y_translation": 799.838543,
+          "z_translation": 72.66004380000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_retina_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:58302",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R",
+      "x_dimension": 1.081540000000004,
+      "y_dimension": 1.0407999999999902,
+      "z_dimension": 0.4754950999999892,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right fovea",
+      "pref_label": "Right fovea centralis",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58661",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 35.24273,
+          "y_translation": -809.9884000000001,
+          "z_translation": -72.9504749,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right fovea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right fovea",
+        "file_subpath": "VH_M_fovea_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -35.24273,
+          "y_translation": 809.9884000000001,
+          "z_translation": 72.9504749,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right fovea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_fovea_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:58661",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R",
+      "x_dimension": 3.8858856000000017,
+      "y_dimension": 3.7956239999999752,
+      "z_dimension": 0.6810299999999927,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right macula lutea",
+      "pref_label": "Right macula lutea",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58638",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.65529,
+          "y_translation": -808.61783,
+          "z_translation": -72.96638,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right macula lutea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right macula lutea",
+        "file_subpath": "VH_M_macula_lutea_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.65529,
+          "y_translation": 808.61783,
+          "z_translation": 72.96638,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right macula lutea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_macula_lutea_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:58638",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R",
+      "x_dimension": 2.4074166999999953,
+      "y_dimension": 2.6665919999999232,
+      "z_dimension": 1.2509000000000015,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right optic disc",
+      "pref_label": "Right optic disc",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58635",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 32.256022099999996,
+          "y_translation": -809.531868,
+          "z_translation": -72.94382,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right optic disc",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right optic disc",
+        "file_subpath": "VH_M_optic_disc_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -32.256022099999996,
+          "y_translation": 809.531868,
+          "z_translation": 72.94382,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right optic disc",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_disc_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:58635",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R",
+      "x_dimension": 17.408495400000003,
+      "y_dimension": 8.25120000000004,
+      "z_dimension": 4.959594800000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right palpebral conjunctiva of upper eyelid",
+      "pref_label": "Palpebral conjunctiva of right upper eyelid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:223076",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 43.95421,
+          "y_translation": -811.1012,
+          "z_translation": -91.99753,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right palpebral conjunctiva of upper eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right palpebral conjunctiva of upper eyelid",
+        "file_subpath": "VH_M_palpebral_conjunctiva_of_upper_eyelid_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -43.95421,
+          "y_translation": 811.1012,
+          "z_translation": 91.99753,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right palpebral conjunctiva of upper eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_upper_eyelid_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:223076",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R",
+      "x_dimension": 17.817581099999998,
+      "y_dimension": 9.393258999999944,
+      "z_dimension": 5.056670000000011,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right palpebral conjunctiva of lower eyelid",
+      "pref_label": "Palpebral conjunctiva of right lower eyelid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:223074",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 44.1520028,
+          "y_translation": -802.015841,
+          "z_translation": -92.06508,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right palpebral conjunctiva of lower eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right palpebral conjunctiva of lower eyelid",
+        "file_subpath": "VH_M_palpebral_conjunctiva_of_lower_eyelid_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -44.1520028,
+          "y_translation": 802.015841,
+          "z_translation": 92.06508,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right palpebral conjunctiva of lower eyelid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_palpebral_conjunctiva_of_lower_eyelid_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "FMA:223074",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R",
+      "x_dimension": 24.4560537,
+      "y_dimension": 24.41210000000001,
+      "z_dimension": 22.51970999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right sclera",
+      "pref_label": "Right sclera",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58271",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 46.89653,
+          "y_translation": -798.6549,
+          "z_translation": -71.37339,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right sclera",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right sclera",
+        "file_subpath": "VH_M_sclera_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -46.89653,
+          "y_translation": 798.6549,
+          "z_translation": 71.37339,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right sclera",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_sclera_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "FMA:58271",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R",
+      "x_dimension": 22.3636879,
+      "y_dimension": 22.323906999999963,
+      "z_dimension": 19.1413,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right optic choroid",
+      "pref_label": "Right choroid",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58299",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 45.83593,
+          "y_translation": -799.667358,
+          "z_translation": -72.45881,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right optic choroid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right optic choroid",
+        "file_subpath": "VH_M_optic_choroid_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -45.83593,
+          "y_translation": 799.667358,
+          "z_translation": 72.45881,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right optic choroid",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_optic_choroid_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:58299",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R",
+      "x_dimension": 3.2004124999999988,
+      "y_dimension": 3.200051999999914,
+      "z_dimension": 0.14417000000000257,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right pupil",
+      "pref_label": "right pupil",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0010224",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.761112499999996,
+          "y_translation": -809.3539480000001,
+          "z_translation": -93.29173,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right pupil",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right pupil",
+        "file_subpath": "VH_M_pupil_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.761112499999996,
+          "y_translation": 809.3539480000001,
+          "z_translation": 93.29173,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right pupil",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_pupil_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 9,
+      "type_of": [
+        "UBERON:0010224",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R",
+      "x_dimension": 12.928542,
+      "y_dimension": 12.871848999999884,
+      "z_dimension": 1.3856499999999983,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right ciliary processes",
+      "pref_label": "ciliary processes",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0010427",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 41.63841,
+          "y_translation": -804.8100000000001,
+          "z_translation": -90.70476,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right ciliary processes",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right ciliary processes",
+        "file_subpath": "VH_M_ciliary_processes_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -41.63841,
+          "y_translation": 804.8100000000001,
+          "z_translation": 90.70476,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right ciliary processes",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_processes_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 10,
+      "type_of": [
+        "UBERON:0010427",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R",
+      "x_dimension": 14.783140299999996,
+      "y_dimension": 14.791699999999992,
+      "z_dimension": 1.707764300000008,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right suspensory ligament of lens",
+      "pref_label": "Suspensory ligament of right lens",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58839",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 42.582407599999996,
+          "y_translation": -803.8176,
+          "z_translation": -90.3915,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right suspensory ligament of lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right suspensory ligament of lens",
+        "file_subpath": "VH_M_suspensory_ligament_of_lens_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -42.582407599999996,
+          "y_translation": 803.8176,
+          "z_translation": 90.3915,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right suspensory ligament of lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_suspensory_ligament_of_lens_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 11,
+      "type_of": [
+        "FMA:58839",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R",
+      "x_dimension": 15.223814500000003,
+      "y_dimension": 15.233853999999951,
+      "z_dimension": 0.8882499999999993,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right ora serrata of retina",
+      "pref_label": "Right ora serrata",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58601",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 42.794850000000004,
+          "y_translation": -803.575,
+          "z_translation": -90.37218,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right ora serrata of retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right ora serrata of retina",
+        "file_subpath": "VH_M_ora_serrata_of_retina_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -42.794850000000004,
+          "y_translation": 803.575,
+          "z_translation": 90.37218,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right ora serrata of retina",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ora_serrata_of_retina_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 12,
+      "type_of": [
+        "FMA:58601",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R",
+      "x_dimension": 12.198729499999999,
+      "y_dimension": 12.269400000000019,
+      "z_dimension": 1.356595200000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right corneo scleral junction",
+      "pref_label": "Right corneoscleral junction",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58343",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 41.4309539,
+          "y_translation": -805.0827,
+          "z_translation": -92.58861,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right corneo scleral junction",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right corneo scleral junction",
+        "file_subpath": "VH_M_corneo_scleral_junction_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -41.4309539,
+          "y_translation": 805.0827,
+          "z_translation": 92.58861,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right corneo scleral junction",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_corneo_scleral_junction_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 13,
+      "type_of": [
+        "FMA:58343",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R",
+      "x_dimension": 7.721489999999999,
+      "y_dimension": 7.913343999999938,
+      "z_dimension": 3.791250000000005,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right lens",
+      "pref_label": "Right lens",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58242",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 38.99783,
+          "y_translation": -807.0134,
+          "z_translation": -89.61373999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right lens",
+        "file_subpath": "VH_M_lens_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -38.99783,
+          "y_translation": 807.0134,
+          "z_translation": 89.61373999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right lens",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_lens_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 14,
+      "type_of": [
+        "FMA:58242",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R",
+      "x_dimension": 10.5747015,
+      "y_dimension": 10.567468999999846,
+      "z_dimension": 0.4929005999999987,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right schlemms canal",
+      "pref_label": "Right scleral venous sinus",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:51874",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.52527,
+          "y_translation": -805.6912000000001,
+          "z_translation": -92.3159942,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right schlemms canal",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right schlemms canal",
+        "file_subpath": "VH_M_schlemms_canal_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.52527,
+          "y_translation": 805.6912000000001,
+          "z_translation": 92.3159942,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right schlemms canal",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_schlemms_canal_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 15,
+      "type_of": [
+        "FMA:51874",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R",
+      "x_dimension": 10.018784499999999,
+      "y_dimension": 10.691359999999918,
+      "z_dimension": 3.2116846000000123,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right aqueous humor",
+      "pref_label": "Aqueous humor of right eyeball",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58820",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.1647277,
+          "y_translation": -805.74584,
+          "z_translation": -92.04938999999999,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right aqueous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right aqueous humor",
+        "file_subpath": "VH_M_aqueous_humor_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.1647277,
+          "y_translation": 805.74584,
+          "z_translation": 92.04938999999999,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right aqueous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_aqueous_humor_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 16,
+      "type_of": [
+        "FMA:58820",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R",
+      "x_dimension": 15.025999300000006,
+      "y_dimension": 15.012661999999978,
+      "z_dimension": 2.1159999999999854,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right ciliary body",
+      "pref_label": "Right ciliary body",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58296",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 42.666185600000006,
+          "y_translation": -803.6653,
+          "z_translation": -90.31171,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right ciliary body",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right ciliary body",
+        "file_subpath": "VH_M_ciliary_body_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -42.666185600000006,
+          "y_translation": 803.6653,
+          "z_translation": 90.31171,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right ciliary body",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_body_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 17,
+      "type_of": [
+        "FMA:58296",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R",
+      "x_dimension": 14.889318500000002,
+      "y_dimension": 14.906000000000063,
+      "z_dimension": 1.966079999999991,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right ciliary muscle",
+      "pref_label": "Right ciliary muscle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:49152",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 42.685803,
+          "y_translation": -803.5735999999999,
+          "z_translation": -90.58315,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right ciliary muscle",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right ciliary muscle",
+        "file_subpath": "VH_M_ciliary_muscle_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -42.685803,
+          "y_translation": 803.5735999999999,
+          "z_translation": 90.58315,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right ciliary muscle",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_ciliary_muscle_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 18,
+      "type_of": [
+        "FMA:49152",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R",
+      "x_dimension": 10.934228100000006,
+      "y_dimension": 10.862768000000074,
+      "z_dimension": 0.6901993999999974,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right trabecular meshwork",
+      "pref_label": "eye trabecular meshwork",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0005969",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.668282700000006,
+          "y_translation": -805.642664,
+          "z_translation": -92.1097845,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right trabecular meshwork",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right trabecular meshwork",
+        "file_subpath": "VH_M_trabecular_meshwork_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.668282700000006,
+          "y_translation": 805.642664,
+          "z_translation": 92.1097845,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right trabecular meshwork",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_trabecular_meshwork_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 19,
+      "type_of": [
+        "UBERON:0005969",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R",
+      "x_dimension": 10.483693299999999,
+      "y_dimension": 10.484299999999962,
+      "z_dimension": 1.3050199999999847,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right iris",
+      "pref_label": "Right iris",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58236",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.386646999999996,
+          "y_translation": -805.7243,
+          "z_translation": -91.99585,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right iris",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right iris",
+        "file_subpath": "VH_M_iris_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.386646999999996,
+          "y_translation": 805.7243,
+          "z_translation": 91.99585,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right iris",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_iris_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 20,
+      "type_of": [
+        "FMA:58236",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R",
+      "x_dimension": 17.524818,
+      "y_dimension": 17.34710000000007,
+      "z_dimension": 2.415059999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right bulbar conjunctiva",
+      "pref_label": "Right bulbar conjunctiva",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:59028",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 44.0864824,
+          "y_translation": -802.1069,
+          "z_translation": -91.49609,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right bulbar conjunctiva",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right bulbar conjunctiva",
+        "file_subpath": "VH_M_bulbar_conjunctiva_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -44.0864824,
+          "y_translation": 802.1069,
+          "z_translation": 91.49609,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right bulbar conjunctiva",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_bulbar_conjunctiva_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 21,
+      "type_of": [
+        "FMA:59028",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R",
+      "x_dimension": 12.16386,
+      "y_dimension": 12.257399999999961,
+      "z_dimension": 3.750435699999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right cornea",
+      "pref_label": "Right cornea",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58239",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 41.41478,
+          "y_translation": -805.0743,
+          "z_translation": -92.6604643,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right cornea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right cornea",
+        "file_subpath": "VH_M_cornea_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -41.41478,
+          "y_translation": 805.0743,
+          "z_translation": 92.6604643,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right cornea",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_cornea_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 22,
+      "type_of": [
+        "FMA:58239",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R",
+      "x_dimension": 21.0388541,
+      "y_dimension": 21.071800000000053,
+      "z_dimension": 18.33122970000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male right vitreous humor",
+      "pref_label": "Humor of right vitreous body",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:261236",
+      "organ_owner_sex": "Male",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R_obj",
+        "file_name": "3d-vh-m-eye-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-right/v1.3/assets/3d-vh-m-eye-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 45.5299541,
+          "y_translation": -800.3691,
+          "z_translation": -72.9433447,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male right vitreous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male right vitreous humor",
+        "file_subpath": "VH_M_vitreous_humor_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -45.5299541,
+          "y_translation": 800.3691,
+          "z_translation": 72.9433447,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male right vitreous humor",
+          "source": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#VH_M_vitreous_humor_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary",
+      "rui_rank": 23,
+      "type_of": [
+        "FMA:261236",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

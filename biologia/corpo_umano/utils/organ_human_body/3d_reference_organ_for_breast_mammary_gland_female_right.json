@@ -1,0 +1,831 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right",
+  "metadata": {
+    "title": "mammary-gland-female-right (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference organ for Breast (mammary gland), Female right dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "x_dimension": 128.30897649999997,
+      "y_dimension": 180.00367299999994,
+      "z_dimension": 113.18930399999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right mammary gland",
+      "pref_label": "Right mammary gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:57987",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 150.17043099999998,
+          "y_translation": -348.50636099999997,
+          "z_translation": 24.11806,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right mammary gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right mammary gland",
+        "file_subpath": "VH_F_mammary_gland_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -150.17043099999998,
+          "y_translation": 348.50636099999997,
+          "z_translation": -24.11806,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right mammary gland",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "FMA:57987",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R",
+      "x_dimension": 128.30897649999997,
+      "y_dimension": 180.00367299999994,
+      "z_dimension": 106.60803,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right fat",
+      "pref_label": "Interlobar adipose tissue of right mammary gland",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:73165",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 150.17043099999998,
+          "y_translation": -348.50636099999997,
+          "z_translation": 24.11806,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right fat",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right fat",
+        "file_subpath": "VH_F_fat_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -150.17043099999998,
+          "y_translation": 348.50636099999997,
+          "z_translation": -24.11806,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right fat",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_fat_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:73165",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R",
+      "x_dimension": 19.891156999999993,
+      "y_dimension": 22.189408000000014,
+      "z_dimension": 9.524955500000004,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right areolar tubercles",
+      "pref_label": "areolar tubercle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0011828",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 124.34171099999999,
+          "y_translation": -382.246435,
+          "z_translation": -77.6019245,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right areolar tubercles",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right areolar tubercles",
+        "file_subpath": "VH_F_areolar_tubercles_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -124.34171099999999,
+          "y_translation": 382.246435,
+          "z_translation": 77.6019245,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right areolar tubercles",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areolar_tubercles_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0011828",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R",
+      "x_dimension": 9.600974999999991,
+      "y_dimension": 10.545880000000011,
+      "z_dimension": 6.335258499999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right nipple",
+      "pref_label": "right nipple",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0013773",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 120.18954,
+          "y_translation": -386.97475199999997,
+          "z_translation": -82.7359855,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right nipple",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right nipple",
+        "file_subpath": "VH_F_nipple_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -120.18954,
+          "y_translation": 386.97475199999997,
+          "z_translation": 82.7359855,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right nipple",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_nipple_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0013773",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R",
+      "x_dimension": 23.725301,
+      "y_dimension": 25.30404699999997,
+      "z_dimension": 11.034903999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right areola",
+      "pref_label": "Right female areola",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:223677",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 125.93224599999999,
+          "y_translation": -380.202353,
+          "z_translation": -76.30747000000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right areola",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right areola",
+        "file_subpath": "VH_F_areola_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -125.93224599999999,
+          "y_translation": 380.202353,
+          "z_translation": 76.30747000000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right areola",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_areola_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:223677",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R",
+      "x_dimension": 18.344159000000005,
+      "y_dimension": 10.631453999999962,
+      "z_dimension": 13.109899999999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right main lactiferous sinuses",
+      "pref_label": "Lactiferous sinus",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:58088",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 121.0112,
+          "y_translation": -389.042646,
+          "z_translation": -73.54522,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right main lactiferous sinuses",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right main lactiferous sinuses",
+        "file_subpath": "VH_F_main_lactiferous_sinuses_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -121.0112,
+          "y_translation": 389.042646,
+          "z_translation": 73.54522,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right main lactiferous sinuses",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_sinuses_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:58088",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R",
+      "x_dimension": 57.52310400000002,
+      "y_dimension": 101.27693400000004,
+      "z_dimension": 57.448201499999996,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right main lactiferous ducts",
+      "pref_label": "main lactiferous duct",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0015134",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 138.56053400000002,
+          "y_translation": -363.12094299999995,
+          "z_translation": -31.076278499999997,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right main lactiferous ducts",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right main lactiferous ducts",
+        "file_subpath": "VH_F_main_lactiferous_ducts_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -138.56053400000002,
+          "y_translation": 363.12094299999995,
+          "z_translation": 31.076278499999997,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right main lactiferous ducts",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_main_lactiferous_ducts_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0015134",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R",
+      "x_dimension": 71.03819610000001,
+      "y_dimension": 110.61129999999997,
+      "z_dimension": 55.49972,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right mammary lobes",
+      "pref_label": "mammary lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0018140",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 141.476,
+          "y_translation": -360.09360000000004,
+          "z_translation": -20.707079999999998,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right mammary lobes",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right mammary lobes",
+        "file_subpath": "VH_F_mammary_lobes_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -141.476,
+          "y_translation": 360.09360000000004,
+          "z_translation": 20.707079999999998,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right mammary lobes",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_mammary_lobes_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0018140",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R",
+      "x_dimension": 67.95588000000001,
+      "y_dimension": 73.58199400000001,
+      "z_dimension": 46.599632799999995,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female right suspensory ligaments",
+      "pref_label": "Suspensory ligament of right breast",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:73118",
+      "organ_owner_sex": "Female",
+      "organ_side": "Right",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R_obj",
+        "file_name": "3d-vh-f-mammary-gland-r.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/mammary-gland-female-right/v1.1/assets/3d-vh-f-mammary-gland-r.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 140.64911,
+          "y_translation": -358.247876,
+          "z_translation": -34.3235172,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right suspensory ligaments",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female right suspensory ligaments",
+        "file_subpath": "VH_F_suspensory_ligaments_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -140.64911,
+          "y_translation": 358.247876,
+          "z_translation": 34.3235172,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right suspensory ligaments",
+          "source": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#VH_F_suspensory_ligaments_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary",
+      "rui_rank": 8,
+      "type_of": [
+        "FMA:73118",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

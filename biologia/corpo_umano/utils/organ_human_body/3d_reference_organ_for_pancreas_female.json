@@ -1,0 +1,627 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/pancreas-female",
+  "metadata": {
+    "title": "pancreas-female (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Pancreas, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/pancreas-female/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/pancreas-female/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "x_dimension": 172.031726,
+      "y_dimension": 56.53838899999994,
+      "z_dimension": 84.3734536,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female pancreas",
+      "pref_label": "pancreas",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001264",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary_obj",
+        "file_name": "3d-vh-f-pancreas.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 53.95494,
+          "y_translation": -237.53882900000002,
+          "z_translation": 112.08879200000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female pancreas",
+        "file_subpath": "VH_F_pancreas",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -53.95494,
+          "y_translation": 237.53882900000002,
+          "z_translation": -112.08879200000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001264",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+      "x_dimension": 76.070312,
+      "y_dimension": 39.44518099999999,
+      "z_dimension": 62.21582200000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female tail of pancreas",
+      "pref_label": "tail of pancreas",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001151",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas_obj",
+        "file_name": "3d-vh-f-pancreas.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -42.006474000000004,
+          "y_translation": -248.8227,
+          "z_translation": 112.08879200000001,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female tail of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female tail of pancreas",
+        "file_subpath": "VH_F_tail_of_pancreas",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 42.006474000000004,
+          "y_translation": 248.8227,
+          "z_translation": -112.08879200000001,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female tail of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0001151",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+      "x_dimension": 64.3018912,
+      "y_dimension": 42.24959099999995,
+      "z_dimension": 48.312606300000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female body of pancreas",
+      "pref_label": "body of pancreas",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001150",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas_obj",
+        "file_name": "3d-vh-f-pancreas.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 10.577755,
+          "y_translation": -251.827627,
+          "z_translation": 76.0279447,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female body of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female body of pancreas",
+        "file_subpath": "VH_F_body_of_pancreas",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -10.577755,
+          "y_translation": 251.827627,
+          "z_translation": -76.0279447,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female body of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0001150",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+      "x_dimension": 39.42225783800001,
+      "y_dimension": 21.78610900000001,
+      "z_dimension": 22.6483,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female ucinate process 1",
+      "pref_label": "uncinate process of pancreas",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0010373",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1_obj",
+        "file_name": "3d-vh-f-pancreas.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 40.230630000000005,
+          "y_translation": -237.53882900000002,
+          "z_translation": 69.41458,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female ucinate process 1",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female ucinate process 1",
+        "file_subpath": "VH_F_ucinate_process1",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -40.230630000000005,
+          "y_translation": 237.53882900000002,
+          "z_translation": -69.41458,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female ucinate process 1",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0010373",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+      "x_dimension": 53.94968810056,
+      "y_dimension": 44.04480699999996,
+      "z_dimension": 40.385569999999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female head of pancreas",
+      "pref_label": "head of pancreas",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001069",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas_obj",
+        "file_name": "3d-vh-f-pancreas.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 53.95494,
+          "y_translation": -248.674229,
+          "z_translation": 79.58702,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female head of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female head of pancreas",
+        "file_subpath": "VH_F_head_of_pancreas",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -53.95494,
+          "y_translation": 248.674229,
+          "z_translation": -79.58702,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female head of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001069",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+      "x_dimension": 21.502543319999997,
+      "y_dimension": 24.029522999999983,
+      "z_dimension": 18.637258600000003,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female neck of pancreas",
+      "pref_label": "Neck of pancreas",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:14517",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas_obj",
+        "file_name": "3d-vh-f-pancreas.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.204179999999997,
+          "y_translation": -257.737577,
+          "z_translation": 52.8984256,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female neck of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female neck of pancreas",
+        "file_subpath": "VH_F_neck_of_pancreas",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.204179999999997,
+          "y_translation": 257.737577,
+          "z_translation": -52.8984256,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female neck of pancreas",
+          "source": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:14517",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

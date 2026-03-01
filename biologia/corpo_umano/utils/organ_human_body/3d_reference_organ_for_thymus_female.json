@@ -1,0 +1,324 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/thymus-female",
+  "metadata": {
+    "title": "thymus-female (v1.3) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Thymus, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/thymus-female/v1.3",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/thymus-female/v1.3#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+      "x_dimension": 86.0334132,
+      "y_dimension": 123.56959999999998,
+      "z_dimension": 53.76292152,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female thymus",
+      "pref_label": "thymus",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002370",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary_obj",
+        "file_name": "3d-vh-f-thymus.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/thymus-female/v1.3/assets/3d-vh-f-thymus.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.6511486,
+          "y_translation": -444.13730000000004,
+          "z_translation": 50.41511,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female thymus",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female thymus",
+        "file_subpath": "VH_F_thymus",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.6511486,
+          "y_translation": 444.13730000000004,
+          "z_translation": -50.41511,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female thymus",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0002370",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L",
+      "x_dimension": 73.4846046,
+      "y_dimension": 123.56959999999998,
+      "z_dimension": 53.76292152,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female thymus lobe",
+      "pref_label": "left thymus lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0005457",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L_obj",
+        "file_name": "3d-vh-f-thymus.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/thymus-female/v1.3/assets/3d-vh-f-thymus.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 8.10234,
+          "y_translation": -444.13730000000004,
+          "z_translation": 50.41511,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female thymus lobe",
+        "file_subpath": "VH_F_thymus_lobe_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -8.10234,
+          "y_translation": 444.13730000000004,
+          "z_translation": -50.41511,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0005457",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R",
+      "x_dimension": 37.0947486,
+      "y_dimension": 118.728429,
+      "z_dimension": 49.62284492,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female thymus lobe",
+      "pref_label": "right thymus lobe",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0005469",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R_obj",
+        "file_name": "3d-vh-f-thymus.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/thymus-female/v1.3/assets/3d-vh-f-thymus.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.6511486,
+          "y_translation": -444.331735,
+          "z_translation": 48.54824,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female thymus lobe",
+        "file_subpath": "VH_F_thymus_lobe_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.6511486,
+          "y_translation": 444.331735,
+          "z_translation": -48.54824,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female thymus lobe",
+          "source": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#VH_F_thymus_lobe_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0005469",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left",
+  "metadata": {
+    "title": "palatine-tonsil-male-left (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Palatine Tonsil, Male, Left dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary",
+      "x_dimension": 16.49986205,
+      "y_dimension": 24.195253999999977,
+      "z_dimension": 16.407862299999998,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male left palatine tonsil",
+      "pref_label": "Left palatine tonsil",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2025-06-15",
+      "representation_of": "FMA:54974",
+      "organ_owner_sex": "Male",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary_obj",
+        "file_name": "3d-vh-m-palatine-tonsil-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/palatine-tonsil-male-left/v1.2/assets/3d-vh-m-palatine-tonsil-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -4.02061455,
+          "y_translation": -715.622246,
+          "z_translation": -33.1246741,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male left palatine tonsil",
+          "source": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male left palatine tonsil",
+        "file_subpath": "VH_M_palatine_tonsil_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2025-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 4.02061455,
+          "y_translation": 715.622246,
+          "z_translation": 33.1246741,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male left palatine tonsil",
+          "source": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/palatine-tonsil-male-left/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "FMA:54974",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

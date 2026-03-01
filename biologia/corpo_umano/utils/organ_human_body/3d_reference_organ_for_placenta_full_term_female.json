@@ -1,0 +1,644 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female",
+  "metadata": {
+    "title": "placenta-full-term-female (v1.1) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Placenta, Full Term, Female dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/placenta-full-term-female/v1.1",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "x_dimension": 250.89727299999998,
+      "y_dimension": 230.53731800000003,
+      "z_dimension": 133.78283,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female placenta",
+      "pref_label": "placenta full term",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001987",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 138.381913,
+          "y_translation": -79.61861,
+          "z_translation": -98.88257,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female placenta",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female placenta",
+        "file_subpath": "VH_F_placenta",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -138.381913,
+          "y_translation": 79.61861,
+          "z_translation": 98.88257,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female placenta",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001987",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate",
+      "x_dimension": 195.493499,
+      "y_dimension": 194.92129999999997,
+      "z_dimension": 89.870527,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female chorionic plate",
+      "pref_label": "chorionic plate",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004027",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 117.845759,
+          "y_translation": -104.18514900000001,
+          "z_translation": -116.162762,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female chorionic plate",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female chorionic plate",
+        "file_subpath": "VH_F_chorionic_plate",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -117.845759,
+          "y_translation": 104.18514900000001,
+          "z_translation": 116.162762,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female chorionic plate",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_chorionic_plate",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0004027",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion",
+      "x_dimension": 250.89727299999998,
+      "y_dimension": 230.53731800000003,
+      "z_dimension": 111.19606999999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female amnion",
+      "pref_label": "amnion",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0000305",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 138.381913,
+          "y_translation": -79.61861,
+          "z_translation": -106.451482,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female amnion",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female amnion",
+        "file_subpath": "VH_F_amnion",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -138.381913,
+          "y_translation": 79.61861,
+          "z_translation": 106.451482,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female amnion",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_amnion",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0000305",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord",
+      "x_dimension": 23.15107068,
+      "y_dimension": 54.068771,
+      "z_dimension": 67.11156199999999,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female umbilical cord",
+      "pref_label": "umbilical cord",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002331",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 21.778604,
+          "y_translation": -122.408129,
+          "z_translation": -165.553838,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female umbilical cord",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female umbilical cord",
+        "file_subpath": "VH_F_umbilical_cord",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -21.778604,
+          "y_translation": 122.408129,
+          "z_translation": 165.553838,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female umbilical cord",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_cord",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0002331",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1",
+      "x_dimension": 20.25966197,
+      "y_dimension": 53.61785999999999,
+      "z_dimension": 59.613733999999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female umbilical artery 1",
+      "pref_label": "umbilical artery",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001310",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.1336667,
+          "y_translation": -124.25074,
+          "z_translation": -168.562621,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female umbilical artery 1",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female umbilical artery 1",
+        "file_subpath": "VH_F_umbilical_artery_1",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.1336667,
+          "y_translation": 124.25074,
+          "z_translation": 168.562621,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female umbilical artery 1",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_1",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "UBERON:0001310",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2",
+      "x_dimension": 19.6672794,
+      "y_dimension": 56.480839,
+      "z_dimension": 55.964023,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female umbilical artery 2",
+      "pref_label": "umbilical artery",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001310",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 20.6373688,
+          "y_translation": -129.482076,
+          "z_translation": -167.678088,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female umbilical artery 2",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female umbilical artery 2",
+        "file_subpath": "VH_F_umbilical_artery_2",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -20.6373688,
+          "y_translation": 129.482076,
+          "z_translation": 167.678088,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female umbilical artery 2",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_artery_2",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "UBERON:0001310",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein",
+      "x_dimension": 15.394343079999999,
+      "y_dimension": 57.64451600000001,
+      "z_dimension": 65.447868,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female umbilical vein",
+      "pref_label": "umbilical vein",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0002066",
+      "organ_owner_sex": "Female",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein_obj",
+        "file_name": "3d-vh-f-placenta-full-term.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/placenta-full-term-female/v1.1/assets/3d-vh-f-placenta-full-term.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 17.6226739,
+          "y_translation": -122.514814,
+          "z_translation": -165.5021,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female umbilical vein",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female umbilical vein",
+        "file_subpath": "VH_F_umbilical_vein",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -17.6226739,
+          "y_translation": 122.514814,
+          "z_translation": 165.5021,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female umbilical vein",
+          "source": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#VH_F_umbilical_vein",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0002066",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

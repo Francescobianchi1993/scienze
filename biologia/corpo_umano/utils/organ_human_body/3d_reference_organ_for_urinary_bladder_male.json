@@ -1,0 +1,829 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male",
+  "metadata": {
+    "title": "urinary-bladder-male (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Urinary Bladder, Male dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/urinary-bladder-male/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "x_dimension": 63.80895460000001,
+      "y_dimension": 39.865237799999996,
+      "z_dimension": 72.31381900000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male urinary bladder",
+      "pref_label": "urinary bladder",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001255",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.882560000000005,
+          "y_translation": -10.4392422,
+          "z_translation": 17.449405000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male urinary bladder",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male urinary bladder",
+        "file_subpath": "VH_M_urinary_bladder",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.882560000000005,
+          "y_translation": 10.4392422,
+          "z_translation": -17.449405000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male urinary bladder",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001255",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle",
+      "x_dimension": 13.43535842,
+      "y_dimension": 8.028929199999999,
+      "z_dimension": 13.99435035,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male urinary bladder neck smooth muscle",
+      "pref_label": "urinary bladder neck smooth muscle",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0004230",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 7.0167654200000005,
+          "y_translation": -10.4392422,
+          "z_translation": 10.4158139,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male urinary bladder neck smooth muscle",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male urinary bladder neck smooth muscle",
+        "file_subpath": "VH_M_urinary_bladder_neck_smooth_muscle",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -7.0167654200000005,
+          "y_translation": 10.4392422,
+          "z_translation": -10.4158139,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male urinary bladder neck smooth muscle",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_urinary_bladder_neck_smooth_muscle",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "UBERON:0004230",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome",
+      "x_dimension": 63.80895460000001,
+      "y_dimension": 24.237126199999995,
+      "z_dimension": 70.2400114,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fundus of urinary bladder dome",
+      "pref_label": "fundus of urinary bladder",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006082",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.882560000000005,
+          "y_translation": -26.067353800000003,
+          "z_translation": 15.3755974,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fundus of urinary bladder dome",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fundus of urinary bladder dome",
+        "file_subpath": "VH_M_fundus_of_urinary_bladder_dome",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.882560000000005,
+          "y_translation": 26.067353800000003,
+          "z_translation": -15.3755974,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fundus of urinary bladder dome",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_dome",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "UBERON:0006082",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder",
+      "x_dimension": 62.382917000000006,
+      "y_dimension": 38.5681931,
+      "z_dimension": 72.31381900000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fundus of urinary bladder",
+      "pref_label": "fundus of urinary bladder",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006082",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.49103,
+          "y_translation": -11.2488326,
+          "z_translation": 17.449405000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fundus of urinary bladder",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fundus of urinary bladder",
+        "file_subpath": "VH_M_fundus_of_urinary_bladder",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.49103,
+          "y_translation": 11.2488326,
+          "z_translation": -17.449405000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fundus of urinary bladder",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "UBERON:0006082",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R",
+      "x_dimension": 8.285290000000003,
+      "y_dimension": 6.153132800000002,
+      "z_dimension": 10.262437460000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ureteral orifice",
+      "pref_label": "Right ureteral orifice",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15939",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 31.424470000000003,
+          "y_translation": -43.6638929,
+          "z_translation": 17.00393,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ureteral orifice",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ureteral orifice",
+        "file_subpath": "VH_M_ureteral_orifice_R",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -31.424470000000003,
+          "y_translation": 43.6638929,
+          "z_translation": -17.00393,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ureteral orifice",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_R",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:15939",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L",
+      "x_dimension": 10.031023999999999,
+      "y_dimension": 9.2963315,
+      "z_dimension": 9.60799216,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male ureteral orifice",
+      "pref_label": "Left ureteral orifice",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:15940",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -15.7263409,
+          "y_translation": -35.5054848,
+          "z_translation": 15.1266549,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male ureteral orifice",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male ureteral orifice",
+        "file_subpath": "VH_M_ureteral_orifice_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 15.7263409,
+          "y_translation": 35.5054848,
+          "z_translation": -15.1266549,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male ureteral orifice",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_ureteral_orifice_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 5,
+      "type_of": [
+        "FMA:15940",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1",
+      "x_dimension": 62.382917000000006,
+      "y_dimension": 38.3246974,
+      "z_dimension": 72.31381900000001,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male fundus of urinary bladder base 1",
+      "pref_label": "fundus of urinary bladder",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0006082",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.49103,
+          "y_translation": -11.2488326,
+          "z_translation": 17.449405000000002,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male fundus of urinary bladder base 1",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male fundus of urinary bladder base 1",
+        "file_subpath": "VH_M_fundus_of_urinary_bladder_base1",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.49103,
+          "y_translation": 11.2488326,
+          "z_translation": -17.449405000000002,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male fundus of urinary bladder base 1",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_fundus_of_urinary_bladder_base1",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 6,
+      "type_of": [
+        "UBERON:0006082",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder",
+      "x_dimension": 46.8046545,
+      "y_dimension": 29.872475100000003,
+      "z_dimension": 13.425629,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of male trigone of urinary bladder",
+      "pref_label": "trigone of urinary bladder",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001257",
+      "organ_owner_sex": "Male",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder_obj",
+        "file_name": "3d-vh-m-urinary-bladder.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 26.985,
+          "y_translation": -15.4349227,
+          "z_translation": 16.143484,
+          "translation_unit": "millimeter",
+          "label": "Local placement of male trigone of urinary bladder",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of male trigone of urinary bladder",
+        "file_subpath": "VH_M_trigone_of_urinary_bladder",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHMale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -26.985,
+          "y_translation": 15.4349227,
+          "z_translation": -16.143484,
+          "translation_unit": "millimeter",
+          "label": "Global placement of male trigone of urinary bladder",
+          "source": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#VH_M_trigone_of_urinary_bladder",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary",
+      "rui_rank": 7,
+      "type_of": [
+        "UBERON:0001257",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}

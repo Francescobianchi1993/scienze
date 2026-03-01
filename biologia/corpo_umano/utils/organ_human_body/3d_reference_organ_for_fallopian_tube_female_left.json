@@ -1,0 +1,531 @@
+{
+  "$schema": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.json",
+  "@context": "https://cdn.humanatlas.io/digital-objects/schema/ref-organ/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left",
+  "metadata": {
+    "title": "fallopian-tube-female-left (v1.2) graph data",
+    "description": "The graph representation of the 3D Reference Organ for Fallopian Tube, Female, Left dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2025-12-10",
+    "version": "v1.2",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://lod.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2",
+    "derived_from": "https://lod.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#raw-data"
+  },
+  "data": [
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+      "x_dimension": 38.6230089,
+      "y_dimension": 44.4716842,
+      "z_dimension": 18.549729999999997,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left fallopian tube",
+      "pref_label": "Left fallopian tube",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "UBERON:0001303",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary_obj",
+        "file_name": "3d-vh-f-fallopian-tube-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/fallopian-tube-female-left/v1.2/assets/3d-vh-f-fallopian-tube-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.0652765,
+          "y_translation": -40.887355799999995,
+          "z_translation": 52.033919999999995,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left fallopian tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left fallopian tube",
+        "file_subpath": "VH_F_fallopian_tube_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.0652765,
+          "y_translation": 40.887355799999995,
+          "z_translation": -52.033919999999995,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left fallopian tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+      "rui_rank": 0,
+      "type_of": [
+        "UBERON:0001303",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L",
+      "x_dimension": 8.46201,
+      "y_dimension": 11.04221489999999,
+      "z_dimension": 7.599145499999992,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left uterine tube infundibulum",
+      "pref_label": "Infundibulum of left uterine tube",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:18490",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L_obj",
+        "file_name": "3d-vh-f-fallopian-tube-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/fallopian-tube-female-left/v1.2/assets/3d-vh-f-fallopian-tube-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -36.47768,
+          "y_translation": -74.1426051,
+          "z_translation": 51.673315499999994,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left uterine tube infundibulum",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left uterine tube infundibulum",
+        "file_subpath": "VH_F_uterine_tube_infundibulum_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 36.47768,
+          "y_translation": 74.1426051,
+          "z_translation": -51.673315499999994,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left uterine tube infundibulum",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_uterine_tube_infundibulum_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+      "rui_rank": 1,
+      "type_of": [
+        "FMA:18490",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L",
+      "x_dimension": 7.385767099999995,
+      "y_dimension": 5.200429999999983,
+      "z_dimension": 8.247032899999994,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left fibria of uterine tube",
+      "pref_label": "Fimbria of left uterine tube",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:18498",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L_obj",
+        "file_name": "3d-vh-f-fallopian-tube-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/fallopian-tube-female-left/v1.2/assets/3d-vh-f-fallopian-tube-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -35.465450000000004,
+          "y_translation": -71.00818000000001,
+          "z_translation": 52.033919999999995,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left fibria of uterine tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left fibria of uterine tube",
+        "file_subpath": "VH_F_fibria_of_uterine_tube_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 35.465450000000004,
+          "y_translation": 71.00818000000001,
+          "z_translation": -52.033919999999995,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left fibria of uterine tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_fibria_of_uterine_tube_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+      "rui_rank": 2,
+      "type_of": [
+        "FMA:18498",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L",
+      "x_dimension": 10.113829800000001,
+      "y_dimension": 4.275224200000004,
+      "z_dimension": 3.9269253000000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left isthmus of fallopian tube",
+      "pref_label": "Isthmus of left uterine tube",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:18494",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L_obj",
+        "file_name": "3d-vh-f-fallopian-tube-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/fallopian-tube-female-left/v1.2/assets/3d-vh-f-fallopian-tube-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -12.0652765,
+          "y_translation": -40.887355799999995,
+          "z_translation": 41.7814627,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left isthmus of fallopian tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left isthmus of fallopian tube",
+        "file_subpath": "VH_F_isthmus_of_fallopian_tube_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 12.0652765,
+          "y_translation": 40.887355799999995,
+          "z_translation": -41.7814627,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left isthmus of fallopian tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_isthmus_of_fallopian_tube_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+      "rui_rank": 3,
+      "type_of": [
+        "FMA:18494",
+        "ccf:SpatialEntity"
+      ]
+    },
+    {
+      "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L",
+      "x_dimension": 28.923951099999996,
+      "y_dimension": 42.51598499999999,
+      "z_dimension": 15.142214300000006,
+      "dimension_unit": "millimeter",
+      "label": "Spatial entity of female left ampulla of uterine tube",
+      "pref_label": "Ampulla of left uterine tube",
+      "creators": [
+        {
+          "id": "https://orcid.org/0000-0003-4066-7531",
+          "label": "Kristen Browne",
+          "conforms_to": "Person",
+          "fullName": "Kristen Browne",
+          "firstName": "Kristen",
+          "lastName": "Browne",
+          "orcid": "0000-0003-4066-7531",
+          "type_of": [
+            "schema:Person"
+          ]
+        },
+        {
+          "id": "https://orcid.org/0000-0002-3333-5646",
+          "label": "Heidi Schlehlein",
+          "conforms_to": "Person",
+          "fullName": "Heidi Schlehlein",
+          "firstName": "Heidi",
+          "lastName": "Schlehlein",
+          "orcid": "0000-0002-3333-5646",
+          "type_of": [
+            "schema:Person"
+          ]
+        }
+      ],
+      "create_date": "2024-06-15",
+      "representation_of": "FMA:18492",
+      "organ_owner_sex": "Female",
+      "organ_side": "Left",
+      "object_reference": {
+        "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L_obj",
+        "file_name": "3d-vh-f-fallopian-tube-l.glb",
+        "file_url": "https://cdn.humanatlas.io/digital-objects/ref-organ/fallopian-tube-female-left/v1.2/assets/3d-vh-f-fallopian-tube-l.glb",
+        "file_format": "model/gltf-binary",
+        "placement": {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -21.7643343,
+          "y_translation": -42.843055,
+          "z_translation": 48.626404300000004,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left ampulla of uterine tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "label": "3D object of female left ampulla of uterine tube",
+        "file_subpath": "VH_F_ampulla_of_uterine_tube_L",
+        "type_of": [
+          "ccf:SpatialObjectReference"
+        ]
+      },
+      "placements": [
+        {
+          "id": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 21.7643343,
+          "y_translation": 42.843055,
+          "z_translation": -48.626404300000004,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left ampulla of uterine tube",
+          "source": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#VH_F_ampulla_of_uterine_tube_L",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      ],
+      "reference_organ": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary",
+      "rui_rank": 4,
+      "type_of": [
+        "FMA:18492",
+        "ccf:SpatialEntity"
+      ]
+    }
+  ]
+}
