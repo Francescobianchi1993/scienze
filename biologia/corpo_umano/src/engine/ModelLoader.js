@@ -117,13 +117,24 @@ export class ModelLoader {
         group.userData.systemLabel = system.label;
 
         group.traverse((child) => {
+            // Hide Line / LineSegments objects (FBX annotation pointers)
+            if (child.isLine || child.isLineSegments) {
+                child.visible = false;
+                child.userData._hidden = true;
+                return;
+            }
+
             if (child.isMesh) {
                 child.userData.systemId = system.id;
                 child.userData.systemLabel = system.label;
                 child.userData.originalName = child.name;
 
                 // Hide cross-section helpers, artifact meshes, and label lines
-                if (isCrossSectionHelper(child.name) || isArtifactMesh(child) || isLabelLine(child)) {
+                const isCSHelper = isCrossSectionHelper(child.name);
+                const isArtifact = isArtifactMesh(child);
+                const isLabel = isLabelLine(child);
+
+                if (isCSHelper || isArtifact || isLabel) {
                     child.visible = false;
                     child.userData._hidden = true;
                     return;
@@ -135,6 +146,11 @@ export class ModelLoader {
                 child.castShadow = false;
                 child.receiveShadow = false;
                 child.frustumCulled = true;
+
+                // Body Regions skin: render last to avoid transparency holes
+                if (system.id === 'regions') {
+                    child.renderOrder = 1;
+                }
 
                 this.allMeshes.push(child);
 
