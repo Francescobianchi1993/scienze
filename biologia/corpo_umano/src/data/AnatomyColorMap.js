@@ -61,14 +61,14 @@ const MATERIAL_PRESETS = {
     tonsil: { color: '#a08868', roughness: 0.55, metalness: 0.05 },
     spleenLymph: { color: '#704050', roughness: 0.55, metalness: 0.08 },
 
-    // ── Body Regions ─────────────────────────────────────
-    // Two presets: one with vertex colors, one without (plain skin tone)
-    skinWithVC: { color: '#ffffff', roughness: 0.50, metalness: 0.00, opacity: 0.45, transparent: true, depthWrite: false, useVertexColors: true },
-    skinNoVC: { color: '#d4b498', roughness: 0.50, metalness: 0.00, opacity: 0.45, transparent: true, depthWrite: false },
+    // ── Body Regions ─────────────────────────────────────────
+    // Uniform natural skin tone — no vertex colors used.
+    // depthWrite:true + high opacity avoids transparency holes.
+    skin: { color: '#e8b49a', roughness: 0.50, metalness: 0.00, opacity: 0.92, transparent: true, depthWrite: true },
 
     // ── References ───────────────────────────────────────
-    refPlane: { color: '#b0c0d0', roughness: 0.50, metalness: 0.05, opacity: 0.15, transparent: true, depthWrite: false },
-    refLine: { color: '#90a8c0', roughness: 0.50, metalness: 0.05, opacity: 0.3, transparent: true, depthWrite: false },
+    refPlane: { color: '#b0c0d0', roughness: 0.50, metalness: 0.05, opacity: 0.4, transparent: true, depthWrite: false },
+    refLine: { color: '#90a8c0', roughness: 0.50, metalness: 0.05, opacity: 0.6, transparent: true, depthWrite: false },
 
     // ── Fallback ─────────────────────────────────────────
     fallback: { color: '#b0a890', roughness: 0.50, metalness: 0.05 },
@@ -197,6 +197,44 @@ function createMaterial(presetName, hasVertexColors = false) {
 }
 
 
+/**
+ * Check if a BufferAttribute of vertex colors has meaningful (non-white) color data.
+ * Samples up to 200 vertices and returns true if at least 5% are non-white (R+G+B < 2.8).
+ */
+function _hasSignificantVertexColors(colorAttr) {
+    const count = colorAttr.count;
+    if (count === 0) return false;
+    const step = Math.max(1, Math.floor(count / 200));
+    let nonWhiteCount = 0;
+    let sampled = 0;
+    for (let i = 0; i < count; i += step) {
+        const r = colorAttr.getX(i);
+        const g = colorAttr.getY(i);
+        const b = colorAttr.getZ(i);
+        if (r + g + b < 2.8) nonWhiteCount++;
+        sampled++;
+    }
+    return nonWhiteCount / sampled > 0.05;
+}
+
+/**
+ * Check if a Body-Regions mesh has vertex colors that are all black (color sum ~0).
+ * These are invisible filler panels in the FBX that should be hidden.
+ */
+export function isBlackRegionPanel(mesh) {
+    const colorAttr = mesh.geometry?.attributes?.color;
+    if (!colorAttr || colorAttr.count === 0) return false;
+    const step = Math.max(1, Math.floor(colorAttr.count / 100));
+    let totalBrightness = 0;
+    let sampled = 0;
+    for (let i = 0; i < colorAttr.count; i += step) {
+        totalBrightness += colorAttr.getX(i) + colorAttr.getY(i) + colorAttr.getZ(i);
+        sampled++;
+    }
+    // If average brightness per channel is < 0.05, it's a black panel
+    return sampled > 0 && (totalBrightness / sampled) < 0.15;
+}
+
 // ─── Public API ───────────────────────────────────────────────────────────────
 
 export function getHierarchyPath(mesh) {
@@ -219,10 +257,10 @@ export function resolveAnatomyMaterial(systemId, mesh) {
     const meshName = mesh.name || '';
     const hierarchyPath = getHierarchyPath(mesh);
 
-    // Special handling for Body Regions: pick preset based on vertex colors
+    // Body Regions: always use uniform skin preset (ignore vertex colors to avoid
+    // orange tint and black-panel artefacts from the original FBX vertex colors).
     if (systemId === 'regions') {
-        const hasVC = !!mesh.geometry?.attributes?.color;
-        return createMaterial(hasVC ? 'skinWithVC' : 'skinNoVC', hasVC);
+        return createMaterial('skin');
     }
 
     for (const rule of rules) {
@@ -253,16 +291,20 @@ export function isArtifactMesh(mesh) {
 }
 
 /**
- * Check if a mesh is a label-line (very thin, elongated geometry used for arrows).
- * These appear as horizontal lines in the viewport.
+ * Check if a mesh is a label-line / pointer needle.
+ *
+ * Key insight: label lines are needle-shaped (thin in TWO dimensions),
+ * while skin panels are sheet-shaped (thin in only ONE dimension).
+ *
+ *   Needle:  thinnest ≈ middle << thickest  →  middle/thinnest < 3
+ *   Sheet:   thinnest << middle ≈ thickest   →  middle/thinnest > 3
  */
 export function isLabelLine(mesh) {
     const geo = mesh.geometry;
     if (!geo || !geo.attributes?.position) return false;
 
-    // Only check small meshes (label lines have ~36 verts)
     const verts = geo.attributes.position.count;
-    if (verts > 100 || verts === 0) return false;
+    if (verts === 0 || verts > 4000) return false;
 
     geo.computeBoundingBox();
     const bb = geo.boundingBox;
@@ -273,10 +315,22 @@ export function isLabelLine(mesh) {
     const sz = bb.max.z - bb.min.z;
     const dims = [sx, sy, sz].sort((a, b) => a - b);
 
-    // If thinnest dimension < 0.05 and longest is > 50x thinner — it's a label line
-    if (dims[0] < 0.05 && dims[2] > 0 && dims[2] / Math.max(dims[0], 0.0001) > 50) {
-        return true;
-    }
+    const thinnest = Math.max(dims[0], 0.0001);
+    const middle = Math.max(dims[1], 0.0001);
+    const thickest = dims[2];
+
+    const elongation = thickest / thinnest;     // how stretched overall
+    const crossSection = middle / thinnest;        // shape of the cross-section
+
+    // A needle is elongated AND has a roughly uniform (circular/square) cross-section.
+    // A flat skin panel is elongated but its cross-section is very rectangular.
+    const isNeedleShape = crossSection < 3;
+
+    // Needle with elongation > 3 and low vertex count → almost certainly a label pointer
+    if (isNeedleShape && elongation > 3 && verts < 200) return true;
+
+    // Very elongated needle (ratio > 8) regardless of vertex count
+    if (isNeedleShape && elongation > 8) return true;
 
     return false;
 }
